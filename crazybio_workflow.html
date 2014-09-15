@@ -45,9 +45,21 @@
 <p><b>Note</b>: You can't use CrazyBioWorkFlow as a real, independent workflow tool.</p>
 
   <h2>1. Anatomy of a token</h2>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;">
+<img border="0" src="img/help_anatomy.jpg" /></a>
+</td>
+</tr>
+<tr><td class="tr-caption" style="text-align: center;"><b>Fig.1.1</b>: Anatomy of a token"</td></tr>
+</tbody>
+</table>
+
   <h2>2. Behavior of a token</h2>
-    <p>All the tokens are located in the sandbox. They are inactivated meaning that you can't click on them to see their contents. However, by hovering the mouse cursor, the title of the token is still visible.</p>
-<p>To activate a token, drag and drop it on the gameboard as shown in Fig. 1.</p>
+    <p>By default, all the tokens available in a mini-game are located in the sandbox. They are inactivated meaning that you can't click on them to see their contents. However, by hovering the mouse cursor, the title of the token is still visible.</p>
+  <h3>2.1. Activation</h3>
+<p>To activate a token, drag and drop it on the gameboard as shown in Fig. 2.1.</p>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
 <tr>
@@ -55,12 +67,47 @@
 <img border="0" src="img/help_activate.jpg" /></a>
 </td>
 </tr>
-<tr><td class="tr-caption" style="text-align: center;"><b>Fig.1</b>: Activation of a token by a "click and drop"</td></tr>
+<tr><td class="tr-caption" style="text-align: center;"><b>Fig. 2.1</b>: Activation of a token by a "click and drop"</td></tr>
 </tbody>
 </table>
 
+<h3>2.2. Creation of a workflow</h3>
+<p>The purpose of this tool is to put tokens side by side to build a workflow. 
 
-  
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;">
+<img border="0" src="img/help_connect.jpg" /></a>
+</td>
+</tr>
+<tr><td class="tr-caption" style="text-align: center;"><b>Fig.2.2</b>: Creation of a workflow by appending tokens side by side. The green arrow indicates that the two tokens are locked.</td></tr>
+</tbody>
+</table>
+
+    <h2>2. List of tokens</h2>
+    <ul>
+    <li>System Tokens</li>
+    <ul>
+    <li><img src="img/view.png"></img> This is a <b>mandatory</b> token used to display the results of the workflow. By clicking on it, you trigger the computation of the workflow. A dialog window warns you about the results of the workflow you built.</li>
+    <li><img src="img/void.png"></img> Void token. You can't have an empty input connector in a workflow. The Void allows to lock this connector.</li>
+    <li><img src="img/question.png"></img> Anything token. This token is only used for tutorials, debugging and have no special meaning.</li>
+    <li><img src="img/one.png"></img> Token First. Used in combination of token 'Second'.</li>
+    <li><img src="img/two.png"></img> Token Second. Used in combination of token 'First'. See description above</li>
+    </ul>
+    <li>Input Tokens</li>
+    <ul>
+    <li><img src="img/data.png"></img> Text input.</li>
+    <li><img src="img/data.png"></img> Form input. This token contains a form (textfield, radio boxes, etc.) that you must fill in.</li>
+    </ul>
+    <li>Tool Tokens</li>
+    <ul>
+    <li><img src="img/tool.png"></img> Basic tool.Can have a max of three inputs and only one output.</li>
+    <li><img src="img/data.png"></img> Form. This token contains a form (textfield, radio boxes, etc.) that you must fill in for tuning parameters.</li>
+    <li><img src="img/data.png"></img> Filter. This token contains a form (textfield, radio boxes, etc.) that you must fill in for tuning parameters.</li>
+    <li><img src="img/data.png"></img> Settings. This token contains a form (textfield, radio boxes, etc.) that you must fill in for tuning parameters.</li>
+    </ul>
+
 </div>
 </div>
 </body>
