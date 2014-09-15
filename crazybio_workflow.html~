@@ -42,11 +42,22 @@
   <div id="content">
 
   <p>The CrazyBioWorkFlow is a simple tool to create workflows in the context of the CrazyBioComputing mini-games.</p>
+<p><b>Note</b>: You can't use CrazyBioWorkFlow as a real, independent workflow tool.</p>
+
   <h2>1. Anatomy of a token</h2>
   <h2>2. Behavior of a token</h2>
     <p>All the tokens are located in the sandbox. They are inactivated meaning that you can't click on them to see their contents. However, by hovering the mouse cursor, the title of the token is still visible.</p>
 <p>To activate a token, drag and drop it on the gameboard as shown in Fig. 1.</p>
-    <img src="img/help_activate.png"></img>Fig.1: Activation of a token by a "click and drop"
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;">
+<img border="0" src="img/help_activate.jpg" /></a>
+</td>
+</tr>
+<tr><td class="tr-caption" style="text-align: center;"><b>Fig.1</b>: Activation of a token by a "click and drop"</td></tr>
+</tbody></table>
+    <img ></img>
 
   
 </div>
