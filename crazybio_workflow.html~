@@ -40,52 +40,15 @@
   </div>
 
   <div id="content">
-  <h2>1. Mini-games</h2>
-  <p>This series of mini-games is dedicated to BioInformatics. Click on the image to go to the mini-games.</p>
-  <a href="http://crazybiocomputing.free.fr/bioinfo/index.php"><img src="https://2.bp.blogspot.com/-DkaApilb1Fk/Us1I2_rzvxI/AAAAAAAABng/rz8Bo7RrPRo/s1600/mini_games_bioinfo.jpg"></img></a>
-  <p>Several tutorials related to the mini-games are summarized here:
-  <ul>
-  <li>List of BioInformatics Tools <a href="list_emboss.html">[Link]</a></li>
-  <li>Tutorials of CrazyBioWorkFlow</li>
-    <ul>
-    <li>Activation of a token</li>
-    <li>Creating a Workflow</li>
-    <li>Use of the '#1' and '#2' tokens</li>
-    <li></li>
-    </ul>
-  </ul>
-  <h2>2. Resources</h2>
-  <h3>2.1. Books</h3>
-    <ul>
-    <li><b>Bioinformatique - Cours et cas pratique</b> &nbsp;<a href="http://www.dunod.com/sciences-techniques/sciences-fondamentales/sciences-de-la-vie-et-sante/master-et-doctorat-capes-agre/bioinformatique">[Link]</a><br>G. Deléage, M. Gouy. <br>2013<br>Ed. DUNOD.  (in french) </li>
-    <li><b>BioInformatics for dummies</b> &nbsp;<a href="http://www.dummies.com/store/product/Bioinformatics-For-Dummies-2nd-Edition.productCd-0470089857.html">[Link]</a><br>J-M. Claverie, C. Notredame <br>2006<br>Wiley Publishing, Inc. (in english) </li>
-    </ul>
-  <h3>2.2. Web</h3>
-    <ul>
-    <li>General</li>
-      <ul>
-      <li>Website (in french) containing good articles about Bioinformatics<a href="http://bioinfo-fr.net">[Link]</a>
-      <li>Wikipedia: Bioinformatics page <a href="https://en.wikipedia.org/wiki/Bioinformatics">[Link]</a>
-      </ul>
-    <li>Databanks</li>
-    <ul>
-    <li>Listing of Bioinformatics databanks available in <i>Nucleic Acid Research</i><br>The 2014 Nucleic Acids Research Database Issue and an updated NAR online Molecular Biology Database Collection" <br>
-Xosé M. Fernández-Suárez, Daniel J. Rigden and Michael Y. Galperin<br> [http://nar.oxfordjournals.org/]</li>
-    </ul>
-    <li>Pairwise Alignment</li>
-    <ul>
-    <li>Wikipedia:Needleman-Wunsch <a href="https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm">[Link]</a></li>
-    <li>Wikipedia:Smith-Waterman <a href="https://en.wikipedia.org/wiki/Smith-Waterman_algorithm">[Link]</a></li>
-    <li>B.A.B.A.: Interactive demonstration of N-W <a href="http://baba.sourceforge.net/">[Link]</a> (requires Java-enabled browser)</li>
-    <li>
-    </ul>
-    </ul>
-  <h2>3. Tools</h2>
-  <ul> 
-  <li>Dot-Plot in HTML5, CSS, JavaScript, and WebGL. [TODO]</li>
-  <li>Three-to-One converter. [TODO]</li>
-  <li>Needleman and Wunsch pairwise alignment. [TODO]</li>
-  </ul>
+
+  <p>The CrazyBioWorkFlow is a simple tool to create workflows in the context of the CrazyBioComputing mini-games.</p>
+  <h2>1. Anatomy of a token</h2>
+  <h2>2. Behavior of a token</h2>
+    <p>All the tokens are located in the sandbox. They are inactivated meaning that you can't click on them to see their contents. However, by hovering the mouse cursor, the title of the token is still visible.</p>
+<p>To activate a token, drag and drop it on the gameboard as shown in Fig. 1.</p>
+    <img src="img/help_activate.png"></img>Fig.1: Activation of a token by a "click and drop"
+
+  
 </div>
 </div>
 </body>
