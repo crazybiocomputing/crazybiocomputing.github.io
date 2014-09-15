@@ -3,12 +3,19 @@ body,p {
   font-size:18px;
   font-weight:100;
   margin:auto;
-  width:1024px;
+
 /*  
   letter-spacing: 0.5em; 
   word-spacing: 0.5em;
 */
 }
+
+body {
+
+  width:1024px;
+
+}
+
 
 h2 {
   font-family:'Rock Salt', cursive;
