@@ -121,15 +121,28 @@
 </tbody>
 </table>
 
+<h3>2.3. Inputs evaluation</h3>
+<p>The order in which inputs are evaluated when more than one token is used in a Tool is important. However, in a CrazyBioWorkFlow, all the input tokens are simultaneously used by a Tool. Thus, to sort the various input tokens, you have to add the '#1' and '#2' tokens to indicate in which order the inputs must be evaluated (see Fig. 2.3 for an example). 
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr>
+<td style="text-align: center;">
+<img border="0" src="img/help_subtract.jpg" /></a>
+</td>
+</tr>
+<tr><td class="tr-caption" style="text-align: center;"><b>Fig.2.3</b>: Example of a workflow simulating a subtraction. The inputs must be sorted to get a correct subtraction and this is done by using the two tokens '#1' and '#2'. Top: The workflow does not work properly because two solutions are possible '23-11' or '11-23'. Bottom: In this case, the token '23' is the first evaluated followed by the token '11' in the subtraction Tool.</td></tr>
+</tbody>
+</table>
     <h2>3. List of tokens</h2>
 
     <h3>System Tokens</h3>
     <table style="margin-left: auto; margin-right: auto; vertical-align:middle;">
     <tbody>
     <tr><td style="width:110px"><img src="img/view.png" style="float:left; vertical-align:middle;"></img></td><td> This is a <b>mandatory</b> token used to display the results of the workflow. By clicking on it, you trigger the computation of the workflow. A dialog window warns you about the results of the workflow you built.</td></tr>
-    <tr><td><img src="img/void.png"></img></td><td> Void token. You can't have an empty input connector in a workflow. The Void allows to lock this connector.</td></tr>
+    <tr><td><img src="img/void.png"></img></td><td> Void token. The Void is used to lock an empty connector in a workflow because you can't have an empty input connector in a CrazyBioWorkFlow. </td></tr>
     <tr><td><img src="img/question.png"></img></td><td> Anything token. This token is only used for tutorials, debugging and have no special meaning.</td></tr>
-    <tr><td><img src="img/first.png"></img></td><td> Token First. Used in combination of token 'Second'.</td></tr>
+    <tr><td><img src="img/first.png"></img></td><td> Token First. Used in combination of token 'Second'. In a CrazyBioWorkFlow, the input tokens are evaluated without any kind of operation precedence. Sometimes, one input must be used FIRST before another input. This is done with the pair of tokens '#1' and '#2'.</td></tr>
     <tr><td><img src="img/second.png"></img></td><td> Token Second. Used in combination of token 'First'. See description above</td></tr>
     </tbody>
     </table>
@@ -145,9 +158,9 @@
     <table style="margin-left: auto; margin-right: auto; vertical-align:middle;">
     <tbody>
     <tr><td style="width:110px"><img src="img/tool.png"></img></td><td> Basic tool.Can have a max of three inputs and only one output.</td></tr>
-    <tr><td><img src="img/tool_pen.png"></img></td><td> Form. This token contains a form (textfield, radio boxes, etc.) that you must fill in for tuning parameters.</td></tr>
-    <tr><td><img src="img/filter.png"></img></td><td> Filter. This token contains a form (textfield, radio boxes, etc.) that you must fill in for tuning parameters.</td></tr>
-    <tr><td><img src="img/settings.png"></img></td><td> Settings. This token contains a form (textfield, radio boxes, etc.) that you must fill in for tuning parameters.</td></tr>
+    <tr><td><img src="img/tool_pen.png"></img></td><td> Advanced Tool. You need to fill in the form (textfield, radio boxes, etc.) for tuning parameters.</td></tr>
+    <tr><td><img src="img/filter.png"></img></td><td> Filter. This token filters input data. In most cases, it contains a form (textfield, radio boxes, etc.) that you must fill in for tuning parameters.</td></tr>
+    <tr><td><img src="img/settings.png"></img></td><td> Settings. This token is used in conjunction with a Tool and contains a form (textfield, radio boxes, etc.) that you must fill in for setting parameters.</td></tr>
     </tbody>
     </table>
 
