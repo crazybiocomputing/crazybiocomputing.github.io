@@ -136,25 +136,25 @@
 </table>
     <h2>3. List of tokens</h2>
 
-    <h3>System Tokens</h3>
+    <h3>3.1. System Tokens</h3>
     <table style="margin-left: auto; margin-right: auto; vertical-align:middle;">
     <tbody>
     <tr><td style="width:110px"><img src="img/view.png" style="float:left; vertical-align:middle;"></img></td><td> This is a <b>mandatory</b> token used to display the results of the workflow. By clicking on it, you trigger the computation of the workflow. A dialog window warns you about the results of the workflow you built.</td></tr>
     <tr><td><img src="img/void.png"></img></td><td> Void token. The Void is used to lock an empty connector in a workflow because you can't have an empty input connector in a CrazyBioWorkFlow. </td></tr>
-    <tr><td><img src="img/question.png"></img></td><td> Anything token. This token is only used for tutorials, debugging and have no special meaning.</td></tr>
+    <tr><td><img src="img/question.png"></img></td><td> Anything token. This token is only used for tutorials, debugging and has no special meaning.</td></tr>
     <tr><td><img src="img/first.png"></img></td><td> Token First. Used in combination of token 'Second'. In a CrazyBioWorkFlow, the input tokens are evaluated without any kind of operation precedence. Sometimes, one input must be used FIRST before another input. This is done with the pair of tokens '#1' and '#2'.</td></tr>
     <tr><td><img src="img/second.png"></img></td><td> Token Second. Used in combination of token 'First'. See description above</td></tr>
     </tbody>
     </table>
-    <h3>Input Tokens</h3>
+    <h3>3.2. Input Tokens</h3>
     <table style="margin-left: auto; margin-right: auto; vertical-align:middle;">
     <tbody>
-    <tr><td style="width:110px"><img src="img/data.png"></img></td><td> Text.</td></tr>
-    <tr><td><img src="img/form.png"></img></td><td> Form input. This token contains a form (textfield, radio boxes, etc.) that you must fill in.</td></tr>
+    <tr><td style="width:110px"><img src="img/data.png"></img></td><td> Data. Usually contains text data.</td></tr>
+    <tr><td><img src="img/form.png"></img></td><td> Form input. This token contains a form (textfield(s), radio boxes, checkboxes, etc.) that you must fill in. Don't forget to click on the 'Apply' or 'OK' button to save the values contained in the form.</td></tr>
     <tr><td><img src="img/database.png"></img></td><td> Database. This token contains datasets.</td></tr>
     </tbody>
     </table>
-    <h3>Tool Tokens</h3>
+    <h3>3.3. Tool Tokens</h3>
     <table style="margin-left: auto; margin-right: auto; vertical-align:middle;">
     <tbody>
     <tr><td style="width:110px"><img src="img/tool.png"></img></td><td> Basic tool.Can have a max of three inputs and only one output.</td></tr>
