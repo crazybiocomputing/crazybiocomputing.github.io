@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Mindmap in Bioinformatics</title>
+
+<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="crazyDeck.css">
+
+<script type="text/javascript">
+
+
+/**
+var exports = (function () {
+  var LINK = 1;
+  var 
+
+})();
+***/
+
+var images={
+  "home"     : {index:0, array:["img/mindmap/home002.jpg"]},
+  "alignment": {index:0, array:["img/mindmap/deck001.jpg","img/mindmap/deck001.jpg"]},
+  "biology"  : {index:0, array:["img/mindmap/biology001.jpg","img/mindmap/biology002.jpg"]},
+  "databank" : {index:0, array:["img/mindmap/databank001.jpg","img/mindmap/databank002.jpg"]},
+  "deck"     : {index:0, array:["img/mindmap/deck001.jpg","img/mindmap/deck002.jpg"]},
+  "keyboard" : {index:0, array:["img/mindmap/deck001.jpg","img/mindmap/deck001.jpg"]},
+  "sequence" : {index:0, array:["img/mindmap/deck001.jpg","img/mindmap/deck001.jpg"]},
+  "wikipedia": {index:0, array:["img/mindmap/wikipedia001.jpg"]}
+};
+
+var tags={
+  "app"        : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-cogs fa-stack-1x fa-inverse"></i></span>',
+  "alignment"  : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-align-left fa-stack-1x fa-inverse"></i></span>',
+  "article"    : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i></span>',
+  "biology"    : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-flask fa-stack-1x fa-inverse"></i></span>',
+  "book"       : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-book fa-stack-1x fa-inverse"></i></span>',
+  "chemistry"  : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-flask fa-stack-1x fa-inverse"></i></span>',
+  "databank"   : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-database fa-stack-1x fa-inverse"></i></span>',
+  "deck"       : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i></span>',
+  "game"       : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-gamepad fa-stack-1x fa-inverse"></i></span>',
+  "home"       : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-home fa-stack-1x fa-inverse"></i></span>',
+  "help"       : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-question fa-stack-1x fa-inverse"></i></span>',
+  "link"       : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-link fa-stack-1x fa-inverse"></i></span>',
+  "more"       : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-ellipsis-h fa-stack-1x fa-inverse"></i></span>',
+  "parent"     : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i></span>',
+  "photo"      : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-camera fa-stack-1x fa-inverse"></i></span>',
+  "programming": '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-keyboard-o fa-stack-1x fa-inverse"></i></span>',
+  "reset"      : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-refresh fa-stack-1x fa-inverse"></i></span>',
+  "sequence"   : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i></span>',
+  "text"       : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-font fa-stack-1x fa-inverse"></i></span>',
+  "video"      : '<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-video-camera fa-stack-1x fa-inverse"></i></span>'
+};
+
+var home_card = {
+    ID:0,
+    image  : "home",
+    title  : "Home & Help",
+    tags   : ["reset","home","help"],
+    event  : "",
+    verso  : "<h3>Help</h3><p>The 'Home' card is always the first card of the deck."+
+             " To read more, just click on the '<span class=\"fa-stack fa-lg\"><i class=\"fa fa-circle fa-stack-2x\"></i>"+
+             "<i class=\"fa fa-ellipsis-h fa-stack-1x fa-inverse\"></i></span>' icon, below... </p>",
+    more   : "<p>Hello World</p>",
+  };
+
+
+var deck = [
+  {
+    ID:4,
+    image  : "deck",
+    title  : "Sequence",
+    tags   : ["deck","sequence"],
+    event  : "displayDeck(deck_sequence)",
+    verso  : "",
+    more   : "",
+  },
+  {
+    ID:2,
+    image:"wikipedia",
+    title:"BioInformatics",
+    props: "NO_FLIP",
+    tags :["link"],
+    event: "displayURL('http://en.wikipedia.org/wiki/Bioinformatics')",
+    verso:"",
+    more :""
+  },
+  {
+    ID:1,
+    image:"deck",
+    title:"Alignment",
+    tags :["deck","alignment"],
+    event: "displayDeck(deck_alignment)"
+  },
+  {
+    ID:3,
+    image:"deck",
+    title:"Programming",
+    tags :["deck","programming"],
+    event: "displayDeck(deck_programming)",
+  }
+
+];
+
+var deck_sequence = [
+  {
+    ID:51,
+    image  : "biology",
+    tags   : ["link","biology"],
+    title  : "Open Reading Frame",
+    tags   : ["link","biology"],
+    event  : "displayURL('http://en.wikipedia.org/wiki/Open_reading_frame')",
+  },
+  {
+    ID:52,
+    image  : "databank",
+    title  : "Databanks List",
+    tags   : ["link","databank"],
+    verso  : '<h3>Databanks List</h3>'+
+             '<p>The <i>Nucleic Acids Research</i> Journal publishes a special issue containing the list of the available databanks.</p>'+
+             '<p>This issue is available in the right panel named \'The JOURNAL\'. [<a href="http://nar.oxfordjournals.org/" target="_blank">Link</a>]',
+    more   : "",
+  },
+  {
+    ID:53,
+    image  : "sequence",
+    title  : "FASTA Format",
+    tags   : ["text","sequence"],
+    verso  : "<h3>FASTA Format</h3><p>The FASTA format is composed of a first row beginning with the symbol '>' followed by identifier(s) and a title."+
+             " The other rows contain the sequence in one-letter code without any separator. For example:</p><pre style=\"font-size:10px\">"+
+             ">gi|121272|sp|P15160.2|TRHBN_PARCA\n"+
+             "MSLFEQLGGQAAVQAVTAQFYANIQADAT\n"+
+             "VATFFNGIDMPNQTNKTAAFLCAALGGPN\n"+
+             "AWTGRNLKEVHANMGVSNAQFTTVIGHLR\n"+
+             "SALTGAGVAAALVEQTVAVAETVRGDVVT\n"+
+             "V</pre>",
+    more   : "",
+  },
+  {
+    ID:54,
+    image  : "biology",
+    title  : "DNA Structure",
+    tags   : ["video","biology"],
+    verso  : "<h3>DNA Structure</h3><p>From </p>",
+    more   : '<iframe width="480" height="360" src="http://www.youtube.com/embed/ZGHkHMoyC5I" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:55,
+    image  : "biology",
+    title  : "What is DNA?",
+    tags   : ["video","biology"],
+    verso  : "<h3>DNA Structure</h3><p>From Bozeman Science (source YouTube). Video with french subtitles in Parameters menu...</p>",
+    more   : '<iframe width="480" height="360" src="http://www.youtube.com/embed/q6PP-C4udkA" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:56,
+    image  : "biology",
+    title  : "What is a Protein?",
+    tags   : ["video","biology"],
+    verso  : "<h3>Protein Structure</h3>"+
+             "<p>This video explains the architecture of proteins from the amino acids &mdash; the building blocks &mdash; to the quaternary structure.</p>"+
+             "<p>From RCSB (source YouTube).</p>",
+    more   : '<iframe width="640" height="360" src="http://www.youtube.com/embed/qBRFIMcxZNM" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:59,
+    image  : "databank",
+    title  : "UniProt Overview",
+    tags   : ["video","databank"],
+    verso  : "<h3>Presentation of Uniprot website</h3><p>From Uniprot (YouTube).</p>",
+    more   : '<iframe width="480" height="360" src="http://www.youtube.com/embed/9IYI4QDVPa0" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:57,
+    image  : "biology",
+    title  : "Crystallography<sup>(1)</sup>",
+    tags   : ["video","biology"],
+    verso  : "<h3>X-ray crystallography</h3><p>From Proteins to Crystals. Source: The Royal Institution (YouTube).</p>",
+    more   : '<iframe width="640" height="360" src="http://www.youtube.com/embed/gLsC4wlrR2A" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:58,
+    image  : "biology",
+    title  : "Crystallography<sup>(2)</sup>",
+    tags   : ["video","biology"],
+    verso  : "<h3>DX-ray crystallography</h3><p>From Crystals to Diamond. Source: The Royal Institution (YouTube).</p>",
+    more   : '<iframe width="640" height="360" src="http://www.youtube.com/embed/WJKvDUo3KRk" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:59,
+    image  : "databank",
+    title  : "UniProtKB",
+    tags   : ["video","databank"],
+    verso  : "<h3>Introduction of UniprotKB</h3><p>From Uniprot (YouTube).</p>",
+    more   : '<iframe width="480" height="360" src="http://www.youtube.com/embed/ado1r8IDm3U" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:60,
+    image  : "biology",
+    title  : "Open Reading Frame",
+    tags   : ["video","biology"],
+    verso  : "<h3>ORF</h3><p>From bioreply (source YouTube).</p>",
+    more   : '<iframe width="480" height="360" src="http://www.youtube.com/embed/0KAwMVriMRQ" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:61,
+    image  : "biology",
+    title  : "Gene structure",
+    tags   : ["video","biology"],
+    verso  : "<h3>Gene Structure</h3><p>From drjonomics (source YouTube).</p>",
+    more   : '<iframe width="640" height="360" src="http://www.youtube.com/embed/h5HI2OqOJA0" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:62,
+    image  : "databank",
+    title  : "UniProtKB Flat file",
+    tags   : ["video","databank"],
+    verso  : "<h3>Where are the flat files in UniprotKB?</h3><p>A small video explaining how to display the text file (or flat file) of an entry. (source: CrazyBioComputing in YouTube).</p>",
+    more   : '<iframe width="640" height="360" src="http://www.youtube.com/embed/m9MtiR0_76U" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:63,
+    image  : "wikipedia",
+    tags   : ["link","sequence"],
+    title  : "FASTA Format",
+    event  : "displayURL('http://en.wikipedia.org/wiki/FASTA_format')",
+  },
+
+  {
+    ID:64,
+    image  : "wikipedia",
+    tags   : ["text","biology"],
+    title  : "Untranslated Region",
+    verso  : "<h3>Untranslated Regions (UTR)</h3>"+
+             "<p>The Untranslated Regions (UTR) &mdash; 5'UTR and 3'UTR &mdash; are on either side of the Coding Sequence (CDS).</p>"+
+             "<p>Read more in Wikipedia [<a href=\"http://en.wikipedia.org/wiki/Untranslated_region\">Link</a>]",
+  },
+  {
+    ID:65,
+    image  : "wikipedia",
+    tags   : ["link","biology"],
+    title  : "Coding Sequence",
+    event  : "displayURL('http://en.wikipedia.org/wiki/Coding_region')",
+  },
+
+
+];
+
+var deck_align = [
+  {
+    ID:100,
+    image:"BLAST",
+    title:"BLAST Tutorial",
+    tags :["video","alignment"],
+    verso:"<h3>Blast Tutorial</h3><p>Part 1: A simple description of the meaning and use of BLAST Expect values. <i>(source: NCBI in YouTube)</i> </p>",
+    more :'<iframe width="640" height="360" src="http://www.youtube.com/embed/nO0wJgZRZJs?list=PLH-TjWpFfWrtjzMCIvUe-YbrlIeFQlKMq" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:101,
+    image:"BLAST",
+    title:"BLAST Tutorial",
+    tags :["video","alignment"],
+    verso:"<h3>Blast Tutorial</h3><p>Part 2: Answers to a few common questions about BLAST at NCBI. <i>(source: NCBI in YouTube)</i> </p>",
+    more :'<iframe width="640" height="360" src="http://www.youtube.com/embed/Z7ek7UoP7Bg?list=PLH-TjWpFfWrtjzMCIvUe-YbrlIeFQlKMq" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:101,
+    image:"BLAST",
+    title:"BLAST Tutorial",
+    tags :["video","alignment"],
+    verso:"<h3>Blast Tutorial</h3><p>An introduction to the BLAST results format. <i>(source: NCBI in YouTube)</i> </p>",
+    more :'<iframe width="640" height="360" src="http://www.youtube.com/embed/yfITRIk34Js?list=PLH-TjWpFfWrtjzMCIvUe-YbrlIeFQlKMq" frameborder="0" allowfullscreen></iframe>',
+  },
+  {
+    ID:101,
+    image:"BLAST",
+    title:"Pairwise BLAST",
+    tags :["video","alignment"],
+    verso:"<h3>Blast Tutorial</h3><p>How to run a pairwise BLAST. <i>(source: crazybiocomputing in YouTube)</i> </p>",
+    more :'<iframe width="640" height="360" src="http://www.youtube.com/embed/zAzOmh7EEvo" frameborder="0" allowfullscreen></iframe>',
+  },
+];
+
+var the_deck;      // The active deck
+var the_stack=[];  // Array containing the (un)sorted IDs of the active deck 
+
+function main() {
+  var cards = document.getElementById("polaroids");
+  the_deck = deck_sequence;
+  for (var i=0; i< the_deck.length; i++) {
+   the_stack.push(the_deck[i].ID);
+  } 
+  console.log(the_stack);
+
+  cards.innerHTML = createDeck(deck_sequence);
+}
+
+function getCardFrom(a_deck, an_ID) {
+  var a_card = null;
+  var i=0;
+  while (a_card === null && i < a_deck.length) {
+    if (a_deck[i].ID == an_ID)
+      a_card = a_deck[i];
+    i++;
+  }
+  return a_card;
+}
+
+
+  function createHomeCard() {
+    var html = '<div id="ROOT" class="polaroid-image">';
+    html += '<div id="card_ROOT" class="polaroid-card">';
+    html += '<div class="polaroid-recto">';
+    html += '<a href="javascript:void(0)"><img src="img/mindmap/home002.jpg" alt="Home" title="Home"></img></a>';
+    // Title
+    html +='<p>Home & Help</p>';
+    // Tags
+    html += '<span style="float:left;">';
+    for (var i=0; i<home_card.tags.length;i++) {
+      html += '<a href="javascript:void(0)" onclick="sortBy('+ home_card.tags[i]+')">' + tags[home_card.tags[i] ]+ '</a>';
+    }
+    html += '</span>';
+    html += '</div>';
+    // Verso
+    html +='<div class="polaroid-verso">';
+    html += home_card.verso;
+    html += '<span style="float:right"><a href="javascript:void(0)" onclick="readMore('+home_card.ID+')"'+tags['more']+'</a></span>';
+    html +='</div>';
+    html +='</div>';
+    html +='</div>';
+
+    return html;
+  }
+
+  function createCard(a_card) {
+    var html='';
+    if (a_card.verso === undefined || a_card.verso === '') {
+      html += '  <div id="' + a_card.ID + '" class="polaroid-image-no-flip">';
+    }
+    else
+      html += '  <div id="' + a_card.ID + '" class="polaroid-image">';
+
+    html += '<div id="card_'+a_card.ID+'" class="polaroid-card">';
+    html += '<div class="polaroid-recto">';
+    var img = images[a_card.image];
+    console.log(a_card.image +  " "+ img);
+    if (img.index >= img.array.length) img.index=0;
+    console.log(a_card.image +  " "+ img.index);
+    html += '<a href="javascript:void(0)" onclick="'+a_card.event+'"><img src="'+img.array[img.index++]+'" alt="'+a_card.image+'" title="'+a_card.image+'"></img></a>';
+    // Title
+    html +='<p>'+a_card.title+'</p>';
+    // Tags
+    var tags_of_card='';
+    tags_of_card += '<span style="float:left;">';
+    for (var i=0; i < a_card.tags.length;i++) {
+      tags_of_card += '<a href="javascript:void(0)" onclick="sortBy(\''+a_card.tags[i]+'\')">' + tags[a_card.tags[i] ]+ '</a>';
+    }
+    tags_of_card += '</span>';
+    tags_of_card += '</div>';
+    html += tags_of_card;
+    if (a_card.verso !== undefined && a_card.verso !== '') {
+      // Verso
+      html +='<div class="polaroid-verso">';
+      html += a_card.verso;
+      if (a_card.more !== undefined && a_card.more !== '') {
+        html += '<span style="float:right"><a href="javascript:void(0)" onclick="readMore('+a_card.ID+')"'+tags['more']+'</a></span>';
+      }
+      html += '<div class="polaroid-verso-footer">'+tags_of_card+'</div>';
+      html +='</div>';
+    }
+    html +='</div>';
+    html +='</div>';
+    return html;
+  }
+
+  function createDeck(a_deck) {
+    var html='<ul class="polaroid-list">';
+    html += '<li class="polaroid-item">' + createHomeCard() + '</li>';
+    for (var i=0; i< a_deck.length; i++) {
+      html += '<li class="polaroid-item">';
+      html += createCard(a_deck[i]);
+      html += '</div></li>';
+    }
+    html += '</ul>';  
+    return html;
+  }
+
+  function displayDeck(deck_name) {
+    console.log("go to "+deck_name);
+  }
+
+  function displayURL(the_url) {
+    window.open(the_url);
+  }
+
+  function readMore(ID) {
+    var a_card = getCardFrom(the_deck,ID);
+    var popup = document.getElementById('popup');
+    popup.style.top  = 80 + 'px';
+    popup.style.left = 50 + 'px';
+    str ='<div class="titlebar" >';
+    str+='<div id="close" onclick="popup_close_click(this,event)">';
+    str+='<img src="img/mindmap/closeButton.png">';
+    str+='</div>';
+    str+='<div id="title" onmousedown="move_popup(this,event)">'+a_card.title+'</div>';
+    str+='<div class="clear"></div>';
+    str+='</div>';
+    str+='<div class="contents">'+a_card.more+'</div>';
+    str+='<div class="footer"></div>';
+    popup.innerHTML=str;
+  }
+
+  function sortBy(a_tag) {
+    console.log(a_tag);
+    // Sort titles alphabetically
+    the_deck.sort(function (a, b) {
+      if (a.title > b.title )
+        return 1;
+      if (a.title < b.title )
+        return -1;
+      // a equal b
+      return 0;
+    });
+    console.log(the_stack);
+    // Put first cards with given tag 
+    for (var i=0;i<the_stack.length;i++) { 
+    }
+  }
+
+
+  // initiate the drag
+  function move_popup(element,ev)
+  {
+    ev = ev || window.event;
+    xStart = parseInt(ev.clientX);
+    yStart = parseInt(ev.clientY);
+    console.log('down '+element.id );
+    token=null;
+    activeToken = tokens[element.id]; // A CHANGER --> retrouver l'ID
+    token=element;
+
+    document.onmouseup = end_drag_popup;
+    document.onmousemove = drag_popup;
+    return false;
+  }
+
+  function popup_close_click(element,e)
+  {
+    var popup = document.getElementById('popup');
+    popup.innerHTML='';
+    popup.style.left='0px';
+    popup.style.top='0px';
+  }
+
+
+</script>
+
+</head>
+<body onload="main()">
+
+<br />
+<br />
+<br />
+
+<div id="polaroids" class="polaroid-image-collection">
+
+</div>
+
+<div id="popup">
+
+</div>
+
+
+</body>
+</html>
+

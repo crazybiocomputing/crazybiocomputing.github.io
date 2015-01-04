@@ -1,0 +1,267 @@
+// Jean-Christophe Taveau
+// http://www.crazybiocomputing.free.fr
+// http://crazybiocomputing.blogspot.com
+// Nov. 2013
+
+.polaroid-image-collection {
+  float: left;
+}
+ 
+.polaroid-list {
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+
+.polaroid-item {
+  padding: 15px;
+  float: left;
+}
+
+.polaroid-image-collection .polaroid-item:nth-child(2n) {
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+.polaroid-image-collection .polaroid-item:nth-child(3n) {
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  transform: rotate(-12deg);
+}
+
+.polaroid-item:nth-child(4n) {
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+.polaroid-image-collection .polaroid-item:nth-child(5n) {
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+
+.polaroid-image-no-flip {
+  background: white;
+  position: relative;
+  width: 220px;
+  height: 310px;
+  float:left;
+  left: 0;
+  margin: 0 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  z-index: 0;
+}
+
+.polaroid-image {
+  background: white;
+  position: relative;
+  width: 220px;
+  height: 310px;
+  float:left;
+  left: 0;
+  margin: 0 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  z-index: 0;
+}
+
+
+.polaroid-card,
+.polaroid-card > div {
+  width              : inherit;
+  height             : inherit;
+  -webkit-transition : -webkit-transform 0.5s ease;
+     -moz-transition : transform 0.5s ease;
+      -ms-transition : transform 0.5s ease;
+          transition : transform 0.5s ease;
+}
+
+.polaroid-card {
+  box-shadow              : 5px 5px 10px;
+  padding                 : 5px;
+  -webkit-transform-style : preserve-3d;
+     -moz-transform-style : preserve-3d;
+      -ms-transform-style : preserve-3d;
+          transform-style : preserve-3d;
+}
+
+.polaroid-card > div {
+  position        	      : absolute;
+  -webkit-backface-visibility : hidden;
+     -moz-backface-visibility : hidden;
+      -ms-backface-visibility : hidden;
+          backface-visibility : hidden;
+}
+.polaroid-recto {
+  -webkit-transform : rotateY(0deg);
+     -moz-transform : rotateY(0deg);
+      -ms-transform : rotateY(0deg);
+          transform : rotateY(0deg);
+}
+
+
+.polaroid-recto-header {
+
+}
+
+.polaroid-recto-footer {
+  float: left;
+}
+
+.polaroid-recto img {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a0a0a0;
+
+}
+
+.polaroid-recto p
+{
+  font-family:  'Rock Salt', cursive;
+  text-align: center;
+  text-decoration: none;
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+
+}
+
+.polaroid-verso {
+  font-family: 'Walter Turncoat', cursive;
+  padding: -10px;
+  -webkit-transform : rotateY(180deg);
+     -moz-transform : rotateY(180deg);
+      -ms-transform : rotateY(180deg);
+          transform : rotateY(180deg);
+}
+
+
+.polaroid-verso-footer {
+  top: 270px;
+  position: absolute;
+}
+
+.polaroid-verso h1 {
+    font-size: 120px;
+    width: 140px;
+    height: 140px;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 140px;
+    background-color: #31A3DD;
+    border: 4px solid #31A3DD;
+    margin: 5px;
+    padding: 0px;
+}
+
+.polaroid-verso h3 {
+  font-size: 12px;
+  width: inherit;
+  background-color: #000;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 10px 0px;
+}
+
+.polaroid-verso p {
+    font-size: 12px;
+    margin: 0 5px;
+    padding: 0px 10px 0px 0px;
+}
+
+.polaroid-verso ul {
+  padding: 0px;
+  margin: 0px;
+  margin: 0 15px;
+  text-align:left;
+  list-style-type:none;
+
+}
+
+.polaroid-verso li {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+.polaroid-image:hover .polaroid-card,
+.polaroid-image:active .polaroid-card {
+  -webkit-transform : scale(1.25) rotateY(180deg);
+     -moz-transform : scale(1.25) rotateY(180deg);
+      -ms-transform : scale(1.25) rotateY(180deg);
+          transform : scale(1.25) rotateY(180deg);
+  z-index: 10;
+}
+.polaroid-image-no-flip:hover .polaroid-card,
+.polaroid-image-no-flip:active .polaroid-card {
+  -webkit-transform : scale(1.25);
+     -moz-transform : scale(1.25);
+      -ms-transform : scale(1.25);
+          transform : scale(1.25);
+  z-index: 10;
+}
+
+
+div.clear {
+    clear: both;
+}
+
+#popup {
+  background: #FFFFFF;
+  border: 2px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -moz-border-top-left-radius: 10px;
+  -moz-border-top-right-radius: 10px;
+  display:inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 9999;
+}
+
+#popup .titlebar {
+  background-color:#666666 ;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-top-left-radius: 10px;
+  -moz-border-top-right-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Walter Turncoat', cursive;
+}
+
+#popup .titlebar #close {
+  float:left;
+}
+
+#popup .titlebar #title {
+  float:left;
+  margin:'28px';
+}
+
+#popup img {
+  vertical-align:text-top;
+}
+
+#popup .contents {
+
+  font-family: 'Special Elite', cursive;
+  padding: 10px;
+}
+
+
