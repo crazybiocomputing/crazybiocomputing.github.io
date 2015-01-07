@@ -69,7 +69,6 @@ var home_card = {
     more   : "<p>Hello World</p>",
   };
 
-
 var deck = [
   {
     ID:4,
@@ -329,7 +328,7 @@ function getCardFrom(a_deck, an_ID) {
     // Verso
     html +='<div class="polaroid-verso">';
     html += home_card.verso;
-    html += '<span style="float:right"><a href="javascript:void(0)" onclick="readMore('+home_card.ID+')"'+tags['more']+'</a></span>';
+    html += '<span style="float:right"><a href="javascript:void(0)" onclick="readMore('+home_card.ID+')">Read more...</a></span>';
     html +='</div>';
     html +='</div>';
     html +='</div>';
@@ -368,7 +367,7 @@ function getCardFrom(a_deck, an_ID) {
       html +='<div class="polaroid-verso">';
       html += a_card.verso;
       if (a_card.more !== undefined && a_card.more !== '') {
-        html += '<span style="float:right"><a href="javascript:void(0)" onclick="readMore('+a_card.ID+')"'+tags['more']+'</a></span>';
+        html += '<span style="float:right"><a href="javascript:void(0)" onclick="readMore('+a_card.ID+')">Read More...</a></span>';
       }
       html += '<div class="polaroid-verso-footer">'+tags_of_card+'</div>';
       html +='</div>';
@@ -475,7 +474,16 @@ function getCardFrom(a_deck, an_ID) {
 
 </div>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-58306480-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
 
