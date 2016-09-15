@@ -52,3 +52,11 @@ class Seq:
 
 ```
     
+Usage
+
+```python
+seq = Seq(fasta)
+print seq.data
+```
+
+
