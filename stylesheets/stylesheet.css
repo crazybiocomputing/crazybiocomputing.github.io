@@ -4,6 +4,7 @@ by Jason Costello, @jsncostello
 *******************************************************************************/
 
 @import url(pygment_trac.css);
+@import 'https://fonts.googleapis.com/css?family=Droid+Serif';
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -26,6 +27,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font: inherit;
+  font-family: 'Droid Serif', serif;
   vertical-align: baseline;
 }
 
