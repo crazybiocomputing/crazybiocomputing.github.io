@@ -1,7 +1,8 @@
 
 ## 1- Python helper Code
-  <p>Using extensively Python Fiddle, it is not possible AFAIK to import BioPython which is a little bit too complex 
-  for biologists students with no programming skills
+  <p>Using extensively Python Fiddle, it is not possible AFAIK to import BioPython. Moreover, the latter is a little bit too complex for biologists students with no programming skills.
+  
+  **Seq** class storing information (title and sequence data) from a FASTA sequence.
 
     ```python
     class Seq:
