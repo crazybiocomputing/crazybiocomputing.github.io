@@ -31,7 +31,8 @@
   <h2>1. Python helper Code</h2>
   <p>Using extensively Python Fiddle, it is not possible AFAIK to import BioPython which is a little bit too complex 
   for biologists students with no programming skills
-  <code>
+  <pre>
+    <code>
     class Seq:
     def __init__(self, seqdata):
         _tmp = seqdata.split('\n')
@@ -51,6 +52,7 @@
     def fasta(self):
         return '>{:s}-{:d}-{:s}\n{:s}'.format(self.author1,self.copy,self.author2,self.data)
   </code>
+  </pre>
 </div>
 </div>
 </body>
