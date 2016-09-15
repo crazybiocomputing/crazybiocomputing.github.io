@@ -17,18 +17,6 @@
 <body>
 <h1 style="font-family: 'Rock Salt', cursive;"> CrazyBioComputing- BioInformatics</h1>
 
-<div id="nav">
-<ul>
-<li style="font-family: 'Rock Salt', cursive;"><a href="index.html">Home</a></li>
-<li style="font-family: 'Rock Salt', cursive;">Bioinformatics</li>
-<li style="font-family: 'Rock Salt', cursive;">GIS</a></li>
-<li style="font-family: 'Rock Salt', cursive;">Image Processing</a></li>
-<li style="font-family: 'Rock Salt', cursive;"><a href="http://crazybiocomputing.blogspot.com/">Blog</a></li>
-<li style="font-family: 'Rock Salt', cursive;">Quizz</a></li>
-<li style="font-family: 'Rock Salt', cursive;">Tools</a></li>
-</ul>
-</div>
-
 
 <div id="page">
   <div id="left">
@@ -40,52 +28,29 @@
   </div>
 
   <div id="content">
-  <h2>1. Mini-games</h2>
-  <p>This series of mini-games is dedicated to BioInformatics. Click on the image to go to the mini-games.</p>
-  <a href="http://crazybiocomputing.free.fr/bioinfo/index.php"><img src="https://2.bp.blogspot.com/-DkaApilb1Fk/Us1I2_rzvxI/AAAAAAAABng/rz8Bo7RrPRo/s1600/mini_games_bioinfo.jpg"></img></a>
-  <p>Several tutorials related to the mini-games are summarized here:
-  <ul>
-  <li>List of BioInformatics Tools <a href="list_emboss.html">[Link]</a></li>
-  <li>Tutorials of CrazyBioWorkFlow</li>
-    <ul>
-    <li>Activation of a token</li>
-    <li>Creating a Workflow</li>
-    <li>Use of the '#1' and '#2' tokens</li>
-    <li></li>
-    </ul>
-  </ul>
-  <h2>2. Resources</h2>
-  <h3>2.1. Books</h3>
-    <ul>
-    <li><b>Bioinformatique - Cours et cas pratique</b> &nbsp;<a href="http://www.dunod.com/sciences-techniques/sciences-fondamentales/sciences-de-la-vie-et-sante/master-et-doctorat-capes-agre/bioinformatique">[Link]</a><br>G. Deléage, M. Gouy. <br>2013<br>Ed. DUNOD.  (in french) </li>
-    <li><b>BioInformatics for dummies</b> &nbsp;<a href="http://www.dummies.com/store/product/Bioinformatics-For-Dummies-2nd-Edition.productCd-0470089857.html">[Link]</a><br>J-M. Claverie, C. Notredame <br>2006<br>Wiley Publishing, Inc. (in english) </li>
-    </ul>
-  <h3>2.2. Web</h3>
-    <ul>
-    <li>General</li>
-      <ul>
-      <li>Website (in french) containing good articles about Bioinformatics<a href="http://bioinfo-fr.net">[Link]</a>
-      <li>Wikipedia: Bioinformatics page <a href="https://en.wikipedia.org/wiki/Bioinformatics">[Link]</a>
-      </ul>
-    <li>Databanks</li>
-    <ul>
-    <li>Listing of Bioinformatics databanks available in <i>Nucleic Acid Research</i><br>The 2014 Nucleic Acids Research Database Issue and an updated NAR online Molecular Biology Database Collection" <br>
-Xosé M. Fernández-Suárez, Daniel J. Rigden and Michael Y. Galperin<br> [http://nar.oxfordjournals.org/]</li>
-    </ul>
-    <li>Pairwise Alignment</li>
-    <ul>
-    <li>Wikipedia:Needleman-Wunsch <a href="https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm">[Link]</a></li>
-    <li>Wikipedia:Smith-Waterman <a href="https://en.wikipedia.org/wiki/Smith-Waterman_algorithm">[Link]</a></li>
-    <li>B.A.B.A.: Interactive demonstration of N-W <a href="http://baba.sourceforge.net/">[Link]</a> (requires Java-enabled browser)</li>
-    <li>
-    </ul>
-    </ul>
-  <h2>3. Tools</h2>
-  <ul> 
-  <li>Dot-Plot in HTML5, CSS, JavaScript, and WebGL. [TODO]</li>
-  <li>Three-to-One converter. [TODO]</li>
-  <li>Needleman and Wunsch pairwise alignment. [TODO]</li>
-  </ul>
+  <h2>1. Python helper Code</h2>
+  <p>Using extensively Python Fiddle, it is not possible AFAIK to import BioPython which is a little bit too complex 
+  for biologists students with no programming skills
+  <code>
+    class Seq:
+    def __init__(self, seqdata):
+        _tmp = seqdata.split('\n')
+        self.title = _tmp[0]
+        self.data = ''.join(_tmp[1:]).strip()
+        # Read title
+        _tmp = self.title.split('-')
+        self.author1 = _tmp[0]
+        self.author2 = _tmp[2]
+        self.copy    = int( _tmp[1])
+        self.length  = len(self.data)
+    
+    def show(self):
+        attrs = vars(self)
+        print ', '.join("%s: %s" % item for item in attrs.items())
+        
+    def fasta(self):
+        return '>{:s}-{:d}-{:s}\n{:s}'.format(self.author1,self.copy,self.author2,self.data)
+  </code>
 </div>
 </div>
 </body>
