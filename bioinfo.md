@@ -1,13 +1,77 @@
 
 ## 1- Python programming language
 
-For biology students, I think learning a progrraming language is not a waste of time. However, there is many, many different languages and you have to choose a good balance between criteria like easy to learn, lots of tutorials and examples, large user community,etc. Nowadays, IMHO, two programming languages are fulfilling these criteria:
+For biology students, I think learning a progrraming language is not a waste of time. However, there is many, many different languages [Wiki](https://en.wikipedia.org/wiki/List_of_programming_languages) and you have to choose a language with a good balance between criteria like ease of learning, wealth of tutorials and examples, large user community,etc. Nowadays, IMHO, two programming languages are fulfilling these criteria:
 - Python 
 - JavaScript and all the web technologies (HTML5 and CSS3)
 
-and if you need more sophisticated statistics functions, it is good to look at the "R" language. It is more complex but more powerful in this field.
+> *Note**: If you need more sophisticated statistics functions, it is good to look at the "R" language. It is more complex but more powerful in this field.
 
 ### 1-1- The Basics: Variables, conditionals, and loops
+
+#### 1-1-1 Variables
+Variables are _"boxes"_ containing one value. This value may be a:
+- Number (integer, floating-point numbers,etc.)
+- Boolean (**True** of **False**)
+- String (aka Text)
+- List
+- Dictionary
+- Object
+
+Variables names are case sensitive, cannot begin with a digit and you cannot use a reserved keyword used by Python (like **for**).
+
+```python
+myVar = 3
+myVar = myVar + 1 # ← 4
+
+0test = 5 # ← ERROR
+
+```
+
+#### 1-1-2 Conditionals
+
+```python
+if condition :
+  instruction_1
+  instruction_2
+  instruction_3
+elif other_condition:
+  instruction_a
+  instruction_b
+else:
+  instruction_01
+  instruction_02
+  instruction_03
+  instruction_04
+```
+#### 1-1-3 Loops
+
+```python
+while exit_condition:
+  instruction_1
+  instruction_2
+  instruction_3
+
+```
+For example, to display each character of the string 'python'
+
+```python
+lang = 'python'
+i = 0
+while i < len(lang):
+  print(lang[i])
+  i = i + 1
+```
+And the result is...
+```python
+p
+y
+t
+h
+o
+n
+```
+
 ### 1-2- Learning Python with web-based tool
 [Python Fiddle](http://pythonfiddle.com/) is a good starting environment to write your first scripts.
 
