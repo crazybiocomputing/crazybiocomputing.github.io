@@ -64,4 +64,8 @@ seq = Seq(fasta)
 print seq.acc # &larr; P68871
 ```
 
+## 2- List of EMBOSS Tools
+
+[EMBOSS](http://emboss.sourceforge.net/) &mdash; European Molecular Biology Open Software Suite &mdash; is a European package containing various bioinformatics programs available as web-based or as local tools.
+The list of all the tools is available [here](http://emboss.sourceforge.net/apps/release/6.6/emboss/apps/) and grouped by categories [there](http://emboss.sourceforge.net/apps/release/6.6/emboss/apps/groups.html) and I created my own version combining both [there](http://crazybiocomputing.github.io/list_emboss.html) 
 
