@@ -1,11 +1,12 @@
 
-## 1- Python programming language
-
-For biology students, I think learning a progrraming language is not a waste of time. However, there is many, many different languages [[Wiki](https://en.wikipedia.org/wiki/List_of_programming_languages)] and you have to choose a language with a good balance between criteria like ease of learning, wealth of tutorials and examples, large user community,etc. Nowadays, IMHO, two programming languages are fulfilling these criteria:
+For biology students, I think learning a [programming language](https://en.wikipedia.org/wiki/Programming_language) is not a waste of time. However, there is many, many different languages [[Wiki](https://en.wikipedia.org/wiki/List_of_programming_languages)] and you have to choose a language with a good balance between criteria like ease of learning, wealth of tutorials and examples, large user community,etc. Nowadays, IMHO, two programming languages are fulfilling these criteria:
 - Python 
 - JavaScript and all the web technologies (HTML5 and CSS3)
 
 > *Note**: If you need more sophisticated statistics functions, it is good to look at the "R" language. It is more complex but more powerful in this field.
+
+
+## 1- Python programming language
 
 ### 1-1- The Basics: Variables, conditionals, and loops
 
@@ -46,6 +47,7 @@ else:
 ```
 #### 1-1-3 Loops
 
+##### 1-1-3-1 **While** Loop
 ```python
 while exit_condition:
   instruction_1
@@ -70,6 +72,32 @@ t
 h
 o
 n
+```
+##### 1-1-3-2 **for in** Loop
+
+```python
+for obj in a_list:
+  instruction_1
+  instruction_2
+  instruction_3
+
+```
+
+```python
+lang = ['p','y','t','h','o','n']
+
+for char in lang:
+  print(char)
+```
+
+### 1-2- Advanced: Functions
+
+```python
+def function_name(arg1,arg2,..., argn):
+  instruction_1
+  instruction_2
+  instruction_3
+  return result
 ```
 
 ### 1-2- Learning Python with web-based tool
