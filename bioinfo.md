@@ -1,7 +1,7 @@
 
 ## 1- Python programming language
 
-For biology students, I think learning a progrraming language is not a waste of time. However, there is many, many different languages and you have to choose a good balance between criteria like easy to learn, lots of tutorials and examples, large user community to help you. Nowadays, IMHO, two programming languages are fulfilling these criteria:
+For biology students, I think learning a progrraming language is not a waste of time. However, there is many, many different languages and you have to choose a good balance between criteria like easy to learn, lots of tutorials and examples, large user community,etc. Nowadays, IMHO, two programming languages are fulfilling these criteria:
 - Python 
 - JavaScript and all the web technologies (HTML5 and CSS3)
 
