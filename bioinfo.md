@@ -8,6 +8,10 @@ For biology students, I think learning a progrraming language is not a waste of 
 and if you need more sophisticated statistics functions, it is good to look at the "R" language. It is more complex but more powerful in this field.
 
 ### 1-1- The Basics: Variables, conditionals, and loops
+### 1-2- Learning Python with web-based tool
+[Python Fiddle](http://pythonfiddle.com/) is a good starting environment to write your first scripts.
+
+### 1-3- Learning Python with IDLE
 
 
 ## 2- Python helper Code
