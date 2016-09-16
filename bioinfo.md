@@ -75,6 +75,8 @@ n
 ```
 ##### 1-1-3-2 **for in** Loop
 
+This loop requires a list and apply the block of instructions for each element with the following syntax:
+
 ```python
 for obj in a_list:
   instruction_1
@@ -83,11 +85,28 @@ for obj in a_list:
 
 ```
 
+Here is a basic example...
+
 ```python
 lang = ['p','y','t','h','o','n']
 
 for char in lang:
   print(char)
+```
+
+This type of loop is very often used with the _range(...)_ function. This very convenient function _range(star, end, step)_ creates a list containing a series of numbers.
+
+```python
+mySeries = range(0,10,2) #  ← [0,2,4,6,8]
+
+for i in mySeries:
+  print(i)
+  
+movie = 'starwarsreturnofthejedi.'
+for i in range(1, 10):
+  poweroftwo = i ** 2
+  print(poweroftwo) # 1, 4, 9, 16, 25, ..., 100
+  
 ```
 
 ### 1-2- Advanced: Functions
@@ -105,14 +124,14 @@ For example, if you want to get codons of a nucleic sequence ...
 def getCodons(seq):
   """ Extract codons from a nucleic sequence """
   codons_list = []
-  for char in seq:
+  for i in range(0,len(seq),3):
     codon = seq[i:i+3]
     codons_list.append(codon)
   return codons_list
 
 # Test
 mySeq='actgctgtcgaaccg'
-myCodons = getCodons(mySeq) # ← ['act','gct',..., 'ccg']
+myCodons = getCodons(mySeq) # ← ['act', 'gct', 'gtc', 'gaa', 'ccg']
 ```
 
 ### 1-2- Learning Python with web-based tool
