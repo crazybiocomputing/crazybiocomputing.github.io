@@ -99,6 +99,21 @@ def function_name(arg1,arg2,..., argn):
   instruction_3
   return result
 ```
+For example, if you want to get codons of a nucleic sequence ...
+
+```python
+def getCodons(seq):
+  """ Extract codons from a nucleic sequence """
+  codons_list = []
+  for char in seq:
+    codon = seq[i:i+3]
+    codons_list.append(codon)
+  return codons_list
+
+# Test
+mySeq='actgctgtcgaaccg'
+myCodons = getCodons(mySeq) # ← ['act','gct',..., 'ccg']
+```
 
 ### 1-2- Learning Python with web-based tool
 [Python Fiddle](http://pythonfiddle.com/) is a good starting environment to write your first scripts.
