@@ -1,6 +1,18 @@
 
-## 1- Python helper Code
-  <p>Using extensively Python Fiddle, it is not possible AFAIK to import BioPython. Moreover, the latter is a little bit too complex for biology students with no programming skills.
+## 1- Python programming language
+
+For biology students, I think learning a progrraming language is not a waste of time. However, there is many, many different languages and you have to choose a good balance between criteria like easy to learn, lots of tutorials and examples, large user community to help you. Nowadays, IMHO, two programming languages are fulfilling these criteria:
+- Python 
+- JavaScript and all the web technologies (HTML5 and CSS3)
+
+and if you need more sophisticated statistics functions, it is good to look at the "R" language. It is more complex but more powerful in this field.
+
+### 1-1- The Basics: Variables, conditionals, and loops
+
+
+## 2- Python helper Code
+
+Using extensively Python Fiddle, it is not possible AFAIK to import BioPython. Moreover, the latter is a little bit too complex for biology students with no programming skills.
   
   **Seq** class storing information (title and sequence data) from a FASTA sequence.
 
@@ -64,7 +76,7 @@ seq = Seq(fasta)
 print seq.acc # &larr; P68871
 ```
 
-## 2- List of EMBOSS Tools
+## 3- List of EMBOSS Tools
 
 [EMBOSS](http://emboss.sourceforge.net/) &mdash; European Molecular Biology Open Software Suite &mdash; is a European package containing various bioinformatics programs available as web-based or as local tools.
 The list of all the tools is available [here](http://emboss.sourceforge.net/apps/release/6.6/emboss/apps/) and grouped by categories [there](http://emboss.sourceforge.net/apps/release/6.6/emboss/apps/groups.html) and I created my own version combining both [there](http://crazybiocomputing.github.io/list_emboss.html) 
