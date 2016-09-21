@@ -5,7 +5,9 @@
     <meta name="description" content="Crazybiocomputing.GitHub.io : Tools about Bioinformatics">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+    
     <title>Crazybiocomputing.GitHub.io</title>
 </head>
 </body>
@@ -66,7 +68,7 @@ myVar = myVar + <span class="hljs-number">1</span> <span class="hljs-comment"># 
 
 
 
-<pre class="prettyprint"><code class="language-python hljs "><span class="hljs-keyword">if</span> condition :
+<pre class="prettyprint"><code class="python"><span class="hljs-keyword">if</span> condition :
   instruction_1
   instruction_2
   instruction_3
@@ -89,7 +91,7 @@ myVar = myVar + <span class="hljs-number">1</span> <span class="hljs-comment"># 
 
 
 
-<pre class="prettyprint"><code class="language-python hljs "><span class="hljs-keyword">while</span> exit_condition:
+<pre class="prettyprint"><code class="python"><span class="hljs-keyword">while</span> exit_condition:
   instruction_1
   instruction_2
   instruction_3
@@ -99,7 +101,7 @@ myVar = myVar + <span class="hljs-number">1</span> <span class="hljs-comment"># 
 
 
 
-<pre class="prettyprint"><code class="language-python hljs ">lang = <span class="hljs-string">'python'</span>
+<pre class="prettyprint"><code class="python">lang = <span class="hljs-string">'python'</span>
 i = <span class="hljs-number">0</span>
 <span class="hljs-keyword">while</span> i &lt; len(lang):
   print(lang[i])
@@ -124,7 +126,7 @@ n</code></pre>
 
 
 
-<pre class="prettyprint"><code class="language-python hljs "><span class="hljs-keyword">for</span> obj <span class="hljs-keyword">in</span> a_list:
+<pre class="prettyprint"><code class="python"><span class="hljs-keyword">for</span> obj <span class="hljs-keyword">in</span> a_list:
   instruction_1
   instruction_2
   instruction_3
@@ -134,7 +136,7 @@ n</code></pre>
 
 
 
-<pre class="prettyprint"><code class="language-python hljs ">lang = [<span class="hljs-string">'p'</span>,<span class="hljs-string">'y'</span>,<span class="hljs-string">'t'</span>,<span class="hljs-string">'h'</span>,<span class="hljs-string">'o'</span>,<span class="hljs-string">'n'</span>]
+<pre class="prettyprint"><code class="python">lang = [<span class="hljs-string">'p'</span>,<span class="hljs-string">'y'</span>,<span class="hljs-string">'t'</span>,<span class="hljs-string">'h'</span>,<span class="hljs-string">'o'</span>,<span class="hljs-string">'n'</span>]
 
 <span class="hljs-keyword">for</span> char <span class="hljs-keyword">in</span> lang:
   print(char)</code></pre>
@@ -143,7 +145,7 @@ n</code></pre>
 
 
 
-<pre class="prettyprint"><code class="language-python hljs ">mySeries = range(<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">2</span>) <span class="hljs-comment">#  ← [0,2,4,6,8]</span>
+<pre class="prettyprint"><code class="python">mySeries = range(<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">2</span>) <span class="hljs-comment">#  ← [0,2,4,6,8]</span>
 
 <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> mySeries:
   print(i)
@@ -160,7 +162,7 @@ movie = <span class="hljs-string">'starwarsreturnofthejedi.'</span>
 
 
 
-<pre class="prettyprint"><code class="language-python hljs "><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">function_name</span><span class="hljs-params">(arg1,arg2,..., argn)</span>:</span>
+<pre class="prettyprint"><code class="python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">function_name</span><span class="hljs-params">(arg1,arg2,..., argn)</span>:</span>
   instruction_1
   instruction_2
   instruction_3
@@ -170,7 +172,7 @@ movie = <span class="hljs-string">'starwarsreturnofthejedi.'</span>
 
 
 
-<pre class="prettyprint"><code class="language-python hljs "><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">getCodons</span><span class="hljs-params">(seq)</span>:</span>
+<pre class="prettyprint"><code class="python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">getCodons</span><span class="hljs-params">(seq)</span>:</span>
   <span class="hljs-string">""" Extract codons from a nucleic sequence """</span>
   codons_list = []
   <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">0</span>,len(seq),<span class="hljs-number">3</span>):
@@ -202,7 +204,7 @@ myCodons = getCodons(mySeq) <span class="hljs-comment"># ← ['act', 'gct', 'gtc
 
 
 
-<pre class="prettyprint"><code class="language-python hljs "><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Seq</span>:</span>
+<pre class="prettyprint"><code class="python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Seq</span>:</span>
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, seqdata)</span>:</span>
         _tmp = seqdata.split(<span class="hljs-string">'\n'</span>)
         self.description = _tmp[<span class="hljs-number">0</span>][<span class="hljs-number">1</span>:] <span class="hljs-keyword">if</span> _tmp[<span class="hljs-number">0</span>][<span class="hljs-number">0</span>] == <span class="hljs-string">'&gt;'</span> <span class="hljs-keyword">else</span> _tmp[<span class="hljs-number">0</span>]
