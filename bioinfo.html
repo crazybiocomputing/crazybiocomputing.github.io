@@ -209,52 +209,50 @@ myCodons = getCodons(mySeq) <span class="hljs-comment"># ← ['act', 'gct', 'gtc
 
 <pre class="prettyprint"><code class="python">
 class Seq:
-    def __init__</span><span class="hljs-params">(self, seqdata)</span>:</span>
+    def __init__(self, seqdata):
         _tmp = seqdata.split('\n')
-        self.description = _tmp[0][1:] 
-        if _tmp[0][0] == '&gt;'
-         else
-         _tmp[0]
-        self.data = <span class="hljs-string">''</span>.join(_tmp[<span class="hljs-number">1</span>:]).strip()
+        self.description = _tmp[0][1:] if _tmp[0][0] == '>' else _tmp[0]
+        self.data = ''.join(_tmp[1:]).strip()
+        
+        # Read title
+        self.author1 = 'None'
+        self.author2 = 'None'
+        self.copy    = 0
+        self.db      = 'None'
+        self.id      = 'None'
+        self.db2     = 'None'
+        self.acc     = 'None'
+        self.title   = 'None'
 
-        <span class="hljs-comment"># Read title</span>
-        self.author1 = <span class="hljs-string">'None'</span>
-        self.author2 = <span class="hljs-string">'None'</span>
-        self.copy    = <span class="hljs-number">0</span>
-        self.db      = <span class="hljs-string">'None'</span>
-        self.id      = <span class="hljs-string">'None'</span>
-        self.db2     = <span class="hljs-string">'None'</span>
-        self.acc     = <span class="hljs-string">'None'</span>
-        self.title   = <span class="hljs-string">'None'</span>
-
-        <span class="hljs-comment"># Try to read information within the description</span>
-        sep = <span class="hljs-string">'|'</span>
+        # Try to read information within the description
+        sep = '|'
         _tmp = self.description.split(sep)
-        self.db = _tmp[<span class="hljs-number">0</span>]
-        <span class="hljs-keyword">if</span> self.db == <span class="hljs-string">'xzy'</span>:
-            <span class="hljs-comment">#CrazyBio header: xzy|first author|copynumber|second author</span>
-            self.author1 = _tmp[<span class="hljs-number">1</span>]
-            self.author2 = _tmp[<span class="hljs-number">3</span>]
-            self.copy    = int( _tmp[<span class="hljs-number">2</span>])
+        self.db = _tmp[0]
+        if self.db == 'xzy':
+            #CrazyBio header: xzy|first author|copynumber|second author
+            self.author1 = _tmp[1]
+            self.author2 = _tmp[3]
+            self.copy    = int( _tmp[2])
             self.length  = len(self.data)
-        <span class="hljs-keyword">elif</span> self.db == <span class="hljs-string">'gi'</span>:
-            <span class="hljs-comment"># gi|numéro gi|gb|numéro d'accession|locus</span>
-            self.id   = _tmp[<span class="hljs-number">1</span>]
-            self.db2  = _tmp[<span class="hljs-number">2</span>]
-            self.acc  = _tmp[<span class="hljs-number">3</span>]
-            self.title = _tmp[<span class="hljs-number">4</span>]
-        <span class="hljs-keyword">elif</span> self.db == <span class="hljs-string">'sp'</span>:
-            <span class="hljs-comment"># sp|numéro d'accession|nom</span>
-            self.db   = _tmp[<span class="hljs-number">0</span>]
-            self.acc  = _tmp[<span class="hljs-number">1</span>]
-            self.title = _tmp[<span class="hljs-number">2</span>]
+        elif self.db == 'gi':
+            # gi|numéro gi|gb|numéro d'accession|locus
+            self.id   = _tmp[1]
+            self.db2  = _tmp[2]
+            self.acc  = _tmp[3]
+            self.title = _tmp[4]
+        elif self.db == 'sp':
+            # sp|numéro d'accession|nom
+            self.db   = _tmp[0]
+            self.acc  = _tmp[1]
+            self.title = _tmp[2]
 
-    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">show</span><span class="hljs-params">(self)</span>:</span>
+    def show(self):
         attrs = vars(self)
-        <span class="hljs-keyword">return</span> <span class="hljs-string">', '</span>.join(<span class="hljs-string">"%s: %s"</span> % item <span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> attrs.items())
+        return ', '.join("%s: %s" % item for item in attrs.items())
+        
+    def fasta(self):
+        return '>{:s}\n{:s}'.format(self.description,self.data)
 
-    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">fasta</span><span class="hljs-params">(self)</span>:</span>
-        <span class="hljs-keyword">return</span> <span class="hljs-string">'&gt;{:s}\n{:s}'</span>.format(self.description,self.data)
 </code></pre>
 
 <p>Usage</p>
