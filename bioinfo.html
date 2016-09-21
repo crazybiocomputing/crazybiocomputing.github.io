@@ -68,14 +68,15 @@ myVar = myVar + <span class="hljs-number">1</span> <span class="hljs-comment"># 
 
 
 
-<pre class="prettyprint"><code class="python"><span class="hljs-keyword">if</span> condition :
+<pre class="prettyprint"><code class="python">
+ if condition :
   instruction_1
   instruction_2
   instruction_3
-<span class="hljs-keyword">elif</span> other_condition:
+elif other_condition:
   instruction_a
   instruction_b
-<span class="hljs-keyword">else</span>:
+else:
   instruction_01
   instruction_02
   instruction_03
@@ -204,10 +205,14 @@ myCodons = getCodons(mySeq) <span class="hljs-comment"># ← ['act', 'gct', 'gtc
 
 
 
-<pre class="prettyprint"><code class="python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Seq</span>:</span>
-    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, seqdata)</span>:</span>
-        _tmp = seqdata.split(<span class="hljs-string">'\n'</span>)
-        self.description = _tmp[<span class="hljs-number">0</span>][<span class="hljs-number">1</span>:] <span class="hljs-keyword">if</span> _tmp[<span class="hljs-number">0</span>][<span class="hljs-number">0</span>] == <span class="hljs-string">'&gt;'</span> <span class="hljs-keyword">else</span> _tmp[<span class="hljs-number">0</span>]
+<pre class="prettyprint"><code class="python">
+class Seq:
+    def __init__</span><span class="hljs-params">(self, seqdata)</span>:</span>
+        _tmp = seqdata.split('\n')
+        self.description = _tmp[0][1:] 
+        if _tmp[0][0] == '&gt;'
+         else
+         _tmp[0]
         self.data = <span class="hljs-string">''</span>.join(_tmp[<span class="hljs-number">1</span>:]).strip()
 
         <span class="hljs-comment"># Read title</span>
@@ -254,13 +259,15 @@ myCodons = getCodons(mySeq) <span class="hljs-comment"># ← ['act', 'gct', 'gtc
 
 
 
-<pre class="prettyprint"><code class="language-python hljs ">fasta = <span class="hljs-string">"""&gt;sp|P68871|HBB_HUMAN Hemoglobin subunit beta OS=Homo sapiens GN=HBB PE=1 SV=2
+<pre class="prettyprint"><code class="python">
+fasta = """&gt;sp|P68871|HBB_HUMAN Hemoglobin subunit beta OS=Homo sapiens GN=HBB PE=1 SV=2
 MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
 VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
-KEFTPPVQAAYQKVVAGVANALAHKYH"""</span>
+KEFTPPVQAAYQKVVAGVANALAHKYH"""
 
 seq = Seq(fasta)
-<span class="hljs-keyword">print</span> seq.acc <span class="hljs-comment"># &amp;larr; P68871</span></code></pre>
+print seq.acc # &larr; P68871
+</code></pre>
 
 
 
