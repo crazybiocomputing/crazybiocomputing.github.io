@@ -258,8 +258,16 @@ form {
   padding: 20px;
 }
 
-mozilla:before {
-  content: url("https://developer.cdn.mozilla.net/static/img/logo_sprite.7d36c4a1422b.svg")
+.mozilla {
+    margin-bottom: 20px;
+}
+.mozilla:before {
+  content: url("https://developer.cdn.mozilla.net/static/img/logo_sprite.7d36c4a1422b.svg");
+  transform: scale(0.6);
+  width: 205px;
+  height: 40px;
+  overflow: hidden;
+  float:left;
 }
 
 /*******************************************************************************
