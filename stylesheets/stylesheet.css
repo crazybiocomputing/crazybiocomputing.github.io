@@ -258,6 +258,10 @@ form {
   padding: 20px;
 }
 
+mozilla:before {
+  content: url("https://developer.cdn.mozilla.net/static/img/logo_sprite.7d36c4a1422b.svg")
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
