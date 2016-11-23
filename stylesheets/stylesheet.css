@@ -259,7 +259,7 @@ form {
 }
 
 
-.mozilla:before {
+.mozilla:after {
   content:"";
   background-image: url("https://developer.cdn.mozilla.net/static/img/logo_sprite.7d36c4a1422b.svg");
   background-size: 102px;
@@ -268,7 +268,7 @@ form {
   width: 70px;
   height: 20px;
   overflow: hidden;
-  float:left;
+  margin-left: 10px;
 }
 
 /*******************************************************************************
