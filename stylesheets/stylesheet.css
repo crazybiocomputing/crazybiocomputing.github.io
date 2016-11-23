@@ -258,14 +258,15 @@ form {
   padding: 20px;
 }
 
-.mozilla {
-    margin-bottom: 20px;
-}
+
 .mozilla:before {
-  content: url("https://developer.cdn.mozilla.net/static/img/logo_sprite.7d36c4a1422b.svg");
-  transform: scale(0.6);
-  width: 205px;
-  height: 40px;
+  content:"";
+  background-image: url("https://developer.cdn.mozilla.net/static/img/logo_sprite.7d36c4a1422b.svg");
+  background-size: 102px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 70px;
+  height: 20px;
   overflow: hidden;
   float:left;
 }
