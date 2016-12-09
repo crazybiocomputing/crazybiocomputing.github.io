@@ -22,18 +22,22 @@ function configButtons() {
     }
 }
 
+function createButton(color) {
+    let elt = document.createElement('a'); 
+    configButton(elt,color);
+    return elt;
+}
+
 function debrief_moderate_menubar() {
     let home = localStorage.getItem('crazybio_home');
     let output = document.getElementById("output");
-    let remind = output.createElement('a'); 
+    let remind = createButton('green');
     remind.innerHTML='<a href="'+home+'">Reminders</a>';
-    configButton(remind,'green');
-    let challenges = output.createElement('a'); 
+    let challenges = createButton(challenges,'orange'); 
     challenges.innerHTML='<a href="'+home+'">Challenges</a>';
-    configButton(challenges,'orange');
-    let homelink = output.createElement('a'); 
+    let homelink = createButton(homelink,"#0078e7");
     homelink.innerHTML='<a href="'+home+'">Return to Page</a>';
-    configButton(homelink,"#0078e7");
+    
     // Add buttons to 'output'
     output.appendChild(remind);
     output.appendChild(challenges);
