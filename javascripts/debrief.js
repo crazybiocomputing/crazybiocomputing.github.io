@@ -1,4 +1,5 @@
 function debrief(v,org,target) {
+    localStorage.setItem('crazybio_home',window.location);
 }
 
 
