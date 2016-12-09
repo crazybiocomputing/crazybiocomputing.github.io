@@ -1,12 +1,11 @@
-function debrief(elt,v,org,target) {
-    this.href ="https://moodle1.u-bordeaux.fr/mod/page/view.php" + "?"+"id="+target;
+function debrief(v,org,target) {
 }
 
 
 let buttons = document.querySelectorAll('.crazybutton');
 for (let i in buttons) {
     let elt = buttons[i];
-    console.log(elt);
+    elt.href = "https://moodle1.u-bordeaux.fr/mod/page/view.php" + "?"+"id="+elt.dataset.href;
     elt.style.background = "#0078e7"; 
     elt.style.color = "white";
     // elt.style.border = "1px solid black";
