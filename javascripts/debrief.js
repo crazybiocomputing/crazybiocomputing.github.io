@@ -22,8 +22,9 @@ function configButtons() {
     }
 }
 
-function createButton(color) {
-    let elt = document.createElement('a'); 
+function createButton(color,label) {
+    let elt = document.createElement('a');
+    elt.appendChild(document.createTextNode(label));
     configButton(elt,color);
     return elt;
 }
@@ -31,12 +32,9 @@ function createButton(color) {
 function debrief_moderate_menubar() {
     let home = localStorage.getItem('crazybio_home');
     let output = document.getElementById("output");
-    let remind = createButton('green');
-    remind.innerHTML='<a href="'+home+'">Reminders</a>';
-    let challenges = createButton('orange'); 
-    challenges.innerHTML='<a href="'+home+'">Challenges</a>';
-    let homelink = createButton("#0078e7");
-    homelink.innerHTML='<a href="'+home+'">Return to Page</a>';
+    let remind = createButton('green','Reminders');remind.href=home;
+    let challenges = createButton('orange', 'Challenges'); challenges.href = home;
+    let homelink = createButton("#0078e7", 'Return to Page');homelink.href= home;
     
     // Add buttons to 'output'
     output.appendChild(remind);
