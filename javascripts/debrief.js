@@ -34,6 +34,10 @@ function debrief_moderate_menubar() {
     let homelink = output.createElement('a'); 
     homelink.innerHTML='<a href="'+home+'">Return to Page</a>';
     configButton(homelink,"#0078e7");
+    // Add buttons to 'output'
+    output.appendChild(remind);
+    output.appendChild(challenges);
+    output.appendChild(homelink);
 }
 
 function debrief_very_easy_menubar() {
