@@ -33,9 +33,9 @@ function debrief_moderate_menubar() {
     let output = document.getElementById("output");
     let remind = createButton('green');
     remind.innerHTML='<a href="'+home+'">Reminders</a>';
-    let challenges = createButton(challenges,'orange'); 
+    let challenges = createButton('orange'); 
     challenges.innerHTML='<a href="'+home+'">Challenges</a>';
-    let homelink = createButton(homelink,"#0078e7");
+    let homelink = createButton("#0078e7");
     homelink.innerHTML='<a href="'+home+'">Return to Page</a>';
     
     // Add buttons to 'output'
