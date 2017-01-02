@@ -50,7 +50,7 @@ function debrief_very_easy_menubar() {
     output.innerHTML='<a href="'+home+'">Return to Page</a>';
 }
 
-function hightlight() {
+function highlight() {
     let elts = document.querySelectorAll('.hljs-keyword');
     for (let i in elts) {
         elts[i].style.fontWeight = "bold";
