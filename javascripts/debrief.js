@@ -53,7 +53,9 @@ function debrief_very_easy_menubar() {
 function highlight() {
     let strings = document.querySelectorAll('.hljs-string');
     for (let i in strings) {
-        strings[i].style.color = "#800";
+        if (strings[i] !== undefined) {
+            strings[i].style.color = "#800";
+        }
     }
     let kwords = document.querySelectorAll('.hljs-keyword');
     for (let i in kwords) {
