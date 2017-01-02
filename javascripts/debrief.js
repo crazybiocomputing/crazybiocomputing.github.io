@@ -51,11 +51,12 @@ function debrief_very_easy_menubar() {
 }
 
 function highlight() {
-    let elts = document.querySelectorAll('.hljs-keyword');
-    for (let i in elts) {
-        elts[i].style.fontWeight = "bold";
+    let kwords = document.querySelectorAll('.hljs-keyword');
+    for (let i in kwords) {
+        kwords[i].style.fontWeight = "bold";
     }
-    for (let i in document.querySelectorAll('.hljs-string')) {
-        elts[i].style.color = "#800";
+    let strings = document.querySelectorAll('.hljs-string');
+    for (let i in strings) {
+        strings[i].style.color = "#800";
     }
 }
