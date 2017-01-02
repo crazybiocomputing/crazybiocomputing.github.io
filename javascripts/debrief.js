@@ -55,4 +55,7 @@ function highlight() {
     for (let i in elts) {
         elts[i].style.fontWeight = "bold";
     }
+    for (let i in document.querySelectorAll('.hljs-string')) {
+        elts[i].style.color = "#800";
+    }
 }
