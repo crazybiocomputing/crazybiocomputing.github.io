@@ -53,7 +53,7 @@ function debrief_very_easy_menubar() {
 function highlight() {
     let strings = document.querySelectorAll('.hljs-string');
     for (let i in strings) {
-        if (strings[i] !== undefined) {
+        if (strings[i].style !== undefined) {
             strings[i].style.color = "#800";
         }
     }
