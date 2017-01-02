@@ -57,7 +57,7 @@ function highlight() {
             strings[i].style.color = "#800";
         }
     }
-    let kwords = document.querySelectorAll('.hljs-keyword,.hljs-tag');
+    let kwords = document.querySelectorAll('.hljs-keyword,.hljs-title');
     for (let i in kwords) {
         kwords[i].style.fontWeight = "bold";
     }
