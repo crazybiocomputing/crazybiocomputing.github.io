@@ -59,7 +59,9 @@ function highlight() {
     }
     let kwords = document.querySelectorAll('.hljs-keyword,.hljs-title');
     for (let i in kwords) {
-        kwords[i].style.fontWeight = "bold";
+        if (kwords[i].style !== undefined) {
+            kwords[i].style.fontWeight = "bold";
+        }
     }
   
     let comments = document.querySelectorAll('.hljs-comment');
