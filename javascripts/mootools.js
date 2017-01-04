@@ -65,7 +65,7 @@ function highlight() {
     let comments = document.querySelectorAll('.hljs-comment');
     for (let i in comments) {
         if (comments[i].style !== undefined) {
-            comments[i].style.color = "#888";
+            comments[i].style.fontStyle = "italic";
         }
     }
 
