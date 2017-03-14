@@ -269,7 +269,7 @@ var seqs=[
 function clickOnIt(ev,x,y) {
   ev = ev || window.event();
   var popup = document.getElementById('popup');
-  popup.innerHTML='<div class="titlebar"><a href="javascript:void(0)"><img src="../crazybioflow/img/closeButton.png"></img></a>&nbsp;&nbsp;Data</div><div class="contents"> <pre>'+seqs[x+5*y]+'</pre></div>';
+  popup.innerHTML='<div class="titlebar"><a href="javascript:void(0)"><img src="../../img/closeButton.png"></img></a>&nbsp;&nbsp;Data</div><div class="contents"> <pre>'+seqs[x+5*y]+'</pre></div>';
   popup.style.left= (ev.clientX + 10) + 'px';
   popup.style.top = (ev.clientY + 10) + 'px';
 }
