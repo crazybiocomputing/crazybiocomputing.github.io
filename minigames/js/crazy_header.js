@@ -9,8 +9,7 @@ while (minigames[index].url !== url && index < minigames.length) {
 }
 let level = minigames[index].level;
 let gameIndex = minigames[index].index;
-localStorage.setItem('crazybio_'+family+'_level', level);
-localStorage.setItem('crazybio_'+family+'_game', gameIndex);
+localStorage.setItem('crazybio_accession', index);
 let html = `
 <ul>
 <li><a href="../index.html">[ H o m e ]</a></li>
