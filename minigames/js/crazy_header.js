@@ -1,4 +1,5 @@
 let menu = document.querySelector('header');
+console.log(menu);
 let url = window.location.href.substr(window.location.href.lastIndexOf('bioinfo/') + 8);
 console.log(url);
 var index = 0;
