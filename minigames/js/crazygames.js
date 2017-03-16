@@ -17,10 +17,16 @@ function next_game() {
   console.log(localStorage);
   let index = localStorage.crazybio_accession;
   let nextID = minigames[index].next;
-  let i = 0;
-  while (minigames[i].ID !== nextID && i < minigames.length ) {
-    i++;
+  if (nextID === 9999) {
+    window.alert('Last mini-game of this series. Back to Home page');
+    document.location.href = '../index.html';
   }
-  // Redirect to the next game
-  document.location.href = '../'+minigames[i].url;
+  else {
+    let i = 0;
+    while (minigames[i].ID !== nextID && i < minigames.length ) {
+      i++;
+    }
+    // Redirect to the next game
+    document.location.href = '../'+minigames[i].url;
+  }
 }
