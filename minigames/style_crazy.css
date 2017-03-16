@@ -73,7 +73,7 @@ text-indent: 25px;
 }
 
 
-#menu {
+header {
 	width: 1000px;
 	height: 49px;
 	margin-left: auto;
@@ -83,20 +83,20 @@ text-indent: 25px;
 	background-color:black;
 }
 
-#menu ul {
+header ul {
         margin:0;
 	padding: 0px 0px 0px 4px;
 	list-style: none;
 	line-height: normal;
 }
 
-#menu li {
+header li {
 	float: left;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#menu a {
+header a {
 	display: block;
 	height: 33px;
 	margin-right: 1px;
@@ -111,10 +111,10 @@ text-indent: 25px;
 	border: none;
 }
 
-#menu .current_page_item a {
+header .current_page_item a {
 }
 
-#menu a:hover {
+header a:hover {
 	text-decoration: none;
 }
 
