@@ -17,4 +17,4 @@ let html = `
 <li><a href="#">[ L e v e l # ` + level+ '&mdash; g a m e # '+ gameIndex +` ]</a></li>
 </ul>
 </div>`;
-menu.html = html;
+menu.innerHTML = html;
