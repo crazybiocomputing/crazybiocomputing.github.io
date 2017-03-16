@@ -1,0 +1,73 @@
+html,body {
+    height:100%;
+}
+
+body {
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+    font-family: arial, Helvetica, 'Bitstream Vera Sans', 'Luxi Sans', Verdana, Sans-Serif;
+}
+
+
+#nav {
+/*position: absolute;
+top: 67px;*/
+margin-left: 24px;
+font-size: 0.9em;
+border-bottom: 1px dashed #9e0a0d;
+}
+
+#nav h3 {
+display: none;
+}
+
+#nav ul {
+margin: 0px;
+padding: 0px;
+text-align: left;
+}
+
+#nav li {
+display: inline;
+list-style: none;
+}
+
+#nav li a {
+padding: 0em;
+padding-left: 14px;
+padding-right: 10px;
+color: #9d9d9d;
+text-decoration: none;
+}
+
+#nav li a:hover {
+color: #1111ff;
+background: url(../img/original/fond_menu_anime.gif) no-repeat left center;
+}
+
+#text {
+min-height: 300px;
+padding: 15px;
+padding-top: 20px;
+padding-left: 30px;
+padding-right: 160px;
+font-size: 0.8em;
+color: #2f2f2f;
+}
+
+#text h2  span{
+margin-left: -30px;
+padding-left: 140px;
+padding-right: 5px;
+border-top: 1px solid #9e0a0d;
+}
+
+#text pre {
+font-size: 1.2em;
+}
+.pre .str { color: #080; }
+
+#contenu p {
+text-indent: 25px;
+}
