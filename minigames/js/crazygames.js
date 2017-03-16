@@ -13,3 +13,14 @@ for (let i=1; i < titles.length; i++) {
 }
 output.innerHTML = html;
  
+function next_game() {
+  console.log(localStorage);
+  let index = localStorage.crazybio_accession;
+  let nextID = minigames[index].next;
+  let i = 0;
+  while (minigames[i].ID !== nextID && i < minigames.length ) {
+    i++;
+  }
+  // Redirect to the next game
+  document.location.href = '../'+minigames[i].url;
+}
