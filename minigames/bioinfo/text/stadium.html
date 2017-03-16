@@ -1,17 +1,9 @@
 <!DOCTYPE html>
 <head>
+<script type="text/javascript" src="../../js/crazygames.js"></script>
 <script type="text/javascript" src="../data.js"></script>
 <script type="text/javascript">
-console.log(localStorage);
-let index = localStorage.crazybio_accession;
-let nextID = minigames[index].next;
-let i = 0;
-while (minigames[i].ID !== nextID && i < minigames.length ) {
-    i++;
-}
-// Redirect to the next game
-document.location.href = minigames[i].url;
-
+    next_game();
 </script>
 </head>
 <body>

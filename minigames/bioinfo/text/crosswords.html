@@ -70,17 +70,17 @@ document.onmouseup = up;
 
 
 <style>
-a {
-  font-size: 80px;
-  text-decoration: none;
+pre {
+  border-top: 1px solid rgb(255,128,64);
 }
+
 
 .dragclass {
   padding-left:2px;
   text-align:left;
   height:80px;
   width:350px;
-  background-color:#ff0000;
+  /*background-color:#ff0000;*/
   color:#ffffff;
 }
 
@@ -97,19 +97,6 @@ a {
 <center>  
 <img src="background.png"></img>
 </center>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="asn.png"></img></div>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="clustal.png"></img></div>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="embl.png"></img></div>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="fasta.png"></img></div>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="gcg.png"></img></div>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="genbank.png"></img></div>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="mmcif.png"></img></div>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="pdbml.png"></img></div>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="pdb.png"></img></div>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="phylip.png"></img></div>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="pir.png"></img></div>
-<div class="dragclass" style="top:<?php echo rand(-300,500); ?>px;left:<?php echo rand(500,700); ?>px;"><img src="swissprot.png"></img></div>
-
 
 
 <pre>
@@ -195,10 +182,32 @@ Seq5               ------------------------------------GAGCGCGAACGGTCTTC--GGACT 
 </pre>
 
 
+<div class="dragclass" ><img src="asn.png"></img></div>
+<div class="dragclass" ><img src="clustal.png"></img></div>
+<div class="dragclass" ><img src="embl.png"></img></div>
+<div class="dragclass" ><img src="fasta.png"></img></div>
+<div class="dragclass" ><img src="gcg.png"></img></div>
+<div class="dragclass" ><img src="genbank.png"></img></div>
+<div class="dragclass" ><img src="mmcif.png"></img></div>
+<div class="dragclass" ><img src="pdbml.png"></img></div>
+<div class="dragclass" ><img src="pdb.png"></img></div>
+<div class="dragclass" ><img src="phylip.png"></img></div>
+<div class="dragclass" ><img src="pir.png"></img></div>
+<div class="dragclass" ><img src="swissprot.png"></img></div>
+
 </div>
 </div>
 <script type="text/javascript" src="../data.js"></script>
 <script type="text/javascript" src="../../js/crazy_header.js"></script>
+<script type="text/javascript">
+let drags = document.querySelectorAll('.dragclass');
+for (let i = 0; i < drags.length; i++) {
+    let min = -1200, max = -500;
+    drags[i].style.top = Math.floor(Math.random() * (max - min + 1)) + min + 'px';
+    min = 500, max = 700;
+    drags[i].style.left = Math.floor(Math.random() * (max - min + 1)) + min + 'px';
+}
+</script>
 </body>
 </html>
 
