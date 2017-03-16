@@ -1,7 +1,8 @@
 let menu = document.querySelector('header');
 let url = window.location.href.substr(window.location.href.lastIndexOf('bioinfo/') );
+console.log(url);
 var index = 0;
-while (minigames[index] !== url) {
+while (minigames[index] !== url && index < minigames.length) {
   index++;
 }
 let level = minigames[index].level;
