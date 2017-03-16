@@ -1,5 +1,5 @@
 let menu = document.querySelector('header');
-let url = window.location.href.substr(window.location.href.lastIndexOf('bioinfo/') + 7);
+let url = window.location.href.substr(window.location.href.lastIndexOf('bioinfo/') + 8);
 console.log(url);
 var index = 0;
 while (minigames[index].url !== url && index < minigames.length) {
