@@ -1,6 +1,7 @@
 let menu = document.querySelector('header');
 console.log(menu);
-let url = window.location.href.substr(window.location.href.lastIndexOf('bioinfo/') + 8);
+let family = 'bioinfo'; // Must be checked between ip and bioinfo
+let url = window.location.href.substr(window.location.href.lastIndexOf(family + '/') + family.length + 1);
 console.log(url);
 var index = 0;
 while (minigames[index].url !== url && index < minigames.length) {
@@ -8,6 +9,8 @@ while (minigames[index].url !== url && index < minigames.length) {
 }
 let level = minigames[index].level;
 let gameIndex = minigames[index].index;
+localStorage.setItem('crazybio_'+family+'_level', level);
+localStorage.setItem('crazybio_'+family+'_game', gameIndex);
 let html = `
 <ul>
 <li><a href="../index.html">[ H o m e ]</a></li>
@@ -20,3 +23,4 @@ let html = `
 </div>`;
 console.log(html);
 menu.innerHTML = html;
+
