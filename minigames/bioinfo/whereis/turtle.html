@@ -4,9 +4,13 @@
 <script type="text/javascript">
 console.log(localStorage);
 let index = localStorage.crazybio_accession;
-
+let nextID = minigames[index].next;
+let i = 0;
+while (minigames[i].ID !== nextID && i < minigames.length ) {
+    i++;
+}
 // Redirect to the next game
-document.location.href = minigames[minigames[index].next].url;
+document.location.href = minigames[i].url;
 
 </script>
 </head>
