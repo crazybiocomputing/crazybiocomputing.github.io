@@ -1,4 +1,4 @@
-[
+var minigames = [
   {
     "ID": 10, 
     "index": 1, 
