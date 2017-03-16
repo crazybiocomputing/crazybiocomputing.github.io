@@ -11,4 +11,4 @@ for (let i=0; i < titles.length; i++) {
   }
   html +='</tr></table>';
 }
-
+output.innerHTML = html;
