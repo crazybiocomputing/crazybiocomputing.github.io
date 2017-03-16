@@ -1,7 +1,7 @@
 let output = document.getElementById('levels');
 let html = '';
-for (let i=0; i < titles.length; i++) {
-  html += '<h2>'+titles[i]+'</h2>';
+for (let i=1; i < titles.length; i++) {
+  html += '<h2>Level #'+i+':&nbsp;'+titles[i]+'</h2>';
   html +='<table><tr>';
   for (let j = 0; j < minigames.length; j++) {
     if (minigames[j].level === i) {       
@@ -12,3 +12,4 @@ for (let i=0; i < titles.length; i++) {
   html +='</tr></table>';
 }
 output.innerHTML = html;
+ 
