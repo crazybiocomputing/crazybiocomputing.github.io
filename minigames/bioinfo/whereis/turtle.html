@@ -3,8 +3,11 @@
 <script type="text/javascript" src="../data.js"></script>
 <script type="text/javascript">
 console.log(localStorage);
-console.log(localStorage.crazy_bioinfo_level);
-console.log(localStorage.crazy_bioinfo_game);
+let index = localStorage.crazybio_accession;
+
+// Redirect to the next game
+document.location.href = minigames[minigames[index].next].url;
+
 </script>
 </head>
 <body>
