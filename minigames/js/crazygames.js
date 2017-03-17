@@ -49,7 +49,8 @@ function create_header_history() {
     let menu = document.querySelector('header');
     let family = 'bioinfo'; // Must be checked between ip, bioinfo, and tutorial
     let index = localStorage.crazybio_accession;
-    console.log(localStorage);
+    let level = minigames[index].level;
+    let gameIndex = minigames[index].index;
     let html = `
 <ul>
 <li><a href="../index.html">[ H o m e ]</a></li>
