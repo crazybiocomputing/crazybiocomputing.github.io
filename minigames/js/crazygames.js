@@ -24,13 +24,12 @@
  */
  function create_header(type="header") {
     let family = '';
-    let index = -1;
+    let index = 0;
     
     if (type === "header") {
         let family = 'bioinfo'; // Must be checked between ip, bioinfo, and tutorial
         let url = window.location.href.substr(window.location.href.lastIndexOf(family + '/') + family.length + 1);
         console.log(url);
-        var index = 0;
         while (minigames[index].url !== url && index < minigames.length) {
             index++;
         }
