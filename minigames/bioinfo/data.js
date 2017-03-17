@@ -8,13 +8,16 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "whereis/fasta.html", 
-    "url2": "whereis/turtle.html",
-    "msg": [
-    "<br />",
-    "<p>Click on <span style=\"padding:10px;text-decoration: none;text-transform: uppercase;font-family: Arial, Helvetica, sans-serif;font-size: 14px;font-weight: normal;color: #FFFFFF;background-color:black;\">[ L e v e l # $level$ &mdash; g a m e # $game$ ]</span> to return to the mini-game </p>",
-    "<br /><br />",
-    "<p style=\"font-size: 150%\">The clue is in the URL &#9786;</p>",
-    "<p style=\"font-size: 150%\">... and don't forget to add the extension <i>'.html'</i> &#9786;</p>"
+    "help": [
+        "<br />",
+        "<p>Click on ",
+        "<span style=\"padding:10px;text-decoration: none;text-transform: uppercase;font-family: Arial, Helvetica, sans-serif;",
+        "font-size: 14px;font-weight: normal;color: #FFFFFF;background-color:black;\">",
+        "[ L e v e l # $level$ &mdash; g a m e # $game$ ]",
+        "</span> to return to the mini-game </p>",
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">The clue is in the URL &#9786;</p>",
+        "<p style=\"font-size: 150%\">... and don't forget to add the extension <i>'.html'</i> &#9786;</p>"
     ],
     "history": [
       "2012/01/23: Help added",
@@ -32,7 +35,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "format/genbank.html", 
-    "url2": "format/convolution.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 13, 
@@ -43,7 +52,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "text/crosswords.html", 
-    "url2": "text/stadium.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 15, 
@@ -54,7 +69,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "to/fasta_format.html", 
-    "url2": "to/here.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 21, 
@@ -65,7 +86,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "storage/bank.html", 
-    "url2": "storage/walking.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 22, 
@@ -76,7 +103,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "entrez/best.html", 
-    "url2": "entrez/dongle.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 24, 
@@ -87,7 +120,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "data/mining.html", 
-    "url2": "data/awesome.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 2, 
@@ -98,7 +137,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "organism/name.html", 
-    "url2": "organism/only_latin.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 34, 
@@ -109,7 +154,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "locus/code.html", 
-    "url2": "locus/void.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 37, 
@@ -120,7 +171,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "pmid/ref.html", 
-    "url2": "pmid/bibliography.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 38, 
@@ -131,7 +188,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "swiss/prot.html", 
-    "url2": "swiss/neon.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 39, 
@@ -142,7 +205,13 @@ var minigames = [
     "symbol": "i", 
     "symbol2": "j", 
     "url": "source/between.html", 
-    "url2": "source/rpl2.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 40, 
@@ -153,7 +222,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "jump/keys.html", 
-    "url2": "jump/intersect.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 41, 
@@ -164,7 +239,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "mouse/settings.html", 
-    "url2": "mouse/easy.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 42, 
@@ -175,7 +256,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "cheese/dessert.html", 
-    "url2": "cheese/organic.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 45, 
@@ -186,7 +273,13 @@ var minigames = [
     "symbol": "i", 
     "symbol2": "j", 
     "url": "entry/search.html", 
-    "url2": "entry/acrab_tolc_pump.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 51, 
@@ -197,7 +290,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "date/speed.html", 
-    "url2": "date/last_but_not_least.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 52, 
@@ -208,7 +307,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "filter/author.html", 
-    "url2": "filter/paradise.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 57, 
@@ -219,7 +324,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "lost/search.html", 
-    "url2": "lost/thanks_a_lot.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 61, 
@@ -230,7 +341,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "rasmol/cpk_colors.html", 
-    "url2": "rasmol/clocks.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 62, 
@@ -241,7 +358,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "animate/molecule.html", 
-    "url2": "animate/nadph.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 64, 
@@ -252,7 +375,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "atoms/pdb_to_fasta.html", 
-    "url2": "atoms/cycle.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 72, 
@@ -263,7 +392,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "crazylab/walking.html", 
-    "url2": "crazylab/362677.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 75, 
@@ -274,7 +409,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "computer/room.html", 
-    "url2": "computer/guru.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 77, 
@@ -285,7 +426,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "install/continued.html", 
-    "url2": "install/yesitis.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 78, 
@@ -296,7 +443,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "workflow/tool.html", 
-    "url2": "workflow/the_end.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 83, 
@@ -307,7 +460,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "length_of/sequence.html", 
-    "url2": "length_of/arctocephalus_forsteri.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 84, 
@@ -318,7 +477,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "alpha/weight.html", 
-    "url2": "alpha/upsilon.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 85, 
@@ -329,7 +494,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "aa/composition.html", 
-    "url2": "aa/sixteen.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 87, 
@@ -340,7 +511,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "translate/seq.html", 
-    "url2": "translate/computer.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 89, 
@@ -351,7 +528,13 @@ var minigames = [
     "symbol": "i", 
     "symbol2": "j", 
     "url": "clean/sequence.html", 
-    "url2": "clean/caterpillar.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 91, 
@@ -362,7 +545,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "twofortwo/align.html", 
-    "url2": "twofortwo/oracle.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 92, 
@@ -373,7 +562,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "howmany/repeats.html", 
-    "url2": "howmany/repair.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 94, 
@@ -384,7 +579,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "dottup/indel.html", 
-    "url2": "dottup/aleajactaest.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 95, 
@@ -395,7 +596,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "plot/pattern.html", 
-    "url2": "plot/dark.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 98, 
@@ -406,7 +613,13 @@ var minigames = [
     "symbol": "i", 
     "symbol2": "j", 
     "url": "latin/lorem.html", 
-    "url2": "latin/dark.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 101, 
@@ -417,7 +630,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "nucleic/matrix.html", 
-    "url2": "nucleic/phosphorus.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 102, 
@@ -428,7 +647,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "score/value.html", 
-    "url2": "score/alternate.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 104, 
@@ -439,7 +664,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "global/world.html", 
-    "url2": "global/video.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 107, 
@@ -450,7 +681,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "pair/global.html", 
-    "url2": "pair/sinister.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 108, 
@@ -461,7 +698,13 @@ var minigames = [
     "symbol": "i", 
     "symbol2": "j", 
     "url": "needleman/wunsch.html", 
-    "url2": "needleman/heroes.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 110, 
@@ -472,7 +715,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "sun/stars.html", 
-    "url2": "sun/saucer.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 111, 
@@ -483,7 +732,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "acgt/processing.html", 
-    "url2": "acgt/famous.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 113, 
@@ -494,7 +749,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "species/explore.html", 
-    "url2": "species/phosphorus.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 115, 
@@ -505,7 +766,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "blast/splicing.html", 
-    "url2": "blast/homo_sapiens_insulin.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 116, 
@@ -516,7 +783,13 @@ var minigames = [
     "symbol": "i", 
     "symbol2": "j", 
     "url": "homolog/beast.html", 
-    "url2": "homolog/rocket.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 120, 
@@ -527,7 +800,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "weight/molecule.html", 
-    "url2": "weight/tubes.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 121, 
@@ -538,7 +817,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "multi/align.html", 
-    "url2": "multi/pass.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 130, 
@@ -549,7 +834,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "newick/format.html", 
-    "url2": "newick/avenger.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 131, 
@@ -560,7 +851,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "kingdom/tree.html", 
-    "url2": "kingdom/methanococcus_maripaludis.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 133, 
@@ -571,7 +868,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "ancestor/common.html", 
-    "url2": "ancestor/uncle.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 135, 
@@ -582,7 +885,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "crocodile/dinosaur.html", 
-    "url2": "crocodile/pet.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 138, 
@@ -593,7 +902,13 @@ var minigames = [
     "symbol": "i", 
     "symbol2": "j", 
     "url": "simplify/cladogram.html", 
-    "url2": "simplify/batman.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 140, 
@@ -604,7 +919,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "myo/globins.html", 
-    "url2": "myo/tubes.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 141, 
@@ -615,7 +936,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "structure/whale.html", 
-    "url2": "structure/ninja.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 143, 
@@ -626,7 +953,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "compare/structure.html", 
-    "url2": "compare/conclusion.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 145, 
@@ -637,7 +970,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "broken/viewer.html", 
-    "url2": "broken/cyanid.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 148, 
@@ -648,7 +987,13 @@ var minigames = [
     "symbol": "i", 
     "symbol2": "j", 
     "url": "cross/viewpoint.html", 
-    "url2": "cross/cyanid.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 150, 
@@ -659,7 +1004,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "crime/scene.html", 
-    "url2": "crime/coffin.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 151, 
@@ -670,7 +1021,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "forensics/dna.html", 
-    "url2": "forensics/skullbones.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 154, 
@@ -681,7 +1038,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "mansion/interviews.html", 
-    "url2": "mansion/guilty.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 157, 
@@ -692,7 +1055,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "gender/determine.html", 
-    "url2": "gender/enamel.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 158, 
@@ -703,7 +1072,13 @@ var minigames = [
     "symbol": "i", 
     "symbol2": "j", 
     "url": "docks/containers.html", 
-    "url2": "docks/quantum.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 160, 
@@ -714,7 +1089,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "reaction/enzyme.html", 
-    "url2": "reaction/pyr_dh.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 163, 
@@ -725,7 +1106,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "metabolism/enzymes.html", 
-    "url2": "metabolism/hydratase.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 165, 
@@ -736,7 +1123,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "pig/entry_name.html", 
-    "url2": "pig/wild.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 166, 
@@ -747,7 +1140,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "cofactor/pig.html", 
-    "url2": "cofactor/superpower.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 169, 
@@ -758,7 +1157,13 @@ var minigames = [
     "symbol": "i", 
     "symbol2": "j", 
     "url": "pig_in_3d/enzyme.html", 
-    "url2": "pig_in_3d/pyr_dh.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 170, 
@@ -769,7 +1174,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "cluster/arroz.html", 
-    "url2": "cluster/meal.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 171, 
@@ -780,7 +1191,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "multi/align.html", 
-    "url2": "multi/pass.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 180, 
@@ -791,7 +1208,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "assembly/explore2.html", 
-    "url2": "assembly/sorted.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 181, 
@@ -802,7 +1225,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "overlap/template.html", 
-    "url2": "overlap/pancake.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 183, 
@@ -813,7 +1242,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "exact/merge.html", 
-    "url2": "exact/2004.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 187, 
@@ -824,7 +1259,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "final/fast.html", 
-    "url2": "final/lies.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 190, 
@@ -835,7 +1276,13 @@ var minigames = [
     "symbol": "a", 
     "symbol2": "b", 
     "url": "eyes/only.html", 
-    "url2": "eyes/james_bond.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 191, 
@@ -846,7 +1293,13 @@ var minigames = [
     "symbol": "c", 
     "symbol2": "d", 
     "url": "opsin/genes.html", 
-    "url2": "opsin/trekking.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 192, 
@@ -857,7 +1310,13 @@ var minigames = [
     "symbol": "e", 
     "symbol2": "f", 
     "url": "mining/mw_lw.html", 
-    "url2": "mining/philosophy.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 195, 
@@ -868,7 +1327,13 @@ var minigames = [
     "symbol": "g", 
     "symbol2": "h", 
     "url": "life/tree.html", 
-    "url2": "life/deadoralive.html"
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }, 
   {
     "ID": 197, 
@@ -879,17 +1344,12 @@ var minigames = [
     "symbol": "i", 
     "symbol2": "j", 
     "url": "howler/monkey.html", 
-    "url2": "howler/fireworks.html"
-  }, 
-  {
-    "ID": 0, 
-    "index": 0, 
-    "level": 0, 
-    "max": 0, 
-    "next": 0, 
-    "symbol": "", 
-    "symbol2": "", 
-    "url": "", 
-    "url2": ""
+    "help": [
+        "<br /><br />",
+        "<p style=\"font-size: 150%\">No clue for this mini-game</p>",
+    ],
+    "history": [
+      "2017/03/17: Refactoring with JS"
+    ]
   }
 ]
