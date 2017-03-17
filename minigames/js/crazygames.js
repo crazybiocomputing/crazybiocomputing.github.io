@@ -29,8 +29,8 @@ function create_header() {
     let html = `
 <ul>
 <li><a href="../index.html">[ H o m e ]</a></li>
-<li><a href="help.html">[ H e l p ]</a></li>
-<li><a href="history.html">&mdash; c&nbsp;&nbsp;r&nbsp;&nbsp;a&nbsp;&nbsp;z&nbsp;&nbsp;y
+<li><a href="../../help.html">[ H e l p ]</a></li>
+<li><a href="../../history.html">&mdash; c&nbsp;&nbsp;r&nbsp;&nbsp;a&nbsp;&nbsp;z&nbsp;&nbsp;y
 &nbsp;&nbsp;b&nbsp;&nbsp;i&nbsp;&nbsp;o
 &nbsp;&nbsp;c&nbsp;&nbsp;o&nbsp;&nbsp;m&nbsp;&nbsp;p&nbsp;&nbsp;u&nbsp;&nbsp;t&nbsp;&nbsp;i&nbsp;&nbsp;n&nbsp;&nbsp;g  &mdash;</a></li>
 <li><a href="#">[ L e v e l # ` + level+ '&mdash; g a m e # '+ gameIndex +` ]</a></li>
@@ -43,6 +43,40 @@ function create_header() {
     let elt = document.createElement('title');
     elt.textContent = 'Level #'+level+' Game #'+gameIndex + ' - CrazyBioComputing';
     document.head.appendChild(elt);
+}
+
+function create_header_history() {
+    let menu = document.querySelector('header');
+    let family = 'bioinfo'; // Must be checked between ip, bioinfo, and tutorial
+    let url = window.location.href.substr(window.location.href.lastIndexOf(family + '/') + family.length + 1);
+    console.log(url);
+    var index = 0;
+    while (minigames[index].url !== url && index < minigames.length) {
+        index++;
+    }
+    let level = minigames[index].level;
+    let gameIndex = minigames[index].index;
+    localStorage.setItem('crazybio_accession', index);
+    let html = `
+<ul>
+<li><a href="../index.html">[ H o m e ]</a></li>
+<li><a href="../../help.html">[ H e l p ]</a></li>
+<li><a href="#">&mdash; c&nbsp;&nbsp;r&nbsp;&nbsp;a&nbsp;&nbsp;z&nbsp;&nbsp;y
+&nbsp;&nbsp;b&nbsp;&nbsp;i&nbsp;&nbsp;o
+&nbsp;&nbsp;c&nbsp;&nbsp;o&nbsp;&nbsp;m&nbsp;&nbsp;p&nbsp;&nbsp;u&nbsp;&nbsp;t&nbsp;&nbsp;i&nbsp;&nbsp;n&nbsp;&nbsp;g  &mdash;</a></li>
+<li><a href="minigames[index].url">[ L e v e l # ` + level+ '&mdash; g a m e # '+ gameIndex +` ]</a></li>
+</ul>
+</div>`;
+  
+    menu.innerHTML = html;
+    
+    // Create Title
+    let elt = document.createElement('title');
+    elt.textContent = 'Level #'+level+' Game #'+gameIndex + ' - CrazyBioComputing';
+    document.head.appendChild(elt);
+    
+    // Add content
+    document.querySelector('output').innerHTML = minigames[index].help;
 }
 
 
