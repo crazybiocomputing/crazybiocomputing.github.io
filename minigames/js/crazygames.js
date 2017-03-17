@@ -70,7 +70,7 @@ function create_header_history() {
     document.head.appendChild(elt);
     
     // Add content
-    document.querySelector('output').innerHTML = minigames[index].help.join();
+    document.querySelector('output').innerHTML = minigames[index].help.join('');
 }
 
 
