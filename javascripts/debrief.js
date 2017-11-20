@@ -3,7 +3,7 @@ function debrief(v,org,target) {
 }
 
 function configButton(elt, backcolor) {
-    elt.href = `https://moodle1.u-bordeaux.fr/mod/page/view.php?id=${elt.dataset.href}&exid=${elt.dataset.exid}`;
+    elt.href = `https://moodle1.u-bordeaux.fr/mod/page/view.php?id=${elt.dataset.href}`;
     elt.style.background = backcolor; 
     elt.style.color = "white";
     // elt.style.border = "1px solid black";
