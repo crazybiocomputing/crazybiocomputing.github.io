@@ -29,6 +29,17 @@ function createButton(color,label) {
     return elt;
 }
 
+function debrief_menubar() {
+    let home = localStorage.getItem('crazybio_home');
+    let output = document.getElementById("output");
+    let homelink = createButton("#0078e7", 'Return to Page');homelink.href= home;
+    
+    // Add buttons to 'output'
+    output.appendChild(remind);
+    output.appendChild(challenges);
+    output.appendChild(homelink);
+}
+
 function debrief_moderate_menubar() {
     let home = localStorage.getItem('crazybio_home');
     let output = document.getElementById("output");
