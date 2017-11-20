@@ -35,8 +35,6 @@ function debrief_menubar() {
     let homelink = createButton("#0078e7", 'Return to Page');homelink.href= home;
     
     // Add buttons to 'output'
-    output.appendChild(remind);
-    output.appendChild(challenges);
     output.appendChild(homelink);
 }
 
