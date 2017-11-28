@@ -2,6 +2,17 @@ function debrief(v,org,target) {
     localStorage.setItem('crazybio_home',window.location);
 }
 
+function configLinkButton(elt, link, backcolor) {
+    elt.href = `${link}?id=${elt.dataset.href}`;
+    elt.style.background = backcolor; 
+    elt.style.color = "white";
+    // elt.style.border = "1px solid black";
+    elt.style.borderRadius = "2px"; 
+    elt.style.padding = "0.5em 1em";
+    elt.style.textDecoration = "none";
+
+}
+
 function configButton(elt, backcolor) {
     elt.href = `https://moodle1.u-bordeaux.fr/mod/page/view.php?id=${elt.dataset.href}`;
     elt.style.background = backcolor; 
