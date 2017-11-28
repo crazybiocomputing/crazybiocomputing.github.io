@@ -35,7 +35,7 @@ function configButtons() {
 
 function configOneButton() {
     let button = document.querySelector('.crazybutton');
-    configLinkButton(elt,"#0078e7");
+    configLinkButton(button,"#0078e7");
 }
 
 function createButton(color,label) {
