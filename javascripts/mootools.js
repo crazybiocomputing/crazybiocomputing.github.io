@@ -1,9 +1,25 @@
+/**
+ * Collection of tools for moodle
+ * @author Jean-Christophe Taveau
+ */
+
 function debrief(v,org,target) {
     localStorage.setItem('crazybio_home',window.location);
 }
 
+function configLinkButton(elt, backcolor) {
+    elt.href = `https://moodle1.u-bordeaux.fr/${elt.dataset.path}?id=${elt.dataset.href}`;
+    elt.style.background = backcolor; 
+    elt.style.color = "white";
+    // elt.style.border = "1px solid black";
+    elt.style.borderRadius = "2px"; 
+    elt.style.padding = "0.5em 1em";
+    elt.style.textDecoration = "none";
+
+}
+
 function configButton(elt, backcolor) {
-    elt.href = "https://moodle1.u-bordeaux.fr/mod/page/view.php" + "?"+"id="+elt.dataset.href;
+    elt.href = `https://moodle1.u-bordeaux.fr/mod/page/view.php?id=${elt.dataset.href}`;
     elt.style.background = backcolor; 
     elt.style.color = "white";
     // elt.style.border = "1px solid black";
@@ -22,11 +38,25 @@ function configButtons() {
     }
 }
 
+function configOneButton() {
+    let button = document.querySelector('.crazybutton');
+    configLinkButton(button,"#0078e7");
+}
+
 function createButton(color,label) {
     let elt = document.createElement('a');
     elt.appendChild(document.createTextNode(label));
     configButton(elt,color);
     return elt;
+}
+
+function debrief_menubar() {
+    let home = localStorage.getItem('crazybio_home');
+    let output = document.getElementById("output");
+    let homelink = createButton("#0078e7", 'Return to Page');homelink.href= home;
+    
+    // Add buttons to 'output'
+    output.appendChild(homelink);
 }
 
 function debrief_moderate_menubar() {
@@ -59,17 +89,6 @@ function highlight() {
     }
     let kwords = document.querySelectorAll('.hljs-keyword,.hljs-title');
     for (let i in kwords) {
-        if (kwords[i].style !== undefined) {
-            kwords[i].style.fontWeight = "bold";
-        }
+        kwords[i].style.fontWeight = "bold";
     }
-  
-    let comments = document.querySelectorAll('.hljs-comment');
-    for (let i in comments) {
-        if (comments[i].style !== undefined) {
-            comments[i].style.fontStyle = "italic";
-        }
-    }
-
 }
-
