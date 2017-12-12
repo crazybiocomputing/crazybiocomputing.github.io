@@ -8,7 +8,8 @@ function debrief(v,org,target) {
 }
 
 function configButtonPath(elt, backcolor) {
-    elt.href = `https://moodle1.u-bordeaux.fr/${elt.dataset.path}?id=${elt.dataset.href}`;
+    let path = elt.dataset.path || 'mod/page/view.php';
+    elt.href = `https://moodle1.u-bordeaux.fr/${path}?id=${elt.dataset.href}`;
     elt.style.background = backcolor; 
     elt.style.color = "white";
     // elt.style.border = "1px solid black";
