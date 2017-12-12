@@ -7,7 +7,7 @@ function debrief(v,org,target) {
     localStorage.setItem('crazybio_home',window.location);
 }
 
-function configLinkButton(elt, backcolor) {
+function configButtonPath(elt, backcolor) {
     elt.href = `https://moodle1.u-bordeaux.fr/${elt.dataset.path}?id=${elt.dataset.href}`;
     elt.style.background = backcolor; 
     elt.style.color = "white";
@@ -40,7 +40,13 @@ function configButtons() {
 
 function configOneButton() {
     let button = document.querySelector('.crazybutton');
-    configLinkButton(button,"#0078e7");
+    configButtonPath(button,"#0078e7");
+}
+
+function configHREFButton() {
+    let button = document.querySelector('.crazylink');
+    localStorage.setItem('crazybio_url',button.dataset.url);
+    configButtonPath(button,"#33cccc");
 }
 
 function createButton(color,label) {
