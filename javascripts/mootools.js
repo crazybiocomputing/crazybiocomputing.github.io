@@ -46,7 +46,7 @@ function configOneButton() {
 function configHREFButton() {
     let button = document.querySelector('.crazylink');
     localStorage.setItem('crazybio_url',button.dataset.url);
-    configButtonPath(button,"#33cccc");
+    configButtonPath(button,"#00cc00");
 }
 
 function createButton(color,label) {
