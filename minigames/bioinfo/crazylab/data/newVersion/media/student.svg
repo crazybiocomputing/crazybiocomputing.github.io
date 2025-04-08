@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="401.69193"
+   height="300.52118"
+   id="svg3324"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="student_simple.svg">
+  <defs
+     id="defs3326">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3829-9"
+       id="linearGradient3175"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(453.28614,-27.204768)"
+       x1="339.40546"
+       y1="533.74548"
+       x2="328.12418"
+       y2="535.67938" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3829-9">
+      <stop
+         style="stop-color:#2c89a0;stop-opacity:1;"
+         offset="0"
+         id="stop3831-7" />
+      <stop
+         style="stop-color:#2c89a0;stop-opacity:0;"
+         offset="1"
+         id="stop3833-7" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0696577"
+     inkscape:cx="246.12856"
+     inkscape:cy="149.05626"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3329">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-201.54197,-332.04172)">
+    <path
+       style="fill:#3c85a5;fill-opacity:1;stroke:#000000;stroke-width:3.95712471;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 203.93639,564.06318 396.76532,-93.1374 0.62092,160.81724 -397.38624,-1.24184 z"
+       id="path4249"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#bcbfde;fill-opacity:1;stroke:#000000;stroke-width:3.95712471;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 600.28756,335.77271 c -0.0396,10.24511 0.21639,137.17455 0.21639,137.17455 -19.03385,7.40849 -374.2461,87.53775 -395.50758,96.38102 l 0.26968,-233.55557 c -0.007,-1.47324 386.67866,-0.15523 395.02151,0 z"
+       id="rect3459"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <g
+       id="body"
+       inkscape:label="#g4338"
+       transform="translate(-1.449515,25.124927)">
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:connector-curvature="0"
+         id="path3949-9"
+         d="m 388.56252,418.00499 c 0.63936,0.89511 4.47553,29.02707 5.24276,29.02707 0.76724,0 36.8273,-10.2298 37.33879,-10.74129 0.5115,-0.51149 -9.20682,-25.70237 -9.20682,-25.70237 l 0,-18.6694 z"
+         style="fill:#e9afc4;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102"
+         inkscape:export-xdpi="102"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3807-1"
+         d="m 401.1674,416.61782 c 11.68774,0.008 6.78166,15.70488 6.78166,15.70488 l 16.24027,-13.02792 -4.46161,-20.1665 c -0.53539,3.21237 -8.19595,15.50014 -18.56032,17.48954 z"
+         style="opacity:0.05017922;fill:#020301;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccsccscsccccccccccsssc"
+         inkscape:connector-curvature="0"
+         id="path3904-9"
+         d="m 424.30084,417.50177 c -1.53193,-2.40733 -3.08577,-9.81047 -3.08577,-9.81047 1.75078,1.20367 6.38914,1.26849 6.96481,3.30156 1.33496,4.71463 0.12582,7.35022 2.20488,10.5235 0,0 36.72943,24.57629 39.57444,26.10823 3.04995,4.92684 1.56335,5.5132 3.22849,11.40537 1.66513,5.89217 3.267,11.47685 2.02297,21.00426 3.38051,6.17692 8.30897,19.10465 10.16559,28.49838 1.85663,9.39372 3.23799,18.28237 3.62098,25.28549 l -9.8976,13.6595 c -12.01702,7.44323 -21.47786,9.85835 -27.24396,8.66919 -8.09735,12.03661 -5.03348,44.98651 -5.03348,44.98651 -16.43743,28.96119 -53.57101,18.60033 -53.57101,18.60033 -28.17846,-1.56547 -36.98182,-25.64494 -36.98182,-25.64494 1.26193,-35.00423 8.02062,-83.15522 8.02062,-83.15522 l 0.38185,-41.77046 c -3.43666,-11.07366 -3.25584,-26.67126 2.85377,-35.83569 l 15.073,-6.43317 c 0,0 4.18625,-15.3305 5.60316,-8.79464 1.88494,8.69477 9.15605,21.92424 12.28699,21.1415 1.56547,-0.39136 4.63584,-9.22676 13.98458,-12.86574 5.80124,-2.25811 9.82751,-8.87349 9.82751,-8.87349 z"
+         style="fill:#e3e2db;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="zzzzzzzzz"
+         inkscape:connector-curvature="0"
+         id="path3050-5"
+         d="m 371.44614,369.60929 c -1.88734,7.62729 3.2391,8.76055 4.11353,14.2694 0.87443,5.50885 0.31414,10.71906 2.93986,17.45875 2.62572,6.7397 3.07479,15.3073 11.52361,16.61544 8.44881,1.30815 20.21819,-5.24996 24.45672,-10.18846 4.23852,-4.93851 3.50283,-3.8006 5.06278,-12.09796 1.55995,-8.29738 4.93977,-28.44717 -0.94927,-37.53473 -5.88905,-9.08755 -14.75622,-13.84714 -24.6811,-12.09796 -9.92488,1.74918 -20.57877,15.94824 -22.46613,23.57552 z"
+         style="fill:#e9afc4;fill-opacity:1;stroke:#de8787;stroke-width:0.54827297px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="zzcccczz"
+         inkscape:connector-curvature="0"
+         id="path4040-1"
+         d="m 395.3268,377.07745 c -2.98535,2.2678 -2.93687,5.07445 -3.40856,7.64848 -0.47168,2.57403 -0.21294,5.53724 0.41568,7.31594 1.5574,-0.59198 1.27842,-3.05495 1.1639,-1.91213 -0.43292,-1.87128 -0.51618,-4.46751 0.6444,-6.76715 3.23897,1.85714 9.2661,-0.70363 13.45118,-2.35709 1.60789,-3.23301 4.86179,-4.59079 1.7002,-6.00644 -3.1616,-1.41566 -10.98145,-0.18941 -13.9668,2.07839 z"
+         style="opacity:0.21505378;fill:#000303;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="czc"
+         inkscape:connector-curvature="0"
+         id="path3826-0"
+         d="m 396.77684,383.41272 c 3.46852,0.96153 10.57142,-0.23103 10.57142,-0.23103 0,0 -6.8695,-5.44381 -10.57142,0.23103 z"
+         style="fill:#fffefe;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         transform="matrix(0.19824523,0.03516273,-0.03516273,0.19824523,335.2144,314.3508)"
+         d="m 389.47368,275.05066 c 0,4.75295 -3.85303,8.60597 -8.60597,8.60597 -4.75295,0 -8.60598,-3.85302 -8.60598,-8.60597 0,-4.75295 3.85303,-8.60598 8.60598,-8.60598 4.75294,0 8.60597,3.85303 8.60597,8.60598 z"
+         sodipodi:ry="8.6059742"
+         sodipodi:rx="8.6059742"
+         sodipodi:cy="275.05066"
+         sodipodi:cx="380.86771"
+         id="path3828-04"
+         style="opacity:0.46953406;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         transform="matrix(0.09912261,0.01758137,-0.01758137,0.09912261,367.82105,348.25571)"
+         d="m 389.47368,275.05066 c 0,4.75295 -3.85303,8.60597 -8.60597,8.60597 -4.75295,0 -8.60598,-3.85302 -8.60598,-8.60597 0,-4.75295 3.85303,-8.60598 8.60598,-8.60598 4.75294,0 8.60597,3.85303 8.60597,8.60598 z"
+         sodipodi:ry="8.6059742"
+         sodipodi:rx="8.6059742"
+         sodipodi:cy="275.05066"
+         sodipodi:cx="380.86771"
+         id="path3828-4-6"
+         style="opacity:0.46953406;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path3851-4"
+         d="m 393.33593,379.449 1.49644,0.70885 c 3.78048,-2.12654 6.93089,-4.01678 15.5945,-1.41769 -1.81149,-2.12652 -9.2937,-5.74949 -17.09094,0.70884 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cccccczc"
+         inkscape:connector-curvature="0"
+         id="path3930-0"
+         d="m 406.96577,354.92027 c -2.19001,7.27817 -29.27793,18.07794 -33.74816,19.28594 2.7913,5.35744 6.99491,0.2233 14.51746,6.36268 -0.2148,2.41645 0.28573,2.92064 -2.14802,4.98681 -2.84516,1.06704 -7.49579,2.1254 -10.08914,5.45527 0.50527,-3.3673 0.44606,-2.98017 0.0877,-8.13565 -1.60314,-4.94801 -8.0848,-6.71186 -4.77723,-11.38234 3.30759,-4.67048 33.57551,-21.36121 36.15735,-16.57271 z"
+         style="opacity:0.12544801;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="sscscsccssssssss"
+         inkscape:connector-curvature="0"
+         id="path3853-7"
+         d="m 373.52209,351.11071 c -3.22678,5.90924 -3.55209,11.48701 -4.00673,18.2045 -0.32392,4.78602 2.17569,8.81955 3.62297,12.12905 0.21589,-8.09643 3.22916,-11.18394 4.09553,-11.42022 0.86635,-0.23628 24.40637,-9.6105 27.01472,-15.75202 8.04472,3.25374 12.05029,17.24846 12.36533,17.48475 0.31504,0.23628 0.55513,11.08003 0.0848,17.80182 2.81512,-0.0906 3.61265,-3.72469 5.74339,-8.82317 5.34238,1.30413 -1.11697,10.96163 -1.10264,16.46087 0.0123,4.73789 -3.20125,10.42677 1.02388,12.57064 2.51393,1.27558 0.33905,-2.27146 0.65692,-5.07252 0.41733,-3.67738 2.87435,-4.01444 3.20233,-7.49812 0.71439,-7.58807 3.75222,-20.76706 3.22916,-29.556 -0.74184,-12.46553 -8.38534,-20.38621 -20.16346,-25.12622 -7.52745,-3.02937 -17.80516,-3.72152 -24.91416,0.19025 -3.35612,1.84671 -9.01622,5.04432 -10.8521,8.40639 z"
+         style="fill:#000000;stroke:#000000;stroke-width:0.55368358px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3858-5"
+         d="m 385.9596,383.40125 c -4.88314,1.33892 -8.34858,-0.15753 -8.34858,-0.15753 0,0 5.67073,-5.43444 8.34858,0.15753 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         transform="matrix(0.20133949,0,0,0.20133949,306.44052,327.07757)"
+         d="m 389.47368,275.05066 c 0,4.75295 -3.85303,8.60597 -8.60597,8.60597 -4.75295,0 -8.60598,-3.85302 -8.60598,-8.60597 0,-4.75295 3.85303,-8.60598 8.60598,-8.60598 4.75294,0 8.60597,3.85303 8.60597,8.60598 z"
+         sodipodi:ry="8.6059742"
+         sodipodi:rx="8.6059742"
+         sodipodi:cy="275.05066"
+         sodipodi:cx="380.86771"
+         id="path3828-2-6"
+         style="opacity:0.46953406;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         transform="matrix(0.10066973,0,0,0.10066973,344.46734,354.68809)"
+         d="m 389.47368,275.05066 c 0,4.75295 -3.85303,8.60597 -8.60597,8.60597 -4.75295,0 -8.60598,-3.85302 -8.60598,-8.60597 0,-4.75295 3.85303,-8.60598 8.60598,-8.60598 4.75294,0 8.60597,3.85303 8.60597,8.60598 z"
+         sodipodi:ry="8.6059742"
+         sodipodi:rx="8.6059742"
+         sodipodi:cy="275.05066"
+         sodipodi:cx="380.86771"
+         id="path3828-4-2-8"
+         style="opacity:0.46953406;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4141-8-8"
+         d="m 398.25906,405.39893 c -2.83594,3.04842 -11.60158,2.07847 -11.60158,2.07847 l -1.16015,-2.3556 11.47267,-1e-5 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="zzcccz"
+         inkscape:connector-curvature="0"
+         id="path3910-4"
+         d="m 442.87904,550.04448 c 6.87397,-1.35168 2.6579,-1.41032 4.00884,6.20478 1.35095,7.61509 -4.00884,13.36359 -22.01174,25.10462 -23.48205,6.26188 -54.79145,10.17556 -54.79145,10.17556 0,0 36.78855,-7.82736 50.87777,-16.43744 13.3065,-8.61009 15.04262,-23.69585 21.91658,-25.04752 z"
+         style="fill:#aca793;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3910-7-7"
+         d="m 435.71966,546.58572 c 1.04553,12.32359 -17.13447,24.68809 -20.31304,27.07097 -31.3094,10.9583 -54.00872,11.74103 -54.00872,11.74103 -0.2222,0.0909 8.25899,-2.59594 50.87778,-16.43744 13.3065,-8.61008 16.71152,-21.89121 23.44398,-22.37456 z"
+         style="fill:#aca793;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path3933-1"
+         d="m 388.58305,380.50907 c -6.63909,-4.56438 -14.10809,-2.69713 -14.10809,-2.69713 l 1.24484,2.07471 c 2.90461,-1.65978 12.86325,0.62242 12.86325,0.62242 z"
+         style="fill:#24221c;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3942-8"
+         d="m 419.65179,382.1431 c 0.25574,-0.51149 1.76408,-1.99015 3.42641,-2.75739 0,0 3.96583,-1.28226 4.60519,4.02445 -0.41915,3.58898 -3.57231,11.2581 -3.57231,11.2581 -1.08692,1.27872 -2.23777,1.66234 -2.23777,1.66234 -1.59841,-0.63936 -3.06894,-2.30171 -3.06894,-2.30171 z"
+         style="fill:#e9afaf;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="zzzzzzzzzzzzzz"
+         inkscape:connector-curvature="0"
+         id="path3945-90"
+         d="m 421.17001,384.31057 c 0.0639,-0.25573 1.05032,-2.95625 2.36564,-3.005 1.31532,-0.0487 3.12201,2.04277 2.74926,3.005 -0.37274,0.96225 -1.58245,-0.74773 -2.10989,0.19182 -0.52744,0.93955 2.26933,2.83667 1.91809,3.90011 -0.35125,1.06344 -1.45677,0.65743 -2.1099,1.08692 -0.65314,0.42948 -1.57426,0.7731 -1.79022,1.47053 -0.21596,0.69743 1.11969,1.54675 0.57543,1.98203 -0.54426,0.43528 -1.47451,-0.23854 -1.85416,-1.02298 -0.37964,-0.78444 0.0535,-2.17907 0.5115,-3.06894 0.45794,-0.88987 1.94774,-1.31254 2.04596,-2.04596 0.0982,-0.73343 -0.23182,-1.22775 -0.76724,-1.34267 -0.53542,-0.11492 -0.81642,1.30199 -1.40659,1.02298 -0.59018,-0.27901 -0.19181,-1.91808 -0.12788,-2.17384 z"
+         style="opacity:0.24014336;fill:#000203;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cscc"
+         inkscape:connector-curvature="0"
+         id="path4018-1"
+         d="m 422.21703,412.18811 c 0.21885,0.87539 1.53281,6.89325 1.97051,5.58018 0.43769,-1.31309 2.0786,-0.85977 1.96875,-4.70479 -1.3183,-1.42816 -3.93926,-0.87539 -3.93926,-0.87539 z"
+         style="opacity:0.2688172;fill:#000303;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cccccccccccccccsccc"
+         inkscape:connector-curvature="0"
+         id="path4130-6"
+         d="m 427.56551,415.26415 -5.79606,8.5681 -6.80406,4.78804 c -6.04807,4.03204 -7.56008,14.36414 -7.56008,14.36414 l -5.79605,1.00801 -0.75601,5.29205 -4.28404,0 0.756,-4.03204 -4.78805,1.51202 -1.51201,4.78805 -1.51202,0.252 0,-3.02404 -5.04004,3.52804 c 0,0 -1.76402,1.76402 -2.52003,6.80407 5.29206,-6.30007 11.84412,-7.30807 11.84412,-7.30807 0,0 8.95096,1.44171 11.84411,-1.51202 4.45056,-4.54372 7.46748,-11.89804 10.58411,-16.63216 0,0 8.82009,-9.5761 12.60013,-12.09613 z"
+         style="opacity:0.10394263;fill:#000303;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4141-3"
+         d="m 398.52914,405.1913 c -2.97098,1.48549 -12.15402,1.01283 -12.15402,1.01283 l -1.2154,-1.14788 12.01898,0 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         sodipodi:nodetypes="csccccc"
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:connector-curvature="0"
+         id="path3938-1"
+         d="m 384.72633,405.08987 c 0.25576,-0.0639 5.06891,0.4619 5.45252,0.4619 0.38362,0 8.86921,-0.58977 8.86921,-0.58977 l -7.73629,-0.57543 -1.47053,0.51149 -1.27872,-0.51149 z"
+         style="fill:#de8787;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cczc"
+         inkscape:connector-curvature="0"
+         id="path3856-8"
+         d="m 385.02977,405.15105 c 2.86966,2.3184 7.04324,2.59373 14.10453,-0.15819 -3.59486,2.71488 -5.08971,4.33008 -8.80998,4.36616 -3.72028,0.0361 -5.29455,-4.20797 -5.29455,-4.20797 z"
+         style="fill:#de8787;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4161-51"
+         d="m 396.59694,382.73817 c 0.70907,-1.74532 1.10204,-2.74631 4.34379,-2.98746 3.01988,0.81107 6.366,3.95715 6.366,3.95715 0,0 -3.49113,-2.3505 -5.99771,-3.00787 -2.80577,-0.28085 -4.71208,2.03818 -4.71208,2.03818 z"
+         style="opacity:0.40143367;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4161-1-4"
+         d="m 385.96767,383.28413 c -0.65004,-1.76568 -1.01103,-2.77755 -3.81365,-3.20159 -2.58813,0.62868 -5.4067,3.54657 -5.4067,3.54657 0,0 2.96111,-2.12325 5.10967,-2.62941 2.41498,-0.11688 4.11068,2.28443 4.11068,2.28443 z"
+         style="opacity:0.40143367;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4273-1"
+         d="m 442.60146,494.35344 c -4.77313,-0.38184 -17.7319,-4.13273 -23.20165,-5.76916 4.2442,7.30267 26.82923,17.22468 26.82923,17.22468 0,0 -4.20035,-4.77313 -3.62758,-11.45552 z"
+         style="opacity:0.14336919;fill:#010101;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102"
+         inkscape:export-xdpi="102"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cccccsssccc"
+         inkscape:connector-curvature="0"
+         id="path3033-8"
+         d="m 422.61769,490.32358 c 5.51641,1.43018 19.76651,2.70774 19.76651,2.70774 l -2.34589,-15.97074 1.86465,-2.49851 c 0.89233,10.32142 6.1284,32.87775 9.11401,41.50473 -0.11507,0.57857 0.97045,40.13817 0.62325,40.13173 -0.34719,-0.006 -1.80935,6.40016 -2.04674,2.57902 -0.26033,-4.19052 0.13512,-35.83375 -0.40599,-39.04774 -0.38647,-2.29544 -1.64381,-4.88887 -1.64381,-4.88887 l -4.08623,-9.60263 c 0,0 -17.80586,-10.09619 -20.83976,-14.91473 z"
+         style="opacity:0.25089608;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4277-4"
+         d="m 458.69626,455.35112 c 8.01886,17.37421 17.3742,44.48562 17.3742,44.48562 l 4.39128,5.34591 c 0,0 -13.74662,-39.33063 -21.76548,-49.83153 z"
+         style="opacity:0.35125451;fill:#fdffff;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="czzzccssszcc"
+         inkscape:connector-curvature="0"
+         id="path3940-9-6-8"
+         d="m 389.77769,399.5128 c -1.00454,0.18823 -2.62098,0.63953 -3.29487,0.38056 -0.67387,-0.25896 -1.29981,-1.21286 -1.28711,-2.37498 0.0127,-1.16214 1.02657,-2.68612 1.34615,-2.28403 0.31959,0.40208 -0.0702,2.82453 1.19196,3.665 0.55416,-0.268 1.57822,-0.16153 2.43648,0.0953 0.20556,-0.0725 1.04366,-0.15096 1.41701,-0.20759 0.37335,-0.0566 0.70183,-0.005 1.36174,-0.76001 0.41608,-0.47618 0.43541,-1.3746 0.74432,-1.35938 0.27494,0.0136 0.70917,1.81269 0.0773,2.9482 -0.63188,1.13551 -2.47099,0.22327 -3.99297,-0.10305 z"
+         style="fill:#b78a9b;fill-opacity:1;stroke:none;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.55368362,0,0,0.55368362,-57.207399,273.71217)"
+       style="display:inline"
+       id="coffeeCup"
+       inkscape:label="#g3225">
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="csccccccc"
+         inkscape:connector-curvature="0"
+         id="path3969-3-9"
+         d="m 785.76557,494.06458 c 0,0 10.5105,-6.6066 12.61261,-6.6066 2.1021,0 6.3063,-3.00301 13.21321,2.1021 0,0 3.3033,11.11111 -1.5015,21.02102 -1.93153,-1.37474 -2.74102,-1.11118 -4.80481,-2.1021 0,0 4.49524,-6.23173 1.8018,-14.41442 -3.3033,-2.7027 -9.009,0.6006 -9.009,0.6006 -4.8048,3.003 -9.90991,6.00601 -9.90991,6.00601 z"
+         style="fill:#00babf;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3969-6"
+         d="m 812.4453,507.74 c -6.20525,7.75266 -8.44451,15.51587 -17.71772,22.22222 l -2.7027,-8.10811 c 0,0 9.90991,-9.009 13.81381,-14.71471 3.96511,0.0781 1.84764,0.59147 6.60661,0.6006 z"
+         style="fill:#00babf;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3965-4"
+         d="m 741.24401,487.0347 c 0,0 8.41564,-6.55209 25.2509,-9.99597 15.03148,-1.32457 24.65031,0.61782 24.65031,0.61782 1.2012,8.10811 6.31518,56.86852 6.31518,56.86852 0,0 -2.1067,5.82811 -19.54223,9.48431 -15.33144,3.40849 -21.64631,-3.53283 -21.64631,-3.53283 0,0 -13.82665,-46.83524 -15.02785,-53.44185 z"
+         style="fill:#00d1ff;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:connector-curvature="0"
+         id="path3967-2"
+         d="m 773.87989,482.76398 c -2.60501,0.0254 -4.84082,0.27508 -6.3125,0.71875 -3.99733,1.2051 -11.44042,2.89247 -18.25,7.59375 4.43031,0.41999 11.21422,-0.0244 18.71875,-1.4375 7.52449,-1.41688 14.06012,-3.46105 18.03125,-5.46875 -4.03933,-1.00501 -8.48155,-1.44242 -12.1875,-1.40625 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:transform-center-y="2.4024024"
+         inkscape:transform-center-x="-2.7027027"
+         transform="matrix(0.98272914,-0.18504983,0.18504983,0.98272914,394.8279,11.214692)"
+         d="m 301.20119,534.94476 c 0,2.81947 -10.48702,5.10511 -23.42342,5.10511 -12.9364,0 -23.42342,-2.28564 -23.42342,-5.10511 0,-2.81947 10.48702,-5.1051 23.42342,-5.1051 12.9364,0 23.42342,2.28563 23.42342,5.1051 z"
+         sodipodi:ry="5.1051049"
+         sodipodi:rx="23.423424"
+         sodipodi:cy="534.94476"
+         sodipodi:cx="277.77777"
+         id="path3992-9-5"
+         style="opacity:0.22222224;fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="102"
+         inkscape:export-xdpi="102"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3827-6"
+         d="m 763.36027,493.64781 c 4.19019,0.32232 21.5956,-2.57858 28.04204,-9.02503 0,13.85986 3.86787,48.02604 3.86787,48.02604 -5.8018,9.66967 -20.95095,9.02502 -20.95095,9.02502 z"
+         style="fill:url(#linearGradient3175);fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102"
+         inkscape:export-xdpi="102"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:connector-curvature="0"
+         id="path3839-14"
+         d="m 745.31022,494.29245 6.12412,1.28929 11.60361,46.0921 -5.80181,-2.9009 z"
+         style="opacity:0.60573479;fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102"
+         inkscape:export-xdpi="102"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3839-4-3"
+         d="m 752.88479,495.74291 2.1449,0.64465 11.71496,45.12513 -2.15077,-1.28929 z"
+         style="opacity:0.34767025;fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.55368362,0,0,0.55368362,-57.207399,273.71217)"
+       style="display:inline"
+       id="arm"
+       inkscape:label="#g3235">
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cccccccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path3952-0"
+         d="m 847.02725,472.95258 -21.47937,-3.55619 -17.06971,3.69843 -9.67283,5.26316 -7.25462,2.27597 c -0.14225,5.12091 4.55192,7.96585 4.55192,7.96585 l 12.80228,-0.28449 c 0,0 5.26316,-4.26743 13.08677,-3.12945 3.12945,1.70697 2.41821,6.11665 2.41821,6.11665 -4.97866,2.13371 -17.92319,-0.14225 -26.60029,3.84068 0,0 -5.12091,7.53912 1.99147,12.09104 0,0 19.34565,-1e-5 21.90611,1.28022 -1.13798,2.27596 -12.37553,2.84495 -18.34993,4.26743 -0.99573,9.81508 7.25463,8.81934 7.25463,8.81934 0.71124,8.6771 7.68136,7.11238 7.68136,7.11238 1.42248,7.68137 11.3798,5.83215 11.3798,5.83215 4.55192,0 8.96159,1.84921 13.65576,0.85348 l 15.78948,-9.24608 7.25462,-34.85064 z"
+         style="fill:#de8787;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cscccccccccccccccscccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path3955-42"
+         d="m 817.17108,484.31657 c 7.25462,-1.99146 17.60219,-2.92761 16.92745,-2.7027 -5.12091,1.70697 -7.68136,5.4054 -7.68136,5.4054 l 1.99146,4.55193 -28.16501,3.98293 -2.56045,6.25888 3.12944,4.12518 25.74681,-1.70697 c 3.79326,-0.23708 6.59303,-1.27388 10.09957,3.12945 0,0 -9.81508,3.69843 -18.06544,5.26315 l -12.94452,1.70698 c 0.28449,4.40967 5.12091,6.54338 5.12091,6.54338 l 20.62589,1.84922 8.81934,-4.26743 -3.69843,8.53486 -23.75534,-2.9872 7.25463,4.26742 c 0,0 20.62589,2.56046 21.90611,2.13372 1.28023,-0.42675 6.68564,-5.9744 6.68564,-5.9744 l -7.82362,10.24182 -18.34992,-1.56472 21.05263,2.7027 -22.33286,-1.99146 -2.41821,-5.26316 -4.69417,-0.56899 -3.69843,-6.97013 c 0,0 -5.12091,0.2845 -6.25889,-7.82361 l 18.91892,-6.11665 -25.32006,0 c 0,0 -3.69844,-5.54765 -0.42674,-12.23328 l 27.45377,-3.98293 c 0,0 0.42674,-7.39688 -7.53912,-6.54339 z"
+         style="opacity:0.51254482;fill:#000203;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cscccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path3907-3"
+         d="m 900.01103,419.70812 c 1.41369,51.74482 19.79161,63.24368 12.72317,63.24368 -7.06843,0 -16.96423,-2.87473 -16.96423,-2.87473 l -15.55055,-11.49884 -11.30949,8.62414 -25.44636,-7.18679 c 0,0 28.27373,22.99772 5.65475,64.68104 l 28.27373,-12.07242 16.40681,17.17207 23.85019,11.97882 c 0,0 30.67428,-7.12438 45.46642,-15.00427 5.86207,-5.17241 18.60212,-23.77749 18.60212,-23.77749 -1.76711,-14.01422 -10.98995,-43.86107 -8.8035,-49.34359 -6.97532,-14.61985 -9.06306,-32.30779 -12.946,-39.20542 -2.17181,-6.04339 -1.84412,-19.70775 -4.2406,-29.80177 -2.46505,-9.54552 -6.50781,-24.49509 -10.10382,-30.3649 -25.44635,-2.8747 -35.71684,12.30978 -35.71684,12.30978 -15.55055,22.9977 -9.8958,43.12069 -9.8958,43.12069 z"
+         style="fill:#cccccc;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4235-1"
+         d="m 880.59241,473.12789 c 5.90406,5.16606 23.98524,12.91513 33.21034,23.61624 -12.91513,2.95203 -23.24724,-2.58303 -23.24724,-2.58303 -4.42804,-7.01107 -8.48708,-13.28413 -9.9631,-21.03321 z"
+         style="opacity:0.18996414;fill:#020003;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="czzc"
+         inkscape:connector-curvature="0"
+         id="path4257-8"
+         d="m 913.28614,516.1919 c 0,0 10.17242,26.72414 4.48276,28.62068 -5.68965,1.89655 -15.17241,0.68966 -18.27586,-8.62069 -3.10345,-9.31034 13.7931,-19.99999 13.7931,-19.99999 z"
+         style="opacity:0.15;fill:#020003;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:connector-curvature="0"
+         id="path4259-5"
+         d="m 899.14821,516.1919 -10,18.62069 -5.17241,-4.82759 z"
+         style="opacity:0.15;fill:#020003;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:connector-curvature="0"
+         id="path4261-1"
+         d="m 896.38959,505.50224 -13.44828,20 -3.10345,-2.75862 z"
+         style="opacity:0.15;fill:#020003;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cssc"
+         inkscape:connector-curvature="0"
+         id="path4263-5"
+         d="m 936.38959,494.46776 c 9.65517,10.68965 24.67024,28.59395 20.39318,35.00954 -2.98783,4.48174 -8.53671,8.61188 -11.72414,-4.13794 -0.68965,-2.75862 -2.10242,-17.41733 -8.66904,-30.8716 z"
+         style="opacity:0.15;fill:#020003;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         sodipodi:nodetypes="cssc"
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:connector-curvature="0"
+         id="path4265-1"
+         d="m 954.91358,501.93308 c 7.74908,8.11808 13.73052,14.8464 12.75862,23.79311 -0.34334,3.16056 -3.59753,9.05748 -6.2069,7.24138 -3.23234,-2.24968 0.0904,-17.38135 -6.55172,-31.03449 z"
+         style="opacity:0.15;fill:#020003;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4267-1"
+         d="m 949.14821,486.53672 c 12.41801,2.56978 31.33968,25.05638 26.23665,29.5354 -2.06896,-0.0828 -14.83171,-22.16333 -26.23665,-29.5354 z"
+         style="opacity:0.15;fill:#020003;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4269-3"
+         d="m 947.7689,478.95052 c 2.41379,0.34482 21.03448,8.27586 30,19.65517 l -1.72414,4.13793 c -5.17241,-12.06896 -28.27586,-23.7931 -28.27586,-23.7931 z"
+         style="opacity:0.15;fill:#020003;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4271-3"
+         d="m 938.80338,471.70914 c 0,0 23.79311,4.13793 34.82759,12.41379 l -2.4138,-5.17241 c -12.06897,-6.89655 -32.41379,-7.24138 -32.41379,-7.24138 z"
+         style="opacity:0.15;fill:#020003;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         sodipodi:nodetypes="zzzz"
+         inkscape:export-ydpi="102.02"
+         inkscape:export-xdpi="102.02"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:connector-curvature="0"
+         id="path4275-0"
+         d="m 899.79285,465.84707 c -3.73658,-1.80268 -10.06135,-2.93634 -10.98947,2.06896 -0.92812,5.0053 10.73868,15.84009 14.96262,11.97895 4.22393,-3.86114 -0.23656,-12.24523 -3.97315,-14.04791 z"
+         style="opacity:0.2688172;fill:#010101;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102"
+         inkscape:export-xdpi="102"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:transform-center-y="-0.38588798"
+         inkscape:transform-center-x="-8.263207"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3859-4"
+         d="m 829.82963,521.30764 c 0,0 -8.57078,-2.14108 -6.32916,-8.6786 1.28619,3.41214 7.1636,8.88706 6.32916,8.6786 z"
+         style="opacity:0.56630812;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102"
+         inkscape:export-xdpi="102"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:transform-center-y="-0.38588798"
+         inkscape:transform-center-x="-8.263207"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3859-3-0"
+         d="m 841.4502,532.15039 c 0,0 -8.57078,-2.14108 -6.32916,-8.6786 1.28619,3.41214 7.1636,8.88706 6.32916,8.6786 z"
+         style="opacity:0.56630812;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="102"
+         inkscape:export-xdpi="102"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/student.png"
+         inkscape:transform-center-y="3.2270255"
+         inkscape:transform-center-x="-6.9767095"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3859-0-7"
+         d="m 816.44376,504.12992 c 0,0 -6.85488,-5.57252 -2.05325,-10.54327 -0.28158,3.63561 2.72063,11.08581 2.05325,10.54327 z"
+         style="opacity:0.56630812;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+    </g>
+  </g>
+</svg>

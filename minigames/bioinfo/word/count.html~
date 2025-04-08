@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+  font-size:18px;
+}
+</style>
+
+<script type="text/javascript">
+function doIt() {
+  var counts=[];
+  var wordlen=3;
+  var data=document.getElementById('data').innerHTML;
+  var seq='';
+  // Remove EOL
+  data=data.replace(/(\r\n|\n|\r)/g,'');
+  for (var i=0;i<data.length;i++) {
+    var word=data.substr(i,wordlen);
+    console.log(word);
+    counts[word]++;
+    if (word=='TCC')
+      for (var j=0;j<wordlen;j++) {
+        seq+='<span title="Pos:'+(i+1+j)+'" style="background-color:#0f0">'+data[i+j]+'</span>';
+        if ((i+j+1)%70==0) seq+='<br>';
+      }
+    else
+        seq+='<span title="Pos:'+(i+1+j)+'" >'+data[i+j]+'</span>';
+        if ((i+1)%70==0) seq+='<br>';
+
+
+  }
+  console.log('Length: '+data.length+' '+counts['ATG']+' '+counts['C']+' '+counts['G']+' '+counts['T']);
+  var out='';
+  for (var i=0;i<counts.length;i++)
+    out+='<li>'+counts[i]+'</li>';
+  console.log(counts.length);
+  document.getElementById('result').innerHTML='<p>Length: '+data.length+'</p><pre>'+seq+'</pre>';
+}
+
+</script>
+
+</head>
+<body onload="doIt();">
+<div id="result"></div>
+<div id="data" style="visibility:hidden" >
+GGTCACACCCAACCTCCCACTGTAAAAAAGAGCAGCGGAACGTGCGTGCATCCATCCATCCATCCATTTC
+CAATCCCAATCCCAATCCCACCAGTGTCCAGTGCTCGGGGAACCGACACAGCTCCTCAGCAGAGTAGCCA
+GCACGACAAGCCCGATCAGCAGACAGCAGGCATGGCACTCGCGGAGGCCGACGACGGCGCGGTGGTCTTC
+GGCGAGGAGCAGGAGGCGCTGGTGCTCAAGTCGTGGGCCGTCATGAAGAAGGACGCCGCCAACCTGGGCC
+TCCGCTTCTTTCTCAAGGTCTTCGAGATCGCGCCGTCGGCGAAGCAGATGTTCTCGTTCCTGCGCGACTC
+CGACGTGCCGCTGGAGAAGAACCCCAAGCTCAAGACGCACGCCATGTCCGTCTTCGTCATGACCTGCGAG
+GCGGCGGCGCAGCTTCGCAAGGCCGGGAAGGTCACCGTGAGGGAGACCACGCTCAAGAGGCTGGGCGCCA
+CGCACTTGAGGTACGGCGTCGCAGATGGACACTTCGAGGTGACGGGGTTCGCGCTGCTTGAGACGATCAA
+GGAGGCGCTCCCCGCTGACATGTGGAGCCTCGAGATGAAGAAAGCCTGGGCCGAGGCCTACAGCCAGCTG
+GTGGCGGCCATCAAGCGGGAGATGAAGCCCGATGCCTAGTAGTGGCGATTGCGACCAGTGTTTAACCCAT
+GACGCAGCGCCGTCACAGATGTCCCGTGTGGTCTTGCGCTTTAGCAATTTCTCTCTGGAGGGAGCGTGTA
+TTGTTATCTTGTGATCGAGAGCCTGTGTGCTGCCTTTGCTTCTTGTGATTATATAGCTACTGAATAAAGA
+TGTAGCGTTCTTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</div>
+</html>
+

@@ -1,0 +1,55 @@
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+
+<link href='../crazybioflow/crazybioflow.css' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="../crazybioflow/crazybioflow.js"></script>
+<script type="text/javascript" src="../crazybioflow/token.js"></script>
+<script type="text/javascript" src="flow.js"></script>
+<script>
+function readmail() {
+  var div=document.getElementById('crazybio');
+  var text='<div id="mail">';
+  text+='<p>From:boss@crazybiolab.bordeaux.eu</p>To:student@crazybiolab.bordeaux.eu</p>';
+  text+='<p>Subject: URGENT!!</p>';
+  text+='<p>Convert this sequence in FASTA format. Use the \'crazybioflow\' tool to do that.</p>',
+  text+='<br><p>The boss</p>';
+  text+='</div>';
+  div.innerHTML=text;
+
+}
+
+function initgame() {
+  var div=document.getElementById('crazybio');
+  div.innerHTML='<div id="board"></div><br /><div id="sandbox"></div>';
+  init();
+}
+
+</script>
+
+</head>
+<body>
+
+<div id="page">
+<div id="content">
+
+<div id="toolbar">
+<a href="javascript:void(0)" onClick="readmail();"><img src="../crazybioflow/img/mail.svg"></img></a>
+<a href="javascript:void(0)" onClick="initgame();"><img src="../crazybioflow/img/crazybioflow.png"></img></a>
+</div>
+<div id="crazybio">
+
+</div>
+
+
+<div id="popup" ></div>
+
+</div>
+</div>
+
+</body>
+</html>

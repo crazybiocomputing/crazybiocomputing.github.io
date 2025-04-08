@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="dessin.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="340.35003"
+     inkscape:cy="861.41059"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.08059434;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985"
+       sodipodi:cx="175.71428"
+       sodipodi:cy="239.50504"
+       sodipodi:rx="52.857143"
+       sodipodi:ry="52.857143"
+       d="m 228.57142,239.50504 a 52.857143,52.857143 0 1 1 -105.71428,0 52.857143,52.857143 0 1 1 105.71428,0 z"
+       transform="matrix(0.64922537,0,0,0.64922537,-62.882205,-6.5109474)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 46.639183,122.70815 c 0,0 22.693946,-2.075 30.987337,22.13381 -2.581781,-19.1156 -18.840648,-27.90718 -30.987337,-22.13381 z"
+       id="path3005"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.08059434;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-1"
+       sodipodi:cx="175.71428"
+       sodipodi:cy="239.50504"
+       sodipodi:rx="52.857143"
+       sodipodi:ry="52.857143"
+       d="m 228.57142,239.50504 a 52.857143,52.857143 0 1 1 -105.71428,0 52.857143,52.857143 0 1 1 105.71428,0 z"
+       transform="matrix(0.64922537,0,0,0.64922537,19.662171,1.8362387)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 129.18356,131.05534 c 0,0 22.69395,-2.07501 30.98734,22.13381 -2.58178,-19.1156 -18.84065,-27.90719 -30.98734,-22.13381 z"
+       id="path3005-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#d3d3d3;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.0805943;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-2"
+       sodipodi:cx="175.71428"
+       sodipodi:cy="239.50504"
+       sodipodi:rx="52.857143"
+       sodipodi:ry="52.857143"
+       d="m 228.57142,239.50504 a 52.857143,52.857143 0 1 1 -105.71428,0 52.857143,52.857143 0 1 1 105.71428,0 z"
+       transform="matrix(0.64922537,0,0,0.64922537,88.560359,-33.28006)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 198.08176,95.939037 c 0,0 22.69394,-2.075 30.98733,22.133813 -2.58178,-19.115603 -18.84064,-27.907193 -30.98733,-22.133813 z"
+       id="path3005-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#fa1691;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.0805943;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-7"
+       sodipodi:cx="175.71428"
+       sodipodi:cy="239.50504"
+       sodipodi:rx="52.857143"
+       sodipodi:ry="52.857143"
+       d="m 228.57142,239.50504 a 52.857143,52.857143 0 1 1 -105.71428,0 52.857143,52.857143 0 1 1 105.71428,0 z"
+       transform="matrix(0.64922537,0,0,0.64922537,154.73985,6.8251727)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 264.26123,136.04427 c 0,0 22.69395,-2.075 30.98734,22.13382 -2.58178,-19.1156 -18.84065,-27.90719 -30.98734,-22.13382 z"
+       id="path3005-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.0805943;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-9"
+       sodipodi:cx="175.71428"
+       sodipodi:cy="239.50504"
+       sodipodi:rx="52.857143"
+       sodipodi:ry="52.857143"
+       d="m 228.57142,239.50504 a 52.857143,52.857143 0 1 1 -105.71428,0 52.857143,52.857143 0 1 1 105.71428,0 z"
+       transform="matrix(0.64922537,0,0,0.64922537,228.62697,-6.4472625)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 338.14836,122.77183 c 0,0 22.69394,-2.075 30.98734,22.13382 -2.58178,-19.1156 -18.84065,-27.90719 -30.98734,-22.13382 z"
+       id="path3005-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffaa00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.0805943;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-5"
+       sodipodi:cx="175.71428"
+       sodipodi:cy="239.50504"
+       sodipodi:rx="52.857143"
+       sodipodi:ry="52.857143"
+       d="m 228.57142,239.50504 a 52.857143,52.857143 0 1 1 -105.71428,0 52.857143,52.857143 0 1 1 105.71428,0 z"
+       transform="matrix(0.64922537,0,0,0.64922537,302.94045,5.4076675)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 412.46184,134.62677 c 0,0 22.69395,-2.07501 30.98733,22.13381 -2.58178,-19.1156 -18.84064,-27.90719 -30.98733,-22.13381 z"
+       id="path3005-63"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffaa00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.0805943;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-58"
+       sodipodi:cx="175.71428"
+       sodipodi:cy="239.50504"
+       sodipodi:rx="52.857143"
+       sodipodi:ry="52.857143"
+       d="m 228.57142,239.50504 a 52.857143,52.857143 0 1 1 -105.71428,0 52.857143,52.857143 0 1 1 105.71428,0 z"
+       transform="matrix(0.64922537,0,0,0.64922537,447.62496,22.102034)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 557.14635,151.32113 c 0,0 22.69397,-2.075 30.98737,22.13381 -2.58184,-19.11559 -18.84068,-27.90718 -30.98737,-22.13381 z"
+       id="path3005-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.0805943;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-8"
+       sodipodi:cx="175.71428"
+       sodipodi:cy="239.50504"
+       sodipodi:rx="52.857143"
+       sodipodi:ry="52.857143"
+       d="m 228.57142,239.50504 a 52.857143,52.857143 0 1 1 -105.71428,0 52.857143,52.857143 0 1 1 105.71428,0 z"
+       transform="matrix(0.64922537,0,0,0.64922537,376.73341,-26.220301)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#a9a8a4;fill-opacity:1;stroke:none"
+       d="m 486.2548,102.99879 c 0,0 22.69394,-2.075 30.98734,22.13382 -2.58178,-19.1156 -18.84065,-27.90719 -30.98734,-22.13382 z"
+       id="path3005-60"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/rasmol/background.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+  </g>
+</svg>

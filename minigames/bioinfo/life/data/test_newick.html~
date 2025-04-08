@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="newick.js"></script>
+<script src="d3.phylogram.js" type="text/javascript"></script>
+<script>
+function doIt() {
+
+var tree=
+  "(((((MWS_Human:0.0192171218,MWS_Pan:0.0439607643)0.7810000000:0.0087163198,"+
+  "MWS_Gorilla:0.0058005579)0.9390000000:0.0463029256,(MWS_Talapoin:0.0037491363,"+
+  "MWS_Diana:0.0093075495)0.7520000000:0.0149650847)0.9830000000:0.0858625483,"+
+  "((LWS_Gorilla:0.0269646614,LWS_Pan:0.0000002411)0.8240000000:0.0096667444,"+
+  "LWS_Human:0.0035009846)0.8970000000:0.0425324731)0.7750000000:0.0174403937,"+
+  "LWS_Talapoin:0.0130640966,LWS_Diana:0.0042342807);";
+
+var tree_rooted=
+  "((((MWS-Human:0.01922,MWS-Pan:0.04396)0.7850000000:0.00872,MWS-Gorilla:0.0058)"+
+  "0.9310000000:0.0463,(MWS-Talapoin:0.00375,MWS-Diana:0.0093)0.7450000000:0.01497)"+
+  "0.9870000000:0.03302,(((LWS-Gorilla:0.02696,LWS-Pan_partialDNA:0.0)"+
+  "0.8080000000:0.00967,LWS-Human:0.0035)0.8820000000:0.04253,(LWS-Talapoin:0.01306,"+
+  "LWS-Diana:0.00423)0.7630000000:0.01744)0.9870000000:0.05284);";
+/****
+  "(((((MWS-Human:0.0192171218,MWS-Pan:0.0439607643)0.7850000000:0.0087163198,"+
+  "MWS-Gorilla:0.0058005579)0.9310000000:0.0463029256,(MWS-Talapoin:0.0037491363,"+
+  "MWS-Diana:0.0093075495)0.7450000000:0.0149650847)0.9870000000:0.0858625483,"+
+  "((LWS-Gorilla:0.0269646614,LWS-Pan_partialDNA:0.0000002411)"+
+  "0.8080000000:0.0096667444,LWS-Human:0.0035009846)0.8820000000:0.0425324731)"+
+  "0.7630000000:0.0174403937,LWS-Talapoin:0.0130640966,LWS-Diana:0.0042342807);";
+****/
+
+var tree_chicken = 
+  "(((((LWS-Gorilla:0.0263013216,LWS-Pan_partialDNA:0.0000003067)"+
+  "0.8070000000:0.0089300033,LWS-Human:0.0040456450)0.0000000000:0.0000020215,"+
+  "Chicken_iodopsin_Gallus_gallus_partial_DNA:0.6418278427)"+
+  "0.8680000000:0.0369682967,((MWS-Gorilla:0.0055602151,(MWS-Human:0.0191583517,"+
+  "MWS-Pan:0.0413655816)0.7430000000:0.0079196245)0.9230000000:0.0417921575,"+
+  "(MWS-Talapoin:0.0039460585,MWS-Diana:0.0089606727)0.7840000000:0.0146369917)"+
+  "0.9880000000:0.0723971770)0.8330000000:0.0185002096,LWS-Talapoin:0.0129052566,"+
+  "LWS-Diana:0.0042072540);";
+
+}
+
+var lgp=['LWS-Gorilla','LWS-Pan','LWS-Gorilla'];
+var ltd=['LWS-Talapoin','LWS-Diana','LWS-Talapoin'];
+var mtd=['MWS-Talapoin','MWS-Diana','MWS-Talapoin'];
+var mhgp=['MWS-Human','MWS-Gorilla','MWS-Pan','MWS-Human','MWS-Gorilla'];
+
+for (var i=0;i<2;i++) {
+  for (var j=0;j<2;j++) {
+    for (var k=0;k<2;k++) {
+      for (var m=0;m<3;m++) {
+        console.log(lgp[i]+','+lgp[i+1]+','+ ltd[j]+','+ltd[j+1]+','+mtd[k]+','+mtd[k+1]+','+mhgp[m]+','+mhgp[m+1]+','+mhgp[m+2]);
+        console.log(lgp[i]+','+lgp[i+1]+','+ ltd[j]+','+ltd[j+1]+','+mtd[k]+','+mtd[k+1]+','+mhgp[m]+','+mhgp[m+2]+','+mhgp[m+1]);
+      }
+    }
+  }
+}
+
+function drawTree() {
+  var tree = document.getElementById('tree').value;
+  var json_tree = Newick.parse(tree);
+  console.log(json_tree);
+
+  var newickNodes = [];
+
+  buildNewickNodes(json_tree);
+        
+
+  d3.phylogram.buildRadial('#radialtree', json_tree, {
+    width: 400,
+    skipLabels: true
+  });
+
+
+        
+  d3.phylogram.build('#phylogram', json_tree, {
+    width: 600,
+    height: 400
+  });
+
+
+
+  function buildNewickNodes(node, callback) {
+    newickNodes.push(node);
+    if (node.branchset) {
+      for (var i=0; i < node.branchset.length; i++) {
+        buildNewickNodes(node.branchset[i]);
+      }
+    }
+  }
+
+var arr=[
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-HUMAN,MWS-GORILLA,MWS-PAN",
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-HUMAN,MWS-PAN,MWS-GORILLA",
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-GORILLA,MWS-PAN,MWS-HUMAN",
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-GORILLA,MWS-HUMAN,MWS-PAN",
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-PAN,MWS-HUMAN,MWS-GORILLA",
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-PAN,MWS-GORILLA,MWS-HUMAN",
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-HUMAN,MWS-GORILLA,MWS-PAN",
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-HUMAN,MWS-PAN,MWS-GORILLA",
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-GORILLA,MWS-PAN,MWS-HUMAN",
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-GORILLA,MWS-HUMAN,MWS-PAN",
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-PAN,MWS-HUMAN,MWS-GORILLA",
+  "LWS-GORILLA,LWS-PAN,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-PAN,MWS-GORILLA,MWS-HUMAN",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-HUMAN,MWS-GORILLA,MWS-PAN",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-HUMAN,MWS-PAN,MWS-GORILLA",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-GORILLA,MWS-PAN,MWS-HUMAN",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-GORILLA,MWS-HUMAN,MWS-PAN",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-PAN,MWS-HUMAN,MWS-GORILLA",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-PAN,MWS-GORILLA,MWS-HUMAN",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-HUMAN,MWS-GORILLA,MWS-PAN",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-HUMAN,MWS-PAN,MWS-GORILLA",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-GORILLA,MWS-PAN,MWS-HUMAN",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-GORILLA,MWS-HUMAN,MWS-PAN",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-PAN,MWS-HUMAN,MWS-GORILLA",
+  "LWS-GORILLA,LWS-PAN,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-PAN,MWS-GORILLA,MWS-HUMAN",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-HUMAN,MWS-GORILLA,MWS-PAN",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-HUMAN,MWS-PAN,MWS-GORILLA",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-GORILLA,MWS-PAN,MWS-HUMAN",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-GORILLA,MWS-HUMAN,MWS-PAN",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-PAN,MWS-HUMAN,MWS-GORILLA",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-TALAPOIN,MWS-DIANA,MWS-PAN,MWS-GORILLA,MWS-HUMAN",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-HUMAN,MWS-GORILLA,MWS-PAN",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-HUMAN,MWS-PAN,MWS-GORILLA",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-GORILLA,MWS-PAN,MWS-HUMAN",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-GORILLA,MWS-HUMAN,MWS-PAN",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-PAN,MWS-HUMAN,MWS-GORILLA",
+  "LWS-PAN,LWS-GORILLA,LWS-TALAPOIN,LWS-DIANA,MWS-DIANA,MWS-TALAPOIN,MWS-PAN,MWS-GORILLA,MWS-HUMAN",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-HUMAN,MWS-GORILLA,MWS-PAN",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-HUMAN,MWS-PAN,MWS-GORILLA",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-GORILLA,MWS-PAN,MWS-HUMAN",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-GORILLA,MWS-HUMAN,MWS-PAN",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-PAN,MWS-HUMAN,MWS-GORILLA",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-TALAPOIN,MWS-DIANA,MWS-PAN,MWS-GORILLA,MWS-HUMAN",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-HUMAN,MWS-GORILLA,MWS-PAN",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-HUMAN,MWS-PAN,MWS-GORILLA",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-GORILLA,MWS-PAN,MWS-HUMAN",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-GORILLA,MWS-HUMAN,MWS-PAN",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-PAN,MWS-HUMAN,MWS-GORILLA",
+  "LWS-PAN,LWS-GORILLA,LWS-DIANA,LWS-TALAPOIN,MWS-DIANA,MWS-TALAPOIN,MWS-PAN,MWS-GORILLA,MWS-HUMAN"
+]
+
+function verifyTree() {
+  var answer='';
+  answer+=document.getElementById('two').value.trim().toUpperCase()+',';
+  answer+=document.getElementById('three').value.trim().toUpperCase()+',';
+  answer+=document.getElementById('four').value.trim().toUpperCase()+',';
+  answer+=document.getElementById('five').value.trim().toUpperCase()+',';
+  answer+=document.getElementById('six').value.trim().toUpperCase()+',';
+  answer+=document.getElementById('seven').value.trim().toUpperCase()+',';
+  answer+=document.getElementById('eight').value.trim().toUpperCase()+',';
+  answer+=document.getElementById('nine').value.trim().toUpperCase()+',';
+  answer+=document.getElementById('ten').value.trim().toUpperCase();
+
+  console.log(answer);
+  var stop = false;
+  var i = 0;
+  while (!stop && i < arr.length) {
+    if (answer === arr[i]) {
+      stop = true;
+    }
+    i++;
+  }
+
+  if (stop)
+    console.log('You win');
+  else 
+    console.log('you lose');
+
+}
+
+}
+
+</script>
+</head>
+<body onload="doIt()">
+  
+<h2>Newick</h2>
+<textarea id="tree" rows="6" cols="60" >
+Enter your phylogenetic tree in newick format.
+</textarea>
+<br>
+<input type="button" value="Submit" onclick="javascript:drawTree()"></input>
+<div id='phylogram'></div>
+<h2>Phylogram</h2>
+<div id='phylogram'></div>
+
+<h2>radialtree</h2>
+<div id='radialtree'></div>
+
+
+<div id="tree_skel" style="position: relative; text-align: center;">
+<input type="button" value="Submit" onclick="javascript:verifyTree()"></input>
+<img src="tree_skeleton.png"></img>
+<div  style="position:relative;top:-360px;left:-220px"><input id="two" type="text" size="6" value="xxx"></input></div>
+<div  style="position:relative;top:-400px;left:0px"><input id="three" type="text" size="6" value="xxx"></input></div>
+<div  style="position:relative;top:-240px;left:-220px"><input id="four" type="text" size="6" value="xxx"></input></div>
+<div  style="position:relative;top:-160px;left:-140px"><input id="five" type="text" size="6" value="xxx"></input></div>
+<div  style="position:relative;top:-90px;left:-20px"><input id="six" type="text" size="6" value="xxx"></input></div>
+<div  style="position:relative;top:-160px;left:80px"><input id="seven" type="text" size="6" value="xxx"></input></div>
+<div  style="position:relative;top:-250px;left:140px"><input id="eight" type="text" size="6" value="xxx"></input></div>
+<div  style="position:relative;top:-370px;left:220px"><input id="nine" type="text" size="6" value="xxx"></input></div>
+<div  style="position:relative;top:-520px;left:170px"><input id="ten" type="text" size="6" value="xxx"></input></div>
+</div>
+
+</body>
+</html>
+
+
+

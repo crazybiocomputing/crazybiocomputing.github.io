@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf8">
+<title>Coeur de Glace</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap" rel="stylesheet"> 
+
+<link rel="stylesheet" href="../../g-book/doc/css/gamebook.css" type="text/css">
+<link rel="stylesheet" href="../../g-book/doc/css/gamebook-sf.css" type="text/css">
+<link rel="stylesheet" href="../../g-book/doc/css/modifiers.css" type="text/css">
+
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul id="status" style="flex-grow: 1">
+        <li title="Paragraphe précédent"><a id="back" href="#"></a></li>
+        <li title="Sac à Dos"><a id="backpack" href="#"></a></li>
+      </ul>
+      <ul id="features" style="flex-shrink: 1">
+      </ul>
+    </nav>
+    </header>
+
+<!-- Panel for Inventory -->
+<section id="equipment" style="display:none">
+  <h1>Items</h1>
+</section>
+<!-- Panel for Battles -->
+
+<section id="battle" style="display:none"></section>
+
+<!-- Main panel for text -->
+<section id="adventure">
+  <article>
+  </article>
+</section>
+<section id="roll"  style="display:none"></section>
+
+<section id="alert" class="overlay">
+  <div class="popup">
+    <h2>Alert!!</h2>
+    <div class="content"></div>
+  </div>
+</section>
+<footer>
+  <p id="history"></p>
+</footer>
+
+<script src="../../g-book/src/dom.js"></script>
+<script src="../../g-book/src/roll.js"></script>
+<script src="../../g-book/src/testing.js"></script>
+<script src="../../g-book/src/character.js"></script>
+<script src="../../g-book/src/keyboard.js"></script>
+<script src="../../g-book/src/special.js"></script>
+<script src="../../g-book/src/history.js"></script>
+<script src="../../g-book/src/tag.js"></script>
+<script src="../../g-book/src/gui.js"></script>
+<script src="../../g-book/src/gamebook.js"></script>
+
+<script src="./adventure.js"></script>
+<script>
+  const ASSETS = [
+    'assets/image003.png',  'assets/image175.png',  'assets/image325.png',
+    'assets/image025.png',  'assets/image200.png',  'assets/image350.png',
+    'assets/image050.png',  'assets/image225.png',  'assets/image228.png',  'assets/image375.png',
+    'assets/image075.png',  'assets/image250.png',  'assets/image400.png',
+    'assets/image100.png',  'assets/image275.png',  'assets/image425.png',
+    'assets/image125.png',  'assets/image286.png',  'assets/image450.png',
+    'assets/image150.png',  'assets/image300.png'
+  ];
+  
+  document.title = game.title;
+  // Parse Book in Markdown
+  game.sections = parse(game.scenario);
+  
+  // Start new Game
+
+  startGame();
+//  startAdventure(555);
+
+</script>
+</body>
+</html>

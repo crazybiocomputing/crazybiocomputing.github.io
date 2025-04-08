@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"></meta>
+  <link href='http://fonts.googleapis.com/css?family=Coda' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../js/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./xzybiogame.css">
+
+
+<script type="text/javascript" src="./actor.js"></script>
+<script type="text/javascript" src="./action.js"></script>
+<script type="text/javascript" src="./gui.js"></script>
+<script type="text/javascript" src="./state.js"></script>
+<script type="text/javascript" src="./scene.js"></script>
+<script type="text/javascript" src="./player.js"></script>
+<script type="text/javascript" src="./game.js"></script>
+<script type="text/javascript" src="./dialog.js"></script>
+
+<script type="text/javascript" src="./story.js"></script>
+<script type="text/javascript" src="storyboard.js"></script>
+
+<script type="text/javascript">
+function doIt() {
+
+  // Init sessionStorage
+  sessionStorage.setItem("assembly2_max_comments",3);
+  sessionStorage.setItem("assembly2_tool" ,"Which EMBOSS tool?");
+  sessionStorage.setItem("assembly2_tool2","Which EMBOSS tool?");
+
+  //
+  // document.getElementById('popup').style.display = 'none';
+  document.getElementById('dialog').style.display = 'none';
+  document.getElementById('player').style.display = 'none';
+
+  initStory('S000');
+  updateDisplay('S000');
+
+}
+</script>
+
+</head>
+<body onload="doIt();">
+
+<div id="page">
+<div id="content">
+
+<div id="the_game">
+  <div id="scene" ></div>
+
+  <div id="dialog">
+    <div id="people"><img src="media/student_face.svg"></img></div>
+    <div class="chat" id="chat"><br></br>...<br></br></div>
+  </div>
+
+  <div id="player">
+    <div id="people"><img src="media/anna.svg"></img></div>
+    <div class="chat" id="chat"><br></br>...<br></br></div>
+  </div>
+
+  <div id="toolbar">
+      <div id="inventory">
+        <ul>
+
+        </ul>
+      </div>
+      <div id="separator" style="flex: 1">&nbsp;</div>
+
+      <div id="system">
+        <a href="javascript:void(0)"><img  class="system_item" src="media/help.svg"></img></a>
+        <a href="javascript:void(0)" onclick="lightSpots()"><img  class="system_item" src="media/crosshair.svg"></img></a>
+      </div>
+  </div>
+  <div id="log"></div>
+  <div id="popup" style="display:none">
+  </div>
+  <div id="cache">
+    <object id="svg_shelves_book" type="image/svg+xml" data="shelves_book.svg"></object>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

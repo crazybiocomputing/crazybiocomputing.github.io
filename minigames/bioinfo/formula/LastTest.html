@@ -1,0 +1,25 @@
+<script LANGUAGE="JavaScript">
+    <!--
+		duree = 10;  // Durée de vie du cookie en jours
+		date_expire = new Date();
+		date_expire.setTime(date_expire.getTime() + (duree*24*60*60*1000));
+		nom_var = SetCookie("ania","89045SDFQ6H7KL099JK",date_expire);
+
+	if ( GetCookie("ania") != null ) 
+		if (GetCookie("ania") != "89045SDFQ6H7KL099JK") {
+			alert('You are not authorized to reach this level.');
+			document.location.href = "../index.html"
+		}	
+		else {
+		    duree = 10;  // Durée de vie du cookie en jours
+      		date_expire = new Date();
+      		date_expire.setTime(date_expire.getTime() + (duree*24*60*60*1000));
+			nom_var = SetCookie("game",this.location.href,date_expire);
+		}
+	else if ( GetCookie("allstars") != null ) {
+	}
+	else
+		alert('You are not authorized to reach this level.');
+	
+    // -->  
+</script>

@@ -1,0 +1,25 @@
+>Sequence_EST
+ctctgatttgtctgtttattctctccataacaacggagtccagacacttacaaaagcgacatcatgaaga
+acatccacggataataaacgatattgtaaaggcagtgggaaaaccagctgttgaaaaattagtgttggtg
+atggtggcacaggattttgaaaaatgctcactggatgaacatctgaaagtccaggcaaaaattatagagg
+ctgttgataactgcgaaaaacatccagaggaagctgagtgtaaaaaaccagcgattgaactgtatcatga
+catagtttgcaaagaag 
+
+
+           ---------|---------|---------|---------|---------|
+         1 ctctgatttgtctgtttattctctccataacaacggagtccagacactta 50
+
+           ---------|---------|---------|---------|---------|
+        51 caaaagcgacatcatgaagaacatccacggataataaacgatattgtaaa 100
+
+           ---------|---------|---------|---------|---------|
+       101 ggcagtgggaaaaccagctgttgaaaaattagtgttggtgatggtggcac 150
+
+           ---------|---------|---------|---------|---------|
+       151 aggattttgaaaaatgctcactggatgaacatctgaaagtccaggcaaaa 200
+
+           ---------|---------|---------|---------|---------|
+       201 attatagaggctgttgataactgcgaaaaacatccagaggaagctgagtg 250
+
+           ---------|---------|---------|---------|-------
+       251 taaaaaaccagcgattgaactgtatcatgacatagtttgcaaagaag 297

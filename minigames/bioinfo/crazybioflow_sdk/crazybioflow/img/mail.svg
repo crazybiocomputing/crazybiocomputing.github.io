@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="80"
+   id="svg6986"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="mail.svg">
+  <defs
+     id="defs6988" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.06"
+     inkscape:cx="97.535211"
+     inkscape:cy="43.68758"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="834"
+     inkscape:window-height="597"
+     inkscape:window-x="174"
+     inkscape:window-y="180"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata6991">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-972.36218)">
+    <path
+       style="fill:#ff8100;fill-opacity:1;stroke:none"
+       d="m 10.21248,982.14653 39.031187,29.43567 47.878658,-23.47746 -49.345494,31.07876 z"
+       id="path6954"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybioflow/img/mail.png"
+       inkscape:export-xdpi="123.91"
+       inkscape:export-ydpi="123.91" />
+    <path
+       style="fill:#ff8100;fill-opacity:1;stroke:none"
+       d="m 94.317757,990.92397 -5.409818,52.05763 -80.8477734,-8.6556 4.3152954,-50.43582 -5.7636316,-5.38826 -3.5702642,60.11938 89.9592538,8.5293 4.950807,-60.24495 z"
+       id="path6956"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybioflow/img/mail.png"
+       inkscape:export-xdpi="123.91"
+       inkscape:export-ydpi="123.91" />
+    <path
+       style="fill:#ff8100;fill-opacity:1;stroke:none"
+       d="m 8.8492208,980.60199 c 3.6800542,-0.50027 89.3683072,6.30324 89.3683072,6.30324 l -0.953678,3.58937 z"
+       id="path6958"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybioflow/img/mail.png"
+       inkscape:export-xdpi="123.91"
+       inkscape:export-ydpi="123.91" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.70085859;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 97.948248,989.68606 -4.952694,57.54774 -90.4425741,-8.5627 6.2496509,-59.61301 c 0,0 39.9158532,33.39351 41.1528472,32.30181 1.236859,-1.0917 46.427217,-24.69709 46.427217,-24.69709 L 9.6384118,978.1618"
+       id="path6960"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybioflow/img/mail.png"
+       inkscape:export-xdpi="123.91"
+       inkscape:export-ydpi="123.91" />
+  </g>
+</svg>

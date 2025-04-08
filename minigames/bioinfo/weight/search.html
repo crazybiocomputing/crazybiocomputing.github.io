@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+  font-size:18px;
+}
+</style>
+
+<script type="text/javascript">
+function doIt() {
+  var search=['ATG','TAG'];
+  var colors=['#0f0','#f00'];
+  var data=document.getElementById('data').innerHTML;
+  var seq='';
+  // Remove EOL
+  data=data.replace(/(\r\n|\n|\r)/g,'');
+  var i=0;
+  while (i < data.length) {
+    for (var k=0;k<search.length;k++) {
+      var isFound=false;
+      var wordlen=search[k].length;
+      var word=data.substr(i,wordlen);
+      console.log(word);
+      if (word==search[k]) {
+        isFound=true;
+        for (var j=0;j<wordlen;j++) {
+          seq+='<span title="Pos:'+(i+1+j)+'" style="background-color:'+colors[k]+'">'+data[i+j]+'</span>';
+          if ((i+j+1)%70==0) seq+='<br>';
+        }
+        i+=wordlen;
+      }
+    }
+    if (!isFound) {
+        seq+='<span title="Pos:'+(i+1)+'" >'+data[i]+'</span>';
+        if ((i+1)%70==0) seq+='<br>';
+        i++;
+    }
+  }
+  console.log('Length: '+data.length);
+  var out='';
+  document.getElementById('result').innerHTML='<p>Length: '+data.length+' Word:'+search+'</p><pre>'+seq+'</pre>';
+}
+
+</script>
+
+</head>
+<body onload="doIt();">
+<form>
+<label>Word 1</label><input type="text" size="5"><input type="button" name="color" value="#f00"><input type="button" name="rm" value="-"><input type="button" name="add" value="+"><br>
+<label>Word 2</label><input type="text" size="5"><input type="button" name="color" value="#0f0"><input type="button" name="rm" value="-"><input type="button" name="add" value="+"><br>
+</form>
+<div id="result"></div>
+<!-- >gi|162462052|ref|NM_001111496.1| Zea mays hemoglobin (LOC541815), mRNA -->
+
+<div id="data" style="visibility:hidden" >
+GGTCACACCCAACCTCCCACTGTAAAAAAGAGCAGCGGAACGTGCGTGCATCCATCCATCCATCCATTTC
+CAATCCCAATCCCAATCCCACCAGTGTCCAGTGCTCGGGGAACCGACACAGCTCCTCAGCAGAGTAGCCA
+GCACGACAAGCCCGATCAGCAGACAGCAGGCATGGCACTCGCGGAGGCCGACGACGGCGCGGTGGTCTTC
+GGCGAGGAGCAGGAGGCGCTGGTGCTCAAGTCGTGGGCCGTCATGAAGAAGGACGCCGCCAACCTGGGCC
+TCCGCTTCTTTCTCAAGGTCTTCGAGATCGCGCCGTCGGCGAAGCAGATGTTCTCGTTCCTGCGCGACTC
+CGACGTGCCGCTGGAGAAGAACCCCAAGCTCAAGACGCACGCCATGTCCGTCTTCGTCATGACCTGCGAG
+GCGGCGGCGCAGCTTCGCAAGGCCGGGAAGGTCACCGTGAGGGAGACCACGCTCAAGAGGCTGGGCGCCA
+CGCACTTGAGGTACGGCGTCGCAGATGGACACTTCGAGGTGACGGGGTTCGCGCTGCTTGAGACGATCAA
+GGAGGCGCTCCCCGCTGACATGTGGAGCCTCGAGATGAAGAAAGCCTGGGCCGAGGCCTACAGCCAGCTG
+GTGGCGGCCATCAAGCGGGAGATGAAGCCCGATGCCTAGTAGTGGCGATTGCGACCAGTGTTTAACCCAT
+GACGCAGCGCCGTCACAGATGTCCCGTGTGGTCTTGCGCTTTAGCAATTTCTCTCTGGAGGGAGCGTGTA
+TTGTTATCTTGTGATCGAGAGCCTGTGTGCTGCCTTTGCTTCTTGTGATTATATAGCTACTGAATAAAGA
+TGTAGCGTTCTTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</div>
+</html>
+

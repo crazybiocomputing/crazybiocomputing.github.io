@@ -1,0 +1,49 @@
+#mail {
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+}
+
+#mail_header,#mail_subject,#mail_contents {
+  width: 700px;
+  border: 2px solid #FF8020;
+  padding: 2px;
+  margin: 2px;
+}
+
+#mail_contents {
+  width: 680px; height:400px;
+  position:relative;
+  float: left;
+}
+
+#mail_text {
+  width: 670px;height:400px;
+  overflow: hidden;
+  position:absolute;
+}
+
+.Scroller-Container {
+  position: absolute;
+}
+
+.Scrollbar-Track {
+  width: 15px; height: 400px;
+  position: relative;
+  top: 0px;
+  background-color: #EEE;
+}
+.Scrollbar-Handle {
+  position: absolute;
+  width: 15px; height: 30px;
+  background-color: #CCC;
+}
+
+#Scrollbar-Container {
+  position: absolute;
+  left: 690px;
+  padding: 2px;
+  margin: 2px;
+
+}

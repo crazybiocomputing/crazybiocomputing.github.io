@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Knots</h1>
+<ul>
+<li>NORTH <img src="img/NORTH.png"></img>
+<li>north <img src="img/north.png"></img>
+<li>EAST <img src="img/EAST.png"></img>
+<li>east <img src="img/east.png"></img>
+<li>SOUTH <img src="img/SOUTH.png"></img>
+<li>south <img src="img/south.png"></img>
+<li>WEST <img src="img/WEST.png"></img>
+<li>west <img src="img/west.png"></img>
+</ul>
+</body>
+</html>
+

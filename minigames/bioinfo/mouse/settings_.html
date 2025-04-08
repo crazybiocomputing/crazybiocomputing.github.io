@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+
+<link href='../../css/crazybio.css' rel='stylesheet' type='text/css'>
+<link href='../../crazybioflow/crazybioflow_h80.css' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="search.js"></script>
+<script type="text/javascript" src="../../js/crazygames.js"></script>
+
+<style>
+ol {
+  font-family: 62.5%/1.3846 arial,helvetica,clean,sans-serif;
+  width: 80%;
+}
+li p {
+  font-size: 0.8em;
+  color: #666;
+  width: 50%;
+  word-wrap: break-word;
+}
+</style>
+</head>
+<body>
+<header>
+</header>
+<div id="page">
+<div id="content">
+
+<p>Search all the protein sequences of fetal hemoglobin in the 'Protein DataBank' and send all the results in a format suitable for further processing</p>
+<article id="setup" class="row">
+<label>Format:</label>
+<select id="format">
+  <optgroup label="Format">
+    <option value="summary"  selected>Summary</option>
+    <option value="genpept">GenPept</option>
+    <option value="fasta">FASTA</option>
+  </optgroup>
+</select>
+<label>Items per page:</label>
+<select id="retmax">
+  <optgroup label="Items per page">
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="20"  selected>20</option>
+    <option value="50">50</option>
+    <option value="100">100</option>
+  </optgroup>
+</select>
+<label style="flex:auto; text-align: right;">Send to:</label>
+<select id="send_to">
+  <optgroup label="Choose Destination">
+    <option value="none"  selected>None</option>
+    <option value="file">File</option>
+    <option value="collections">Collections</option>
+    <option value="clipboard">Clipboard</option>
+  </optgroup>
+</select>
+</article>
+
+<article id="search"  class="row">
+<select id="database">
+    <option value="gquery" selected>All Databases</option>
+    <option value="assembly">Assembly</option>
+    <option value="biocollections">Biocollections</option>
+    <option value="bioproject">BioProject</option>
+    <option value="biosample">BioSample</option>
+    <option value="books">Books</option>
+    <option value="clinvar">ClinVar</option>
+    <option value="cdd">Conserved Domains</option>
+    <option value="gap">dbGaP</option>
+    <option value="dbvar">dbVar</option>
+    <option value="gene">Gene</option>
+    <option value="genome">Genome</option>
+    <option value="gds">GEO DataSets</option>
+    <option value="geoprofiles">GEO Profiles</option>
+    <option value="gtr">GTR</option>
+    <option value="ipg">Identical Protein Groups</option>
+    <option value="medgen" data-ac_dict="medgen_disease_name">MedGen</option>
+    <option value="mesh" data-ac_dict="mesh_suggestions">MeSH</option>
+    <option value="nlmcatalog">NLM Catalog</option>
+    <option value="nuccore">Nucleotide</option>
+    <option value="omim">OMIM</option>
+    <option value="pmc">PMC</option>
+    <option value="protein">Protein</option>
+    <option value="proteinclusters">Protein Clusters</option>
+    <option value="protfam">Protein Family Models</option>
+    <option value="pcassay">PubChem BioAssay</option>
+    <option value="pccompound">PubChem Compound</option>
+    <option value="pcsubstance">PubChem Substance</option>
+    <option value="pubmed" data-ac_dict="pm_related_queries_2">PubMed</option>
+    <option value="snp">SNP</option>
+    <option value="sra">SRA</option>
+    <option value="structure">Structure</option>
+    <option value="taxonomy">Taxonomy</option>
+    <option value="toolkit">ToolKit</option>
+    <option value="toolkitall">ToolKitAll</option>
+    <option value="toolkitbookgh">ToolKitBookgh</option>
+
+</select>
+
+<label>Search Details</label> <input id="request" type="text" style="flex:auto; margin: 0 10px"></p>
+<button id="search" type="submit" class="button_search nowrap" onclick="process()">Search</button>
+</article>
+
+<article id="results" style="font-family: arial, helvetica, clean, sans-serif;">
+  <p id="count"></p>
+  <ol id="node_list"></ol>
+</article>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+  create_header();
+</script>
+</body>
+</html>

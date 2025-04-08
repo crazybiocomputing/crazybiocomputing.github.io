@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg4207" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 211.03 118.03" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs4209">
+  <clipPath id="clipPath4750" clipPathUnits="userSpaceOnUse">
+   <rect id="rect4752" stroke-linejoin="round" stroke-dasharray="none" stroke-dashoffset="0" height="118.03" width="211.03" stroke="#68db2f" stroke-linecap="round" stroke-miterlimit="4" y="109.39" x="34.235" stroke-width="1.9705" fill="none"/>
+  </clipPath>
+ </defs>
+ <metadata id="metadata4212">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(-332.46428,-497.82399)">
+  <g id="g4635-7" clip-path="url(#clipPath4750)" transform="translate(298.22886,388.43616)">
+   <g id="background" stroke-linejoin="miter" stroke="#000" stroke-linecap="butt">
+    <path id="path3989-8" d="m-132.86,169.86,155.71-90,270.36,90-66.786,138.57z" stroke-width="1px" fill="#127daa"/>
+    <path id="path3983-2" d="M116.74,34.988,255,62.005,247.86,184.51,121.39,143.56z" stroke-width="1px" fill="#111"/>
+    <path id="path3951-2" d="M65.936,195.6,43.548,84.137,117.41,36.267,120.38,139.87z" stroke-width="0.9525997px" fill="#292525"/>
+    <path id="path3973-20" d="M70.714,191.65,231.23,255.47,231.92,234.97,69.372,171.97z" stroke-width="1px" fill="#5c5c5c"/>
+    <path id="path3977-0" d="M232.03,234.97,275.06,173.63,119.97,123.35,69.643,171.65z" stroke-width="1px" fill="#393939"/>
+    <path id="path3953-4" d="M240.65,72.081,186.64,127.33,56.429,88.076,122.86,43.255z" stroke-width="1px" fill="#413b3b"/>
+    <path id="path3955-4" d="m56.316,88.172,0.75762,3.6618,129.3,39.775,0.12627-4.1669z" stroke-width="1px" fill="#494141"/>
+    <path id="path3979-1" d="m65.251,195.35-3.1078-2.6263-22.5-110,4.2857,1.7857z" stroke-width="1px" fill="#242424"/>
+    <path id="path3981-99" d="m186.79,127.36,55-55.714,0,4.2857-54.643,56.071z" stroke-width="1px" fill="#242424"/>
+   </g>
+   <g id="box">
+    <path id="path4037-4" opacity="0.55555558" fill="#191919" d="m152.5,138.79c13.214,1.7857,57.143,12.5,57.143,12.5l-36.786,60-48.929-19.286z"/>
+    <path id="path3126-0" stroke-linejoin="miter" d="M124.36,116.01,125,137.72,77.457,189.21,73.189,167.24z" stroke="#000" stroke-linecap="butt" stroke-width="1px" fill="#AAA"/>
+    <path id="path3128-4" stroke-linejoin="miter" d="M124.73,116.01,186.79,135.93,185,159.15l-60-22.5z" stroke="#000" stroke-linecap="butt" stroke-width="1px" fill="#818181"/>
+    <path id="path3132-7" stroke-linejoin="miter" d="M125,137.01,184.64,158.79,145,218.08,78.214,189.15z" stroke="#000" stroke-linecap="butt" stroke-width="1px" fill="#919191"/>
+    <path id="path3124-95" stroke-linejoin="miter" d="m73.106,167.38,70.823,27.835,0.35714,22.857-67.143-28.571z" stroke="#000" stroke-linecap="butt" stroke-width="1px" fill="#686868"/>
+    <path id="path3130-3" stroke-linejoin="miter" d="m144.29,194.86,42.857-58.214-1.7857,22.857-40.714,57.5z" stroke="#000" stroke-linecap="butt" stroke-width="1px" fill="#3f3f3f"/>
+    <path id="path3906-5" stroke-linejoin="miter" d="m96.135,179.69,25.001,10.102,0.25254,6.0609-25.254-10.354z" stroke="#FFF" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+    <path id="path3906-1-1" stroke-linejoin="miter" d="m96.135,188.53,25.001,10.102,0.25254,6.0609-25.254-10.354z" stroke="#FFF" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+   </g>
+   <g id="box_top" stroke-linejoin="miter" transform="matrix(0.5761353,0.81735434,-0.81735434,0.5761353,224.19539,-160.25836)" stroke="#000" stroke-linecap="butt" stroke-width="1px" fill="#686868">
+    <path id="path3132-2-7" d="m265.45,166.07,63.227,19.794-43.227,61.277-71.565-30.123z"/>
+    <path id="path3124-9-0" d="m213.55,217.55,70.823,27.835,0.35714,6.8572-70.1-28.712z"/>
+    <path id="path3130-9-0" d="m284.73,245.03,43.843-58.073-0.096,6.6644-43.671,58.486z"/>
+   </g>
+  </g>
+ </g>
+</svg>

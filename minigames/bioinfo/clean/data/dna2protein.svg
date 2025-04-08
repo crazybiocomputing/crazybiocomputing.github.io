@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="dna2protein.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient6947">
+      <stop
+         style="stop-color:#eff8ef;stop-opacity:1;"
+         offset="0"
+         id="stop6949" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop6951" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;">
+      <path
+         id="path4072"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path4066"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutS"
+       style="overflow:visible">
+      <path
+         id="path4205"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutM"
+       style="overflow:visible">
+      <path
+         id="path4202"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path4199"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path4084"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path4078"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4060"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4066-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4066-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6947"
+       id="linearGradient6953"
+       x1="598.48486"
+       y1="134.18036"
+       x2="599.24243"
+       y2="105.39249"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.32"
+     inkscape:cx="332.48184"
+     inkscape:cy="925.36736"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ff6600;stroke:#ff6600;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 63.891976,46.228664 111.428564,0"
+       id="path2985"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ff6600;stroke:#00d400;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 159.1309,36.228564 111.42856,0"
+       id="path2985-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ff6600;stroke:#ff6600;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 254.36979,46.228664 111.42856,0"
+       id="path2985-5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ff6600;stroke:#00d400;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 349.60871,56.228764 111.42856,0"
+       id="path2985-4-1"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ff6600;stroke:#ff6600;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 81.968857,85.622603 111.428563,0"
+       id="path2985-2"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ff6600;stroke:#00d400;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 231.75322,72.5922 111.42856,0"
+       id="path2985-4-5"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g3907"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93">
+      <rect
+         y="266.22424"
+         x="133.62079"
+         height="11.206897"
+         width="69.918625"
+         id="rect3803"
+         style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         y="266.22424"
+         x="203.53941"
+         height="11.206897"
+         width="69.918625"
+         id="rect3803-8"
+         style="fill:#00d400;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         y="266.22424"
+         x="273.45795"
+         height="11.206897"
+         width="69.918625"
+         id="rect3803-3"
+         style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         y="266.22424"
+         x="343.37659"
+         height="11.206897"
+         width="69.918625"
+         id="rect3803-8-8"
+         style="fill:#00d400;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         y="266.22424"
+         x="412.74893"
+         height="11.206897"
+         width="69.918625"
+         id="rect3803-5"
+         style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         y="266.22424"
+         x="482.66757"
+         height="11.206897"
+         width="69.918625"
+         id="rect3803-8-1"
+         style="fill:#00d400;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         y="266.22424"
+         x="88.764824"
+         height="11.206897"
+         width="44.918625"
+         id="rect3803-7"
+         style="fill:#005db0;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         y="266.22424"
+         x="551.47174"
+         height="11.206897"
+         width="44.918625"
+         id="rect3803-7-2"
+         style="fill:#00212b;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <rect
+       style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3803-9"
+       width="69.918625"
+       height="11.206897"
+       x="133.46744"
+       y="348.72842"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <rect
+       style="fill:#00d400;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3803-8-0"
+       width="69.918625"
+       height="11.206897"
+       x="203.38606"
+       y="348.72842"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3803-3-0"
+       width="69.918625"
+       height="11.206897"
+       x="273.3046"
+       y="348.72842"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <rect
+       style="fill:#00d400;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3803-8-8-1"
+       width="69.918625"
+       height="11.206897"
+       x="343.22324"
+       y="348.72842"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3803-5-6"
+       width="69.918625"
+       height="11.206897"
+       x="412.59558"
+       y="348.72842"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <rect
+       style="fill:#00d400;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3803-8-1-9"
+       width="69.918625"
+       height="11.206897"
+       x="482.51422"
+       y="348.72842"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <rect
+       style="fill:#00212b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3803-7-2-7"
+       width="44.918625"
+       height="11.206897"
+       x="551.31836"
+       y="348.72842"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3803-92"
+       width="69.918625"
+       height="11.206897"
+       x="236.49774"
+       y="431.94055"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3803-3-8"
+       width="69.918625"
+       height="11.206897"
+       x="306.33487"
+       y="431.94055"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3803-5-7"
+       width="69.918625"
+       height="11.206897"
+       x="375.62585"
+       y="431.94055"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <rect
+       style="fill:#beb7c8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3803-92-6"
+       width="210.07014"
+       height="11.206897"
+       x="236.25281"
+       y="516.39514"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3977"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       transform="translate(31.739779,45.030303)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93"><flowRegion
+         id="flowRegion3979"><rect
+           id="rect3981"
+           width="90.909088"
+           height="21.969698"
+           x="318.18182"
+           y="416.75613" /></flowRegion><flowPara
+         id="flowPara3983">Traduction</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3977-2"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       transform="translate(31.529779,-36.071415)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93"><flowRegion
+         id="flowRegion3979-4"><rect
+           id="rect3981-9"
+           width="90.909088"
+           height="21.969698"
+           x="318.18182"
+           y="416.75613" /></flowRegion><flowPara
+         id="flowPara3983-5">Splicing</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3977-27"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       transform="translate(31.739779,-117.31384)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93"><flowRegion
+         id="flowRegion3979-0"><rect
+           id="rect3981-0"
+           width="90.909088"
+           height="21.969698"
+           x="318.18182"
+           y="416.75613" /></flowRegion><flowPara
+         id="flowPara3983-53">Transcription</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3977-7"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       transform="translate(-172.80567,-170.34415)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93"><flowRegion
+         id="flowRegion3979-7"><rect
+           id="rect3981-2"
+           width="50.757572"
+           height="21.969698"
+           x="318.18182"
+           y="416.75613" /></flowRegion><flowPara
+         id="flowPara3983-0">Exon</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3977-9"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       transform="translate(-99.320824,-170.34415)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93"><flowRegion
+         id="flowRegion3979-3"><rect
+           id="rect3981-6"
+           width="49.24242"
+           height="21.969698"
+           x="318.18182"
+           y="416.75613" /></flowRegion><flowPara
+         id="flowPara3983-1">Intron</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+       d="m 335.60606,280.33189 0,60.60605"
+       id="path4051"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+       d="m 335.60606,362.60082 0,60.60605"
+       id="path4051-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+       d="m 335.60606,446.08567 0,60.60605"
+       id="path4051-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3977-27-7"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       transform="translate(284.62366,-154.1729)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93"><flowRegion
+         id="flowRegion3979-0-0"><rect
+           id="rect3981-0-1"
+           width="53.0303"
+           height="23.48485"
+           x="318.18182"
+           y="416.75613" /></flowRegion><flowPara
+         id="flowPara3983-53-7">DNA</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3977-27-7-8"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       transform="translate(282.78486,-80.101626)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93"><flowRegion
+         id="flowRegion3979-0-0-0"><rect
+           id="rect3981-0-1-3"
+           width="86.363632"
+           height="48.484852"
+           x="318.18182"
+           y="416.75613" /></flowRegion><flowPara
+         id="flowPara3983-53-7-3">Primary transcript</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6862"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       transform="translate(-9.8484848,3.7878788)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93"><flowRegion
+         id="flowRegion6864"><rect
+           id="rect6866"
+           width="50.757576"
+           height="24.999998"
+           x="460.60605"
+           y="423.57431" /></flowRegion><flowPara
+         id="flowPara6868">mRNA</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6870"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       transform="translate(-6.9992348,0)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/clean/help_dna2protein.png"
+       inkscape:export-xdpi="93.93"
+       inkscape:export-ydpi="93.93"><flowRegion
+         id="flowRegion6872"><rect
+           id="rect6874"
+           width="66.666664"
+           height="23.484848"
+           x="457.57574"
+           y="511.45309" /></flowRegion><flowPara
+         id="flowPara6876">Protein</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6878"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"><flowRegion
+         id="flowRegion6880"><rect
+           id="rect6882"
+           width="623.48486"
+           height="68.9394"
+           x="81.060608"
+           y="571.30157" /></flowRegion><flowPara
+         id="flowPara6884">http://www.carolguze.com/text/442-1-humangenome.shtml</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6886"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:URW Gothic L;font-style:normal;font-weight:380;font-size:14px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:URW Gothic L Book;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"><flowRegion
+         id="flowRegion6888"><rect
+           id="rect6890"
+           width="121.9697"
+           height="48.484848"
+           x="577.27271"
+           y="590.99854" /></flowRegion><flowPara
+         id="flowPara6892"></flowPara></flowRoot>    <path
+       style="fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 596.53788,-62.043561 c -22.59347,0 -40.90625,18.312782 -40.90625,40.90625 0,16.42173 9.66331,30.58212 23.625,37.09375 -25.72061,6.73517 -46.26449,28.16669 -50.46875,56.125 l 135.5,-0.71875 c -4.37058,-27.04297 -24.35669,-48.66398 -50.4375,-55.4375 13.92785,-6.52478 23.59375,-20.66543 23.59375,-37.0625 0,-22.593468 -18.31278,-40.90625 -40.90625,-40.90625 z"
+       id="path6913"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#linearGradient6953);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.29181671;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path6945"
+       sodipodi:cx="598.86365"
+       sodipodi:cy="141.37733"
+       sodipodi:rx="70.07576"
+       sodipodi:ry="70.07576"
+       d="m 528.79157,142.09602 a 70.07576,70.07576 0 1 1 140.14418,-1.43429 l -70.0721,0.7156 z"
+       transform="matrix(0.96318816,0,0,0.83081628,19.39367,-44.827095)"
+       sodipodi:start="3.1313366"
+       sodipodi:end="6.2729733" />
+    <path
+       style="fill:#483737;fill-opacity:1;stroke:none"
+       d="m 610.60606,-34.001454 c -18.18181,18.18182 -43.9394,16.666669 -60.60607,17.424245 3.03031,-43.939399 27.59311,-52.667518 47.72729,-52.27273 20.13418,0.394788 39.39393,12.878789 44.69696,53.787878 0,0 -19.69696,4.545459 -31.81818,-18.939393 z"
+       id="path6922"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cczcc" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect6926"
+       width="15.151515"
+       height="21.969696"
+       x="588.15149"
+       y="18.271273"
+       ry="7.5757575" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 579.54545,17.513698 3.78788,21.969697 14.39394,-21.969697 9.84849,21.212121 6.0606,-22.727273 c -7.57576,6.818182 -34.09091,1.515152 -34.09091,1.515152 z"
+       id="path6924"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 592.42424,37.210667 -8.33333,32.575758 26.51515,0 -11.36364,-34.848485 z"
+       id="path6928"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

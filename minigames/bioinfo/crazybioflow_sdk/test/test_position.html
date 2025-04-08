@@ -1,0 +1,32 @@
+<head>
+    <script type="text/javascript">
+        function GetBox () {
+            var div = document.getElementById ("myDiv");
+
+            if (div.getBoundingClientRect) {        // Internet Explorer, Firefox 3+, Google Chrome, Opera 9.5+, Safari 4+
+                var rect = div.getBoundingClientRect ();
+                x = rect.left;
+                y = rect.top;
+                w = rect.right - rect.left;
+                h = rect.bottom - rect.top;
+
+                alert (" Left: " + x + "\n Top: " + y + "\n Width: " + w + "\n Height: " + h);
+            }
+            else {
+                alert ("Your browser does not support this example!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div style="height:200px; width:300px; overflow:auto;">
+        <div id="myDiv" style="width:250px; height:150px; border:1px solid red;">
+            You can get the top-left corner of this element relative to the top left corner of the client area with the button below.<br />
+            Use the scrollbars of the container div to test the method for different positions.
+        </div>
+        <div style="width:1000px; height:1000px;"></div>
+    </div>
+    <br />
+    <button onclick="GetBox ()">Get the placement of the element with red border!</button>
+</body>
+

@@ -1,0 +1,116 @@
+#45	Add	Search (((efflux pump[Title]) AND escherichia coli[Organism] AND swissprot[filter])) NOT (((((((aaea) OR aaeb) OR nepi) OR fief) OR mntp) AND escherichia coli) AND swissprot[filter]) Filters: UniProtKB / Swiss-Prot	11	12:12:33
+#16	Add	Search (efflux pump[Title]) AND escherichia coli[Organism]	7698	11:30:39
+#18	Add	Search (efflux pump[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	101	11:30:35
+#56	Add	Search (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title]) AND escherichia coli[Organism]	4908	11:29:56
+#46	Add	Search (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	90	11:22:46
+#55	Add	Search ((efflux pump[Title]) NOT (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title])) AND escherichia coli[Organism]	3139	11:19:57
+#54	Add	Search ((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title]	8816	11:18:54
+#53	Add	Search ((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title] Filters: UniProtKB / Swiss-Prot	409	11:18:47
+#52	Add	Search ((efflux pump[Title]) NOT ((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR mntp[Title])) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	31	11:17:05
+#51	Add	Search ((efflux pump[Title]) NOT ((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR mntp[Title])) AND escherichia coli[Organism]	4195	11:16:58
+#50	Add	Search efflux pump[Title]	41222	11:08:38
+#49	Add	Search escherichia coli[Organism]	8455879	11:06:46
+#48	Add	Search (((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR mntp[Title]	6918	11:05:07
+#47	Add	Search (((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR mntp[Title] Filters: UniProtKB / Swiss-Prot	350	11:05:01
+#44	Add	Search (((((aaea) OR aaeb) OR nepi) OR fief) OR mntp) AND escherichia coli Filters: UniProtKB / Swiss-Prot	119	10:29:52
+#38	Add	Search (((efflux pump[Title]) AND escherichia coli[Organism])) NOT ((AcrAB-TolC) AND "Escherichia coli K-12"[porgn:__txid83333]) Filters: UniProtKB / Swiss-Prot	97	10:28:55
+#43	Add	Search (phba[Title]) AND escherichia coli[Organism]	19	10:26:04
+#42	Add	Search (phba[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	0	10:25:58
+#40	Add	Search ((aaea[Title]) OR aaeb[Title]) AND "escherichia coli" Filters: UniProtKB / Swiss-Prot	45	10:24:52
+#37	Add	Search (((efflux pump[Title]) AND escherichia coli[Organism])) NOT ((AcrAB-TolC) AND "Escherichia coli K-12"[porgn:__txid83333])	7690	10:22:20
+#36	Add	Search (AcrAB-TolC) AND "Escherichia coli K-12"[porgn:__txid83333]	12	10:18:14
+#34	Add	Search AcrAB-TolC	100	10:17:58
+#35	Add	Search AcrAB-TolC Filters: UniProtKB / Swiss-Prot	8	10:17:13
+#33	Add	Search ("protein"[Feature key]) AND AcrAB TolC[Properties]	0	10:16:43
+#31	Add	Search (acrb[Title]) AND escherichia coli[Organism]	1741	10:14:33
+#30	Add	Search (acra[Title]) AND escherichia coli[Organism]	946	10:13:42
+#29	Add	Search (acra[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	2	10:13:37
+#19	Add	Search (((efflux pump[Title]) AND escherichia coli[Organism] AND swissprot[filter])) NOT Arsenic[Title] Filters: UniProtKB / Swiss-Prot	101	10:12:30
+#28	Add	Search ("acrab"[Title]) AND escherichia coli[Organism]	128	10:12:15
+#27	Add	Search ("acrab"[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	2	10:12:00
+#25	Add	Search (acrab tolc[Title]) AND escherichia coli[Organism]	9	10:08:08
+#24	Add	Search acrab tolc[Title]) AND escherichia coli[Organism]	9	10:07:55
+#23	Add	Search ((efflux pump[Title]) AND acrab tolc[Title]) AND escherichia coli[Organism]	3	10:07:38
+#22	Add	Search ((efflux pump[Title]) AND acrab tolc[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	0	10:07:31
+#20	Add	Search (((efflux pump[Title]) AND escherichia coli[Organism])) NOT arsenic[Title] Filters: UniProtKB / Swiss-Prot	101	10:06:25
+#14	Add	Search (("protein"[Substance Name]) AND acra[Title]) AND escherichia coli[Organism]	4	09:59:24
+#12	Add	Search ((efflux pump[Title]) AND "escherichia coli"[Organism]) AND tolc	71	09:56:46
+#4	Add	Search ("efflux pump"[Title]) AND "Escherichia coli"[porgn:__txid562]	7698	09:54:16
+#9	Add	Search (((("efflux pump"[Title]) AND "Escherichia coli"[porgn:__txid562])) NOT ((acra[Title]) AND "escherichia coli"[Organism])) NOT ((acrb[Title]) AND "escherichia coli"[Organism])	7670	09:52:21
+#6	Add	Search (acra[Title]) AND "escherichia coli"[Organism]	946	09:51:47
+#8	Add	Search (acrb[Title]) AND "escherichia coli"[Organism]	1741	09:51:01
+#7	Add	Search ((("efflux pump"[Title]) AND "Escherichia coli"[porgn:__txid562])) NOT ((acra[Title]) AND "escherichia coli"[Organism])	7692	09:49:31
+#5	Add	Search ((("efflux pump"[Title]) AND "Escherichia coli"[porgn:__txid562])) NOT ((tolc[Title]) AND "Escherichia coli"[porgn:__txid562])	7694	09:47:35
+#3	Add	Search "efflux pump"[Title]	41222	09:46:36
+#2	Add	Search (tolc[Title]) AND "Escherichia coli"[porgn:__txid562]	1629	09:45:48
+#1	Add	Search tolc[Title]	8264	09:45:26
+
+
+
+
+
+
+
+
+
+(efflux pump[Title]) AND escherichia coli[Organism] 7698 Entries
+
+    Source databases
+        DDBJ (45)
+        EMBL (178)
+        GenBank (6797)
+        PDB (19)
+        RefSeq (558)
+        UniProtKB / Swiss-Prot (101)
+
+Filter SwissProt -> 101 Entries
+
+
+#18	Add	Search (efflux pump[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	101	10:04:21
+#16	Add	Search (efflux pump[Title]) AND escherichia coli[Organism]	7698	10:01:09
+
+aaea aaeb MntP NepI FieF
+
+Search ((efflux pump[Title]) NOT (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title] 8816
+Search ((efflux pump[Title]) NOT (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title] Filters: UniProtKB / Swiss-Prot	406
+
+Search (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	4908
+Search (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	Filter 90
+
+Search escherichia coli[Organism]	8455879
+Search escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot 22955
+
+Search efflux pump[Title]	41222
+Search efflux pump[Title]	Filters: UniProtKB / Swiss-Prot 457
+
+
+Search (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title]) AND escherichia coli[Organism]	4908	
+Search (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title]) AND escherichia coli[Organism]	90	
+
+
+Search (efflux pump[Title]) AND escherichia coli[Organism] 	7698
+Search (efflux pump[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	101	
+
+
+Search ((efflux pump[Title]) NOT (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title])) AND escherichia coli[Organism]	3139
+Search ((efflux pump[Title]) NOT (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title])) AND escherichia coli[Organism]	Filter 11
+
+    {key:'0007:0',value:'QUOA'},
+
+    {key:'0007:0(0118:0(appl:0,vbnk:0))',value:'8455879'},
+    {key:'0007:0(9786:ba[6;true](0118:0(appl:0,vbnk:0)))',value:'22955'},
+
+    {key:'0007:0(0118:0(appl:0,ghjy:0))',value:'41222'},
+    {key:'0007:0(9786:ba[6;true](0118:0(appl:0,ghjy:0)))',value:'457'},
+
+
+    {key:'0007:0(0118:0(3344:0,appl:0))',value:'8816'},
+    {key:'0007:0(9786:ba[6;true](0118:0(3344:0,appl:0)))',value:'406'},
+
+    {key:'0007:0(0118:0(and0:0(ghjy:0,vbnk:0),appl:0))',value:'7698'},
+    {key:'0007:0(9786:ba[6;true](0118:0(and0:0(ghjy:0,vbnk:0),appl:0)))',value:'101'},
+
+    {key:'0007:0(0118:0(and0:0(3344:0,vbnk:0),appl:0))',value:'4908'},
+    {key:'0007:0(9786:b[0;true]ba[6;true](0118:0(and0:0(3344:0,vbnk:0),appl:0)))',value:'90'},
+
+

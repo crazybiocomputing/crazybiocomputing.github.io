@@ -1,0 +1,10 @@
+       wordfinder	 Match large sequences against one or more other sequences
+    water	 Smith-Waterman local alignment of sequences
+    dotmatcher	 Draw a threshold dotplot of two sequences
+ wordmatch	 Find regions of identity (exact matches) of two sequences
+      polydot	 Draw dotplots for all-against-all comparison of a sequence set
+   needle	 Needleman-Wunsch global alignment of two sequences
+
+dotpath	 Draw a non-overlapping wordmatch dotplot of two sequences
+dottup	 Display a wordmatch dotplot of two sequences
+

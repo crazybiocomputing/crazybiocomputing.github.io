@@ -1,0 +1,75 @@
+<html>
+<head>
+
+<script type="text/javascript">
+
+function doIt() {
+var board = document.getElementById("board");
+cellX = Math.floor((event.clientX-board.offsetLeft)/100);
+cellY = Math.floor((event.clientY-board.offsetTop)/100);
+console.log(board.offsetLeft + " " + board.offsetTop + " " +cellX +" " + cellY);
+}
+</script>
+
+<style>
+
+#contents {
+margin: 10px;
+font-size: 10px;
+background:#DFDFDF;
+display: block;
+position:absolute;
+left:833px;
+top:150px;
+}
+
+#contents .header {
+background:#A0A0FF;
+text-align : right;
+
+}
+
+table {
+border-style:solid; 
+border-color:black;
+border-width:1px;
+}
+
+td {
+  border-width:1px;
+  border-style:solid; 
+  border-color:red;
+  width:100px;
+  height: 100px;
+}
+
+</style>
+
+</head>
+<body>
+<div id="contents">
+<div class="header"> <a href="close">close</a>&nbsp;&nbsp;</div>
+<p>>sp|Q6GZX4|001R_FRG3G Putative transcription factor 001R OS=Frog virus 3 (isolate Goorha) GN=FV3-001R PE=4 SV=1</p>
+<p>MAFSAEDVLKEYDRRRRMEALLLSLYYPNDRKLLDYKEWSPPRVQVECPKAPVEWNNPPS
+EKGLIVGHFSGIKYKGEKAQASEVDVNKMCCWVSKFKDAMRRYQGIQTCKIPGKVLSDLD
+AKIKAYNLTVEGVEGFVRYSRVTKQHVAAFLKELRHSKQYENVNLIHYILTDKRVDIQHL
+EKDLVKDFKALVESAHRMRQGHMINVKYILYQLLKKHGHGPDGPDILTVKTGSKGVLYDD
+SFRKIYTDLGWKFTPL</p>
+
+</div>
+
+<center>
+<table id="board" onmousemove="doIt()">
+<thead>
+</thead> 
+<tbody>
+<tr><td id="00"></td><td id="01"><img src="tool.png" width="100px"/></td><td id="02"></td><td id="03"></td><td id="04"></td></tr>
+<tr><td>2</td><td></td><td></td><td><img src="data.png" width="100px"/></td><td></td></tr>
+<tr><td>3</td><td></td><td></td><td></td><td><img src="tool.png" width="100px"/></td></tr>
+<tr><td>4</td><td></td><td><img src="tool.png" width="100px"/></td><td></td><td></td></tr>
+<tr><td>5</td><td></td><td></td><td></td><td><img src="display.png" width="100px"/></td></tr>
+</tbody>
+</table>
+</center>
+</body>
+</html>

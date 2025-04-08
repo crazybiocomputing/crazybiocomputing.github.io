@@ -1,0 +1,382 @@
+// Jean-Christophe Taveau
+// http://www.crazybiocomputing.free.fr
+// http://crazybiocomputing.blogspot.com
+// Nov. 2013
+
+
+
+var neighbors = [
+  {'dx':0.0,'dy':-1.0,'iknot':2},
+  {'dx':1.0,'dy':0.0,'iknot':3},
+  {'dx':0.0,'dy':1.0,'iknot':0},
+  {'dx':-1.0,'dy':0.0,'iknot':1}
+];
+
+var tokens=[];
+
+
+var code='';
+
+
+var sandbox = {};
+
+function init() {
+
+  sandbox.element = document.getElementById('sandbox');
+  sandbox.x = sandbox.element.offsetLeft;
+  sandbox.y = sandbox.element.offsetTop;
+  sandbox.width  = Math.max(2,tokenOptions.length/board.width);
+  sandbox.height = Math.min(Math.max(2,tokenOptions.length),board.height);
+  sandbox.element.style.width  = sandbox.width  * TOKENSIZE;
+  sandbox.element.style.height = sandbox.height * TOKENSIZE;
+
+  board.element = document.getElementById('board');
+  board.x = board.element.offsetLeft;
+  board.y = board.element.offsetTop;
+  board.element.style.width = board.width * TOKENSIZE;
+  board.element.style.height = board.height * TOKENSIZE;
+  // Init Board
+  // 0: Empty
+  // B: Bank
+  // D: Data
+  // E: Extenser
+  // F: Filter
+  // H: Hub
+  // L: LogicOp
+  // M: Matrix
+  // T: Tool
+  // S: Settings
+  // V: View
+  createBoard();
+  createTokens();
+  console.log(board);
+}
+
+function createBoard() {
+  for (var y=0; y<board.height; y++) {
+    for (var x=0; x<board.width; x++) {
+      board.cells[x + board.width * y] = 'x';
+    }
+  }
+
+}
+
+// Factory
+function createTokens() {
+  for (var i in tokenOptions) {
+    tokenOptions[i].orgx = sandbox.x + (i%sandbox.width) * TOKENSIZE ;
+    tokenOptions[i].orgy = sandbox.y + Math.floor(i/sandbox.width) * TOKENSIZE;
+
+    var ID = tokenOptions[i].ID;
+    tokens[ID] = TokenFactory.get(tokenOptions[i]);
+
+    sandbox.element.innerHTML+=tokens[ID].html;
+    tokens[ID].element = document.getElementById(''+ID);
+    var dx = tokens[ID].orgx;
+    var dy = tokens[ID].orgy;
+    if (tokens[ID].cell_x != -1 && tokens[ID].cell_y != -1 ) {
+      dx = board.element.offsetLeft  + tokens[ID].cell_x  * TOKENSIZE;
+      dy = board.element.offsetTop   + tokens[ID].cell_y  * TOKENSIZE;
+      // Update board
+      board.cells[tokens[ID].cell_x + board.width * tokens[ID].cell_y]=ID;
+    }
+    tokens[ID].element.style.top  = dy + 'px';
+    tokens[ID].element.style.left = dx + 'px';
+
+    console.log(tokens[ID]);
+  }
+  updateKnots();
+}
+
+
+// http://www.snook.ca/archives/javascript/anatomy_of_a_drag_and_drop/
+
+/*
+	Copyright Robert Nyman, http://www.robertnyman.com
+	Free to use if this text is included
+	// modified slightly based on Prototype
+*/
+ var xDelta = 0, yDelta = 0;
+  var xStart = 0, yStart = 0;
+  var token=null;
+  var activeToken=null;
+
+
+  // remove the events
+  function enddrag()
+  {
+    document.onmouseup = null;
+    document.onmousemove = null;
+    if (xDelta==0 && yDelta==0) {
+      console.log(activeToken);
+      if ( (activeToken.props & CLOSABLE) && (yStart - token.offsetTop ) < 30 && (xStart - token.offsetLeft ) < 30 ) {
+        // Click on top left area of a token
+        console.log("Click on 'Close' button");
+        board.cells[activeToken.cell_x + board.width * activeToken.cell_y] = 'x';
+        activeToken.cell_x=-1;
+        activeToken.cell_y=-1;
+        activeToken.angle=0;
+        activeToken.knots = activeToken.knots.toLowerCase();
+
+        // Update HTML and/or CSS
+        token.style.top  = activeToken.orgy + 'px';
+        token.style.left = activeToken.orgx + 'px';
+      }
+      else if ( (activeToken.props & ROTATABLE) &&  (yStart - token.offsetTop ) < 30 && (token.offsetLeft + activeToken.width - xStart) < 30 ) {
+        // Click on top right area of a token
+        // console.log("Click on 'Rotate' button");
+        activeToken.angle=(activeToken.angle + 90)%360;
+        console.log(activeToken.angle);
+      }
+      else if (activeToken.cell_x !=-1 && activeToken.cell_y !=-1 && (activeToken.props & CONTAINABLE)  )  {
+        // Click elsewhere in a token
+        // Open contents if on board
+        if (activeToken.props & REVEALABLE) {
+          createGraph(activeToken);
+        }
+        var popup = document.getElementById('popup');
+        popup.style.top = token.offsetTop + 80 + 'px';
+        popup.style.left = token.offsetLeft + 50 + 'px';
+        str ='<div class="titlebar" >';
+        str+='<div id="close" onclick="popup_close_click(this,event)"> <img src="../crazybioflow/img/closeButton.png"></img></div>';
+        str+='<div id="title" onmousedown="move_popup(this,event)">'+activeToken.description.title+'</div>';
+        str+='<div class="clear"></div>';
+        str+='</div>';
+        str+='<div class="contents">'+activeToken.description.contents+'</div>';
+        str+='<div class="footer"></div>';
+        popup.innerHTML=str;
+      }
+    }
+    else {
+      document.getElementById('popup').innerHTML='';
+      console.log('end of drag' + xDelta + ", "+yDelta);
+      xDelta=0; yDelta=0;
+      console.log('board '+  + " " + board.width +' '+activeToken.width );
+
+      var cell_y = Math.round((token.offsetTop  - board.element.offsetTop ) / TOKENSIZE);
+      var cell_x = Math.round((token.offsetLeft - board.element.offsetLeft) / TOKENSIZE);
+      cell_x = (cell_x < 0) ? 0 : cell_x;
+      cell_y = (cell_y < 0) ? 0 : cell_y;
+      cell_x = (cell_x > board.width ) ? (board.width -1) : cell_x;
+      cell_y = (cell_y > board.height) ? (board.height-1) : cell_y;
+
+      console.log('board '+  + " " + board.width +' '+activeToken.width+' '+board.cells[cell_x + board.width * cell_y] );
+
+      if (board.cells[cell_x + board.width * cell_y] == 'x') {    
+        token.style.top  = (board.element.offsetTop  + cell_y * TOKENSIZE ) + 'px';
+        token.style.left = (board.element.offsetLeft + cell_x * TOKENSIZE ) + 'px';
+        // Update board and active token
+         if (activeToken.cell_x != -1 && activeToken.cell_y != -1) {
+          board.cells[activeToken.cell_x + board.width * activeToken.cell_y]='x';
+        }
+        activeToken.cell_x = cell_x;
+        activeToken.cell_y = cell_y;
+        board.cells[activeToken.cell_x + board.width * activeToken.cell_y] = activeToken.ID;
+      }
+      else if (board.cells[cell_x + board.width * cell_y] != 'x' && activeToken.cell_x != -1 && activeToken.cell_y != -1 ) {
+        token.style.top  = (board.element.offsetTop  + activeToken.cell_y * TOKENSIZE ) + 'px';
+        token.style.left = (board.element.offsetLeft + activeToken.cell_x * TOKENSIZE ) + 'px';
+      }
+      else  {
+        token.style.top  = activeToken.orgy + 'px';
+        token.style.left = activeToken.orgx + 'px';
+      }
+    }
+    updateKnots();
+    // HACK: ONLY FOR DEBUG: debugBoard();
+  }
+
+  // Fire each time it's dragged
+  function drag(e)
+  {
+    e = e || window.event;
+    xDelta = xStart - parseInt(e.clientX);
+    yDelta = yStart - parseInt(e.clientY);
+    xStart = parseInt(e.clientX);
+    yStart = parseInt(e.clientY);
+    token.style.top  = (token.offsetTop - yDelta) + 'px';
+    token.style.left = (token.offsetLeft - xDelta) + 'px';
+
+  }
+
+  // initiate the drag
+  function move(element,ev)
+  {
+    ev = ev || window.event;
+    xStart = parseInt(ev.clientX);
+    yStart = parseInt(ev.clientY);
+    console.log('down '+element.id );
+    token=null;
+    activeToken = tokens[element.id]; // A CHANGER --> retrouver l'ID
+    token=element;
+
+    document.onmouseup = enddrag;
+    document.onmousemove = drag;
+    return false;
+  }
+
+  // initiate the drag
+  function move_popup(element,ev)
+  {
+    ev = ev || window.event;
+    xStart = parseInt(ev.clientX);
+    yStart = parseInt(ev.clientY);
+    console.log('down '+element.id );
+    token=null;
+    activeToken = tokens[element.id]; // A CHANGER --> retrouver l'ID
+    token=element;
+
+    document.onmouseup = end_drag_popup;
+    document.onmousemove = drag_popup;
+    return false;
+  }
+
+  // tie it into the element
+//  el.onmousedown = md;
+
+
+  function popup_close_click(element,e)
+  {
+    var popup = document.getElementById('popup');
+    popup.innerHTML='';
+    popup.style.left='0px';
+    popup.style.top='0px';
+    console.log('click' + element.id +" "+x+" , "+y);
+
+  }
+
+  function shiftChar(str, value) {
+    var out=str+str;
+    return out.substring(str.length-value, str.length*2-value);
+
+  }
+
+  function render(tok) {
+    // Update html and position for resize
+    if (tok.cell_x ==-1 && tok.cell_y ==-1) {
+      sandbox.element.innerHTML+=tok.html;
+      el = document.getElementById(tok.ID);
+      el.style.left= tok.orgx+'px';
+      el.style.top = tok.orgy+'px';
+    }
+    else {
+      board.element.innerHTML+=tok.html;
+      el = document.getElementById(tok.ID);
+      el.style.left= board.element.offsetLeft + (tok.cell_x * TOKENSIZE)+'px';
+      el.style.top = board.element.offsetTop  + (tok.cell_y * TOKENSIZE)+'px';
+      console.log('style '+tok.cell_x+' '+tok.cell_y+' = '+el.style.left+' '+el.style.top);
+    }
+  }
+
+  function updateKnots() {
+    // Check N, E, S and W neighbors
+    sandbox.element.innerHTML='';
+    board.element.innerHTML='';
+
+    for (var itok in tokens) 
+    {
+      var tok = tokens[itok];
+      render(tok);
+
+        tok.knots=tok.knots.toLowerCase(); // reset neighbors
+
+        var knots_ = tok.knots;
+        console.log(itok+' '+ tok.knots+'->'+ (tok.angle/90)+'= '+knots_);
+        for (var index=0;index<4;index++) {
+          var dx = neighbors[index].dx;
+          var dy = neighbors[index].dy;
+          var k = neighbors[index].iknot;
+          var neighbor_x = tok.cell_x + dx;
+          var neighbor_y = tok.cell_y + dy;
+
+          if ( (neighbor_x >=0 && neighbor_x < board.width )
+            && (neighbor_y >=0 && neighbor_y < board.height) 
+            && (board.cells[neighbor_x + board.width * neighbor_y] != 'x') ) 
+          {
+            var neighbor_ID = board.cells[neighbor_x + board.width * neighbor_y];
+            var a_neighbor = tokens[neighbor_ID];
+            var org_index = (4+index-tok.angle/90)%4; // unrotated knot
+            var org_neighbor_index = (4+k-a_neighbor.angle/90)%4; // unrotated knot of neighbor
+
+console.log(index+ '<->'+k+' '+org_index+'<=>'+org_neighbor_index );
+
+            if (knots_[org_index].toLowerCase()=='i' && a_neighbor.knots[org_neighbor_index].toLowerCase()=='o')
+              tok.knots=tok.knots.substr(0, org_index) + 'I' + tok.knots.substr(org_index+1);
+            else if (knots_[org_index].toLowerCase()=='o' && a_neighbor.knots[org_neighbor_index].toLowerCase()=='i')
+              tok.knots=tok.knots.substr(0, org_index) + 'O' + tok.knots.substr(org_index+1);
+              console.log('lock '+tok.knots);
+            }
+        }
+
+              console.log(tok.knots);
+
+
+        // Update knot(s) and style...
+        for (var i=0;i<4;i++) {
+          var knot= document.getElementById(tok.knots[i].toLowerCase()+i+'_'+ tok.ID);
+          if (knot != null) {
+            knot.style.transform='rotate('+(i*90+tok.angle)%360+'deg)';
+            knot.style.webkitTransform='rotate('+(i*90+tok.angle)%360+'deg)';
+
+            knot.style.left=knots_coords[tok.knots[i]].left+'px';
+            knot.style.clip=knots_coords[tok.knots[i]].rect;
+            knot.style.webkitTransformOrigin=(Math.abs(knots_coords[tok.knots[i]].left)+50)+"px 50px";
+            knot.style.transformOrigin=(Math.abs(knots_coords[tok.knots[i]].left)+50)+"px 50px";
+
+            console.log(knot.style);
+          }
+        }
+
+    } // end of loop
+  }
+
+  function getGraph(root) {
+    var graph = getBranch(root);
+    console.log(graph);
+    return graph;
+  }
+
+  function getBranch(node) {
+    var branch=node.ID+':'+node.status+'(';
+    var children=getChildren(node);
+    for (i in children)
+      branch+=getBranch(children[i]);
+    branch +=')';
+    return branch;
+  }
+
+  function getChildren(node) {
+    var children=[];
+    for (i=0;i<4;i++) {
+      if (node.knots[i].toUpperCase()==node.knots[i]) {
+        j=(i + node.angle/90)%4;
+        var n=neighbors[i];
+        children.push(board.cells[node.cell_x + n.dx+(node.cell_y+n.dy)*board.width];
+      }     
+    }
+    children.sort();
+    return children;
+  }
+
+
+  function debugBoard() {
+    var el = document.getElementById('debug');
+    var str='<table>';
+    str+='<th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></th>';
+    for (var y=0; y<board.height; y++) {
+      str+='<tr>';
+      for (var x=0; x<board.width; x++) {
+        str+='<td>'+board.cells[x + board.width * y];
+        var id = board.cells[x + board.width * y];
+        if (id != 'x')
+          str+='<br />'+tokens[id].knots+'<br />'+tokens[id].angle;
+        str+='</td>'
+      }
+      str+='</tr>';
+    }
+     str+='</table>';
+     el.innerHTML=str;
+
+  }
+
+

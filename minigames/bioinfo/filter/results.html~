@@ -1,0 +1,63 @@
+
+Entry	Entry name	Status	Protein names	Gene names	Organism	Length
+
+9RSS9	RL10_DEIRA	reviewed	50S ribosomal protein L10	rplJ DR_2044	Deinococcus radiodurans 	169
+Q9RSS7	RL11_DEIRA	reviewed	50S ribosomal protein L11	rplK DR_2046	Deinococcus radiodurans 	144
+Q9RXY1	RL13_DEIRA	reviewed	50S ribosomal protein L13	rplM DR_0174	Deinococcus radiodurans 	174
+Q9RXJ2	RL14_DEIRA	reviewed	50S ribosomal protein L14	rplN DR_0321	Deinococcus radiodurans 	134
+Q9RSK9	RL15_DEIRA	reviewed	50S ribosomal protein L15	rplO DR_2115	Deinococcus radiodurans 	156
+Q9RXJ5	RL16_DEIRA	reviewed	50S ribosomal protein L16	rplP DR_0318	Deinococcus radiodurans 	141
+Q9RSJ5	RL17_DEIRA	reviewed	50S ribosomal protein L17	rplQ DR_2129	Deinococcus radiodurans 	116
+Q9RSL2	RL18_DEIRA	reviewed	50S ribosomal protein L18	rplR DR_2112	Deinococcus radiodurans 	114
+Q9RWB4	RL19_DEIRA	reviewed	50S ribosomal protein L19	rplS DR_0755	Deinococcus radiodurans 	166
+Q9RSS8	RL1_DEIRA	reviewed	50S ribosomal protein L1	rplA DR_2045	Deinococcus radiodurans 	233
+Q9RSW7	RL20_DEIRA	reviewed	50S ribosomal protein L20	rplT DR_2004	Deinococcus radiodurans 	118
+Q9RY64	RL21_DEIRA	reviewed	50S ribosomal protein L21	rplU DR_0086	Deinococcus radiodurans 	100
+Q9RXJ7	RL22_DEIRA	reviewed	50S ribosomal protein L22	rplV DR_0316	Deinococcus radiodurans 	134
+Q9RXK0	RL23_DEIRA	reviewed	50S ribosomal protein L23	rplW DR_0313	Deinococcus radiodurans 	95
+Q9RXJ1	RL24_DEIRA	reviewed	50S ribosomal protein L24	rplX DR_0322	Deinococcus radiodurans 	115
+Q9RX88	RL25_DEIRA	reviewed	50S ribosomal protein L25	rplY DR_0427	Deinococcus radiodurans 	237
+Q9RY65	RL27_DEIRA	reviewed	50S ribosomal protein L27	rpmA DR_0085	Deinococcus radiodurans 	91
+Q9RXJ4	RL29_DEIRA	reviewed	50S ribosomal protein L29	rpmC DR_0319	Deinococcus radiodurans 	67
+Q9RXJ9	RL2_DEIRA	reviewed	50S ribosomal protein L2	rplB DR_0314	Deinococcus radiodurans 	275
+Q9RSL0	RL30_DEIRA	reviewed	50S ribosomal protein L30	rpmD DR_2114	Deinococcus radiodurans 	55
+Q9RW44	RL31_DEIRA	reviewed	50S ribosomal protein L31	rpmE DR_0825	Deinococcus radiodurans 	73
+P49228	RL32_DEIRA	reviewed	50S ribosomal protein L32	rpmF DR_2366	Deinococcus radiodurans 	60
+Q9RSS4	RL33_DEIRA	reviewed	50S ribosomal protein L33	rpmG DR_2049	Deinococcus radiodurans 	55
+Q9RSH2	RL34_DEIRA	reviewed	50S ribosomal protein L34	rpmH DR_2152	Deinococcus radiodurans 	47
+Q9RSW6	RL35_DEIRA	reviewed	50S ribosomal protein L35	rpmI DR_2005	Deinococcus radiodurans 	66
+Q9RSK0	RL36_DEIRA	reviewed	50S ribosomal protein L36	rpmJ DR_2124	Deinococcus radiodurans 	37
+Q9RXK2	RL3_DEIRA	reviewed	50S ribosomal protein L3	rplC DR_0311	Deinococcus radiodurans 	211
+Q9RXK1	RL4_DEIRA	reviewed	50S ribosomal protein L4	rplD DR_0312	Deinococcus radiodurans 	205
+Q9RXJ0	RL5_DEIRA	reviewed	50S ribosomal protein L5	rplE DR_0323	Deinococcus radiodurans 	180
+Q9RSL3	RL6_DEIRA	reviewed	50S ribosomal protein L6	rplF DR_2111	Deinococcus radiodurans 	185
+Q9RST0	RL7_DEIRA	reviewed	50S ribosomal protein L7/L12	rplL DR_2043	Deinococcus radiodurans 	122
+Q9RY49	RL9_DEIRA	reviewed	50S ribosomal protein L9	rplI DR_0102	Deinococcus radiodurans 	146
+Q5SHN7	RS10_THET8	reviewed	30S ribosomal protein S10	rpsJ TTHA1693	Thermus thermophilus 	105
+P80376	RS11_THET8	reviewed	30S ribosomal protein S11	rpsK TTHA1666	Thermus thermophilus 	129
+Q5SHN3	RS12_THET8	reviewed	30S ribosomal protein S12	rpsL TTHA1697	Thermus thermophilus 	132
+P80377	RS13_THET8	reviewed	30S ribosomal protein S13	rpsM TTHA1667	Thermus thermophilus 	126
+Q5SHQ1	RS14Z_THET8	reviewed	30S ribosomal protein S14	rpsZ TTHA1679	Thermus thermophilus 	61
+Q5SJ76	RS15_THET8	reviewed	30S ribosomal protein S15	rpsO TTHA1138	Thermus thermophilus 	89
+Q5SJH3	RS16_THET8	reviewed	30S ribosomal protein S16	rpsP TTHA1035	Thermus thermophilus 	88
+Q5SHP7	RS17_THET8	reviewed	30S ribosomal protein S17	rpsQ TTHA1683	Thermus thermophilus 	105
+Q5SLQ0	RS18_THET8	reviewed	30S ribosomal protein S18	rpsR TTHA0243	Thermus thermophilus 	88
+Q5SHP2	RS19_THET8	reviewed	30S ribosomal protein S19	rpsS TTHA1688	Thermus thermophilus 	93
+P80380	RS20_THET8	reviewed	30S ribosomal protein S20	rpsT TTHA1397	Thermus thermophilus 	106
+P62662	RS2_THET2	reviewed	30S ribosomal protein S2	rpsB TT_C0509	Thermus thermophilus 	256
+P80371	RS2_THET8	reviewed	30S ribosomal protein S2	rpsB TTHA0861	Thermus thermophilus 	256
+P62663	RS3_THET2	reviewed	30S ribosomal protein S3	rpsC TT_C1322	Thermus thermophilus 	239
+P80372	RS3_THET8	reviewed	30S ribosomal protein S3	rpsC TTHA1686	Thermus thermophilus 	239
+P80373	RS4_THET8	reviewed	30S ribosomal protein S4	rpsD TTHA1665	Thermus thermophilus 	209
+Q5SHQ5	RS5_THET8	reviewed	30S ribosomal protein S5	rpsE TTHA1675	Thermus thermophilus 	162
+Q5SLP8	RS6_THET8	reviewed	30S ribosomal protein S6 (TS9)	rpsF TTHA0245	Thermus thermophilus 	101
+P17291	RS7_THET8	reviewed	30S ribosomal protein S7	rpsG TTHA1696	Thermus thermophilus 	156
+Q5SHQ2	RS8_THET8	reviewed	30S ribosomal protein S8	rpsH TTHA1678	Thermus thermophilus 	138
+P62669	RS9_THET2	reviewed	30S ribosomal protein S9	rpsI TT_C1100	Thermus thermophilus 	128
+P80374	RS9_THET8	reviewed	30S ribosomal protein S9	rpsI TTHA1464	Thermus thermophilus 	128
+P62611	RSHX_THEAQ	reviewed	30S ribosomal protein Thx	rpsU	??	Thermus aquaticus	27
+Q5SIH3	RSHX_THET8	reviewed	30S ribosomal protein Thx (S31)	rpsU TTHA1396	Thermus thermophilus 	27
+P62612	RSHX_THETH	reviewed	30S ribosomal protein Thx	rpsU	??	Thermus thermophilus	27
+
+
+

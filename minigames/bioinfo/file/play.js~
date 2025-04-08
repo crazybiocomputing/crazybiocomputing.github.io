@@ -1,0 +1,119 @@
+
+var board={};
+
+board.cells=[];
+board.width=3;
+board.height=3;
+
+var tokenOptions = [
+  { 
+    ID:'1234', 
+    props: CLOSABLE | LINKABLE | MOVABLE | CONTAINABLE | RENDERABLE, 
+    knots:'oxxx',
+    title:'Protein',
+    icon:'../crazybioflow/img/data.png',
+    description:{title:'Data', contents:'<h1>No access</h1><p>Data locked</p>'},
+    cell_x:0,
+    cell_y:0
+  },
+
+  { 
+    ID:'abcd', 
+    props: CLOSABLE | LINKABLE | MOVABLE | CONTAINABLE | RENDERABLE, 
+    knots:'oxxx',
+    title:'mRNA',
+    icon:'../crazybioflow/img/data.png',
+    description:{title:'Data', contents:'<h1>No access</h1><p>Data locked</p>'},
+    cell_x:1,
+    cell_y:0
+  },
+
+  { 
+    ID:'efgh', 
+    props: CLOSABLE | LINKABLE | MOVABLE | CONTAINABLE | RENDERABLE, 
+    knots:'oxxx',
+    title:'DNA',
+    icon:'../crazybioflow/img/data.png',
+    description:{title:'Data', contents:'<h1>No access</h1><p>Data locked</p>'},
+    cell_x:2,
+    cell_y:0
+  },
+
+  { 
+    ID:'3456', 
+    props: CLOSABLE | LINKABLE | MOVABLE | CONTAINABLE | RENDERABLE, 
+    knots:'oxxx',
+    title:'Token',
+    icon:'../crazybioflow/img/data.png',
+    description:{title:'Data', contents:'<h1>No access</h1><p>Data locked</p>'},
+    cell_x:0,
+    cell_y:1
+  },
+
+  { 
+    ID:'wxyz', 
+    props: CLOSABLE | LINKABLE | MOVABLE | CONTAINABLE | RENDERABLE, 
+    knots:'oxxx',
+    title:'rRNA',
+    icon:'../crazybioflow/img/data.png',
+    description:{title:'Data', contents:'<h1>No access</h1><p>Data locked</p>'},
+    cell_x:2,
+    cell_y:1
+  },
+
+
+  { 
+    ID:'3344', 
+    props: CLOSABLE | LINKABLE | MOVABLE | CONTAINABLE | RENDERABLE, 
+    knots:'oxxx',
+    title:'tRNA',
+    icon:'../crazybioflow/img/data.png',
+    description:{title:'Data', contents:'<h1>No access</h1><p>Data locked</p>'},
+    cell_x:0,
+    cell_y:2
+  },
+
+  { 
+    ID:'0209', 
+     props: CLOSABLE | LINKABLE | MOVABLE | CONTAINABLE | RENDERABLE, 
+    knots:'oxxx',
+    title:'cDNA',
+    icon:'../crazybioflow/img/data.png',
+    description:{title:'Data', contents:'<h1>No access</h1><p>Data locked</p>'},
+    cell_x:1,
+    cell_y:2
+  },
+
+  { 
+    ID:'MQ', 
+    props: ENCRYPTABLE, 
+    knots:'xxxx',
+    description:{title:'View', contents:'<i>drone.php</i> is the password....'},
+  },
+
+  { 
+    ID:'0118', 
+    props: CLOSABLE | LINKABLE | MOVABLE | CONTAINABLE | RENDERABLE, 
+    knots:'oxxx',
+    title:'mRNA',
+    icon:'../crazybioflow/img/data.png',
+    description:{title:'Data', contents:'<h1>No access</h1><p>Data locked</p>'},
+    cell_x:2,
+    cell_y:2
+  },
+
+
+  { 
+    ID:'0007', 
+    props: CLOSABLE | CONTAINABLE | LINKABLE | MOVABLE | REVEALABLE | RENDERABLE, 
+    knots:'xxix',
+    title:'View',
+    icon:'../crazybioflow/img/view_blue.png',
+    description:{title:'View', contents:'<h1>Error</h1><p>Input must be genomic DNA</p>'},
+    nodes:[{key:'0007:0(efgh:0)',value:'MQ'}],
+    cell_x:1,
+    cell_y:1
+  },
+
+];
+

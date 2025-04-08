@@ -1,0 +1,60 @@
+<html>
+<head>
+<script>
+
+  var key='';
+  var alphabet='aA0bB1cC2dD3eE4fF5gG6hH7iI8jJ9kK/lL.mM,nN(oO)pP:qQ<rR>sS tT_uU!vV-wW"xX;yYzZ+';
+
+  function encode(str) {
+    var out='';
+    for (var i=0;i<str.length;i++) {
+      char=alphabet.indexOf(str[i]);
+      shift=alphabet.indexOf(key[i%key.length]);
+      out+=alphabet[(char+shift)%alphabet.length];
+    }
+    return out;
+  }
+
+  function decode(str) {
+    var out='';
+    for (var i=0;i<str.length;i++) {
+      char=alphabet.indexOf(str[i]);
+      shift=alphabet.indexOf(key[i%key.length]);
+      if (char-shift < 0) char+=alphabet.length;
+      out+=alphabet[(char-shift)%alphabet.length];
+    }
+    return out;
+  }
+
+function doIt() {
+  console.log("DoIt ");
+  key   = document.getElementById("key").value;
+  value = document.getElementById("str").value;
+  document.getElementById("output").innerHTML='<pre>'+encode(value)+'</pre>';
+  console.log(encode(value));
+
+
+}
+
+</script>
+
+
+</head>
+<body>
+<!--
+<form  onSubmit="doIt(); return false;" method="POST">  // return false; Bloque l'envoi au serveur 
+Key: <input id="key" type="text" name="key"><br>
+String: <input id="str" type="text" name="str">
+<input type="submit" value="Submit">
+</form> 
+-->
+<script>document.write();</script>
+Key: <input id="key" type="text" name="key"><br>
+String: <input id="str" type="text" name="str"><br>
+<a id="submit" href="#" onclick="doIt();">Submit</a>
+ 
+
+<div id="output"></div>
+</body>
+</html>
+

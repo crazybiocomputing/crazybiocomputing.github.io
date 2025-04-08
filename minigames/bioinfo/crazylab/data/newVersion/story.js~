@@ -1,0 +1,430 @@
+// Story
+// Jean-Christophe Taveau
+// Crazybiocomputing
+// Mar 2015
+
+
+var player;
+var active_scene;
+
+function initStory(first) {
+  var height = Math.floor(document.body.clientWidth / 16.0 * 9.0);
+  document.getElementById('the_game').style.height =  height + 'px';
+  var els = document.getElementsByClassName('system_item');
+  for (var i=0; i < els.length; i++) {
+    console.log(i+' '+els[i]);
+    els[i].style.height =  height*0.1 + 'px';
+  }
+
+  active_scene = new Scene(scenes['coffee']);
+
+  document.getElementById('scene').innerHTML=active_scene.svg;
+
+  // Update display
+  document.getElementById('spot_student').style.display = 'none';
+  document.getElementById('svg_student').style.display = 'none';
+  document.getElementById('dialog').style.display = 'none';
+  document.getElementById('player').style.display = 'none';
+
+
+  player = new Player();
+
+
+  console.log('create...'+dialog.length);
+  for (var d in dialog) {
+    console.log('create...');
+    var chat = new Dialog(dialog[d]);
+    dialog[d.ID]= chat;
+    console.log(chat);
+    console.log(dialog[d.ID]);
+  }
+}
+
+
+function checkAnswer(options) {
+  var node = {};
+  node.answers = [];
+  node.ID = '_';
+
+  switch (options.type) {
+  case 'back':
+    node.ID = path[path.length - 2].ID;
+    break;
+  case 'button':
+    node.ID = dialog[options.ID].goto['button'];
+    break;
+  case 'select':
+    answer = document.getElementById(options.element).value;
+    node.ID = dialog[options.ID].goto[answer];
+    node.answers.push(answer);
+    break;
+  case 'submit':
+    var w = dialog[options.ID].widgets;
+    var total = 0;
+    for (var i=0; i < w.length; i++) {
+      var answer = getAnswer(w[i]);
+      if (answer[0] == 1) {
+        node.answers.push(answer[1]);
+      }
+      total +=answer[0];
+    }
+    console.log('answer '+total);
+    if (dialog[options.ID].goto[total] != undefined) {
+      node.ID = dialog[options.ID].goto[total];
+    }
+    else {
+      node.ID = dialog[options.ID].goto['0'];
+      node.answers.push('wrong');
+    }
+    break;
+  case 'value':
+    answer = document.getElementById(options.element).value;
+    node.ID = dialog[options.ID].goto[answer];
+    node.answers.push(answer);
+    console.log(answer + ' ' + next_node);
+    break;
+  default:
+    alert('Wrong path');
+  }
+
+  if (node.ID != '_') {
+    path.push(node );
+  }
+
+  updateDisplay(node.ID);
+
+}
+
+function getAnswer(widget) {
+  var answer=0;
+  var value;
+
+  switch (widget.type) {
+  case 'numeric':
+    value = parseFloat(document.getElementById(widget.id).value);
+    answer = ( value == widget.answer) ? 1 : 0;
+    break;
+  case 'select':
+    value = document.getElementById(widget.id).value;
+    answer = ( value === widget.answer) ? 1 : 0;
+    break;
+  case 'text':
+    value = document.getElementById(widget.id).value;
+    answer = ( value === widget.answer) ? 1 : 0;
+    console.log(value + ' '+widget.answer+' '+answer);
+    break;
+  default:
+    // Do nothing
+  }
+
+  return [answer,value];
+}
+
+function updateDisplay(ID) {
+  // Background
+  var background = '';
+  if (scenes[ID].background != undefined && scenes[ID].background.length > 1) {
+    background = createBackground(scenes[ID]);
+  }
+  document.getElementById('scene').innerHTML=background;
+
+}
+
+function sendMessage(id) {
+  console.log('sendMessage '+ id);
+  console.log(active_scene.actors[id]);
+  switch (type) {
+    case 'chat':
+      dialog[ID].update();
+      break;
+  }
+}
+
+
+
+function logpath() {
+  var str='<ul>';
+  for (var i in path) {
+    str +=  '<li>'+path[i].ID + '[';
+    for (var j in path[i].answers) {
+      str += path[i].answers[j] +', ';
+    }
+    str += '] </li>';
+  }
+  str +='</ul>';
+  document.getElementById('log').innerHTML = str;
+
+}
+
+/*********************
+ * @class Event
+ * Trick in https://css-tricks.com/restart-css-animation/
+ *********************/
+
+ function lightSpots() {
+   var spots = document.getElementsByClassName('svg_spot');
+
+   for (var i=0; i<spots.length;i++) {
+     var spot = spots[i];
+     spot.classList.add('animated');
+     var newone = spot.cloneNode(true);
+     spot.parentNode.replaceChild(newone, spot);
+  }
+ }
+
+/*********************
+ * @class Player
+ *
+ *********************/
+function Player(first) {
+  this.path = [];
+  this.path.push( {
+    'ID': first,
+    'answers':[]
+  });
+
+  this.status = '';
+  this.inventory = [];
+  this.avatar = 'anna.svg';
+}
+
+/*********************
+ * @class Actor
+ *
+ *********************/
+function Actor(json_actor,type) {
+  this.ID        = json_actor.ID || '__unknown__';
+  this.type      = type;
+  this.display   = json_actor.display || 'visible';
+  this.cg        = {'x':0.0,'y':0.0};
+  this.geometry  = json_actor.geometry || [];
+  this.targets   = json_actor.targets || [];
+  this.inventory = json_actor.inventory || [];
+
+  if (type ==='character') {
+    this.status    = characters[json_actor.ID].status || [];
+  }
+  else {
+    this.status    = objects[json_actor.ID].status || [];
+  }
+  console.log(this.status);
+  console.log(type);
+
+  // Compute center of gravity
+  // Convert polygon into absolute coords
+  if (this.geometry.length == 3) {
+    this.cg.x = this.geometry[0];
+    this.cg.y = this.geometry[1];
+  }
+  else if  (this.geometry.length == 4) {
+    this.cg.x = this.geometry[0] + this.geometry[2]/2.0;
+    this.cg.y = this.geometry[1] + this.geometry[3]/2.0;
+  }
+  else if (this.geometry[0] == 'M') {
+    this.geometry = this.geometry.slice(1,this.geometry.length);
+    for (var i = 0; i < this.geometry.length; i+=2) {
+      this.cg.x += this.geometry[i];
+      this.cg.y += this.geometry[i+1];
+    }
+    this.cg.x /= this.geometry.length/2.0;
+    this.cg.y /= this.geometry.length/2.0;
+  }
+  else if (this.geometry[0] == 'm') {
+    this.geometry = this.geometry.slice(1,this.geometry.length);
+    var x=this.geometry[0];
+    var y=this.geometry[1];
+    this.cg.x = x;
+    this.cg.y = y;
+    for (var i = 2; i < this.geometry.length; i+=2) {
+      x += this.geometry[i];
+      y += this.geometry[i+1];
+      this.geometry[i]   = x;
+      this.geometry[i+1] = y;
+      this.cg.x += x;
+      this.cg.y += y;
+    }
+    this.cg.x /= this.geometry.length/2.0;
+    this.cg.y /= this.geometry.length/2.0;
+  }
+}
+
+Actor.prototype.display = function () {
+  var popup = document.getElementById('popup');
+  var status = player.getStatus(this);
+}
+
+Actor.prototype.getAllStatus = function () {
+  var str='';
+  console.log(this.ID);
+  for (var j=0; j<this.status.length; j++) {
+    if (j!=0) {
+      str += ',';
+    }
+    str += this.ID + '::' + this.status[j].ID;
+  }
+  return str;
+}
+
+/*********************
+ * @class Scene
+ *
+ *********************/
+function Scene(json_scene) {
+  this.ID = json_scene.ID || null;
+  this.background = json_scene.background || null;
+  this.status = '';
+  this.actors = {};
+  /***
+  for (var obj of json_scene.objects) {
+    this.actors[obj.ID]= new Actor(obj,'object');
+    this.status += this.actors[obj.ID].getAllStatus()+',';
+  }
+***/
+  for (var people of json_scene.characters) {
+    this.actors[people.ID]= new Actor(people,'character');
+    console.log(people);
+    console.log(this.actors[people.ID]);
+    this.status += this.actors[people.ID].getAllStatus()+',';
+  }
+
+  console.log(this);
+
+  this.svg = this.createBackground();
+}
+
+Scene.prototype.createBackground = function () {
+  var opacity = 0.0;  // DEBUG only. By default, equal to 0.0
+  var color   = "#ff0"; // DEBUG only. By default, equal to fff
+  var svg='<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" id="svgBckgrnd">'+
+          '<image width="1280" height="720" xlink:href="'+this.background+'"></image>';
+
+  for (var i in this.actors) {
+    var obj = this.actors[i];
+
+    // The spots to locate the interactive areas
+    svg +='<circle  class="svg_spot" id="spot_'+obj.ID+'"';
+    svg += 'cx="'+obj.cg.x+'" cy="'+obj.cg.y+'" r="10" fill="#f00" opacity="1.0" />';
+
+    // Define interactive area(s)
+    svg += '<a xlink:href="javascript:void(0)" onclick="sendMessage(\''+obj.ID+'\')">';
+    if (obj.geometry.length == 3) {
+      // A circle
+      obj.cg.x = obj.geometry[0];
+      obj.cg.y = obj.geometry[1];
+      svg += '<circle id="svg_'+obj.ID+'" cx="'+obj.geometry[0]+'" cy="'+obj.geometry[1]+'" r="'+obj.geometry[2];
+      svg += '" fill="'+color+'" opacity="'+opacity+'" />';
+    }
+    else if (obj.geometry.length == 4) {
+      // A rectangle
+      svg += '<rect id="svg_'+obj.ID+'"';
+      svg += 'x="'+obj.geometry[0]+'" y="'+obj.geometry[1];
+      svg += '" width="'+obj.geometry[2]+'" height="'+obj.geometry[3];
+      svg += '" fill="'+color+'" opacity="'+opacity+'" />';
+    }
+    else {
+      //Absolute coords
+      var str = obj.geometry.toString();
+      svg += '<polygon  id="svg_'+obj.ID+'" points="'+str+'" fill="'+color+'" opacity="'+opacity+'" />';
+    }
+    svg += '</a>';
+
+  }
+  svg+='</svg>';
+  return svg;
+
+}
+
+/*********************
+ * @class Dialog
+ *
+ *********************/
+function Dialog(a_chat) {
+  console.log('create');
+  this.html    = a_chat.html    || '';
+  this.widgets = a_chat.widgets || [];
+  this.element = a_chat.element || null;
+  this.people  = a_chat.people  || 'anna';
+}
+
+
+Dialog.prototype.update = function () {
+  var button_html='';
+  var str = this.html;
+  for (var i = 0; i < dialog[ID].widgets.length; i++ ) {
+    button_html = this.createWidget(ID,this.widgets[i]);
+    str = str.replace(new RegExp('__'+this.widgets[i].type+'__'),button_html);
+  }
+  document.getElementById(this.element).innerHTML = str;
+
+  // People
+  var head = this.people;
+  if (this.people === 'previous') {
+    head = dialog[path[path.length - 2].ID ].people;
+  }
+  switch (head) {
+  case 'boy':
+    people = '<img src="anna.svg"></img></div>'
+    break;
+  case 'girl':
+    people = '<div style="width:200px; overflow: hidden;"><img src="../../img/people.png"  style = "margin-left:-200px;" width="600px"></img></div>'
+    break;
+  case 'anna':
+    people = '<div style="width:200px; overflow: hidden;"><img src="../../img/people.png"  style = "margin-left:-400px;" width="600px"></img></div>'
+    break;
+  }
+  document.getElementById('people').innerHTML=people;
+
+
+//DEBUG  logpath();
+}
+
+Dialog.prototype.createWidget = function (ID,widget) {
+  var str='';
+  switch (widget.type) {
+  case 'back':
+    str += '<a class="right_button" href="javascript:void(0)" ';
+    str += widget.event+'="checkAnswer(';
+    str += '{ID:\''+ID+'\',type:\'back\'}';
+    str += ')">'+widget.title+'</a>';
+    break;
+  case 'button':
+    str += '<a class="right_button" href="javascript:void(0)" ';
+    str += widget.event+'="checkAnswer(';
+    str += '{ID:\''+ID+'\',type:\'button\'}';
+    str += ')">'+widget.title+'</a>';
+    break;
+  case 'html':
+    // Display message randomly
+    str = widget.title[Math.floor(Math.random() * widget.title.length)];
+    break;
+  case 'numeric':
+    str = '<input type="text" id="'+widget.id+'"  size="8" value="'+widget.title+'" onkeyup="this.value=this.value.replace(/[^\\d.]/,\'\')"></input>';
+    break;
+  case 'select':
+    str = '<select id="'+widget.id+'" ';
+    if (widget.event !== undefined) {
+      str += widget.event+'="checkAnswer({ID:\''+ID+'\',type:\'select\',element:\''+widget.id+'\'})"';
+    }
+    str +='>';
+    for (var i =0; i < widget.options.length; i++) {
+      str += '<option value="'+widget.options[i]+'">'+widget.options[i]+'</option>';
+    }
+    str +='</select>';
+    break;
+  case 'submit':
+    str += '<a class="right_button" href="javascript:void(0)" ';
+    str += widget.event+'="checkAnswer(';
+    str += '{ID:\''+ID+'\',type:\'submit\'}';
+    str += ')">'+widget.title+'</a>';
+    break;
+  case 'text':
+    str = '<input type="text" id="'+widget.id+'" size="8" value="'+widget.title+'"></input>';
+    break;
+  case 'value':
+    break;
+  default:
+    // Do nothing
+  }
+
+  return str;
+}

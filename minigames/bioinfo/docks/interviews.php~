@@ -1,0 +1,157 @@
+<?php
+	require('../../phpCrazy/cookie_check_crazybio.inc.php');
+?>
+<?php
+	include('../../phpCrazy/header.inc.php');
+?>
+<link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+
+<style>
+label {
+  font-family: monospace;
+  font-size:18px;
+  color:#646464;";
+}
+
+input {
+  font-size: 18px;
+}
+
+</style>
+
+
+<div id="page">
+<div id="content">
+ <p style="font-family: 'Walter Turncoat', cursive;font-size:30px">C&nbsp;h&nbsp;a&nbsp;p&nbsp;t&nbsp;e&nbsp;r&nbsp;&nbsp;&nbsp;3: Interviews</p>
+<div id="myform" style="width:700px;margin:auto;font-size : 20px; font-family :  arial,sans serif;">
+
+<center>
+<?php
+
+if (isset($_POST['OK']) ) {
+  $id1=strtoupper($_POST['item1']);
+  $id2=strtoupper($_POST['item2']);
+  $id3=strtoupper($_POST['item3']);
+  $id4=strtoupper($_POST['item4']);
+  $id5=strtoupper($_POST['item5']);
+  $id6=strtoupper($_POST['item6']);
+  $id7=strtoupper($_POST['item7']);
+
+
+  $score=0;
+  if ($id1=='AMELX') {
+    $score =1;
+    echo '<p style="font-size : 40px;">&#x2605;';
+  }
+  else {
+    echo '<p style="font-size : 40px;">&#x2606;';
+    $id1='?';
+  }
+
+  if ($id2=='P22.31-P22.1') {
+    echo '&#x2605;';
+    $score +=2;
+  }
+  else {
+    echo '&#x2606;';
+    $id2='';
+  }
+
+  if ($id3=='AMELY') {
+    echo '&#x2605;';
+    $score +=4;
+  }
+  else {
+    echo '&#x2606;';
+    $id3='?';
+  }
+
+  if ($id4=='P11.2') {
+    $score +=8;
+    echo '&#x2605;';
+  }
+  else {
+    echo '&#x2606;';
+    $id4='';
+  }
+
+
+  if ($id5=='NSHSQAINVDRIAL') {
+    echo '&#x2605;';
+    $score +=8;
+  }
+  else {
+    echo '&#x2606;';
+    $id5='';
+  }
+
+  if ($id6=='21603') {
+    echo '&#x2605;';
+    $score +=16;
+  }
+  else {
+    echo '&#x2606;';
+    $id6='';
+  }
+
+  if ($id7=='23249') {
+    $score +=32;
+    echo '&#x2605;';
+  }
+  else {
+    echo '&#x2606;';
+    $id7='';
+  }
+
+
+  if ($sex=='male') {
+    echo '&#x2605;';
+    $score +=64;
+  }
+  else {
+    echo '&#x2606;';
+    $id8='';
+  }
+
+
+  if ($score==127)   
+    echo '<p><a title="Click on \'yes\'" style="text-decoration:none" href="skullbones.php">Yeeess!!!</a></p>';
+  else
+    echo '<p>W r o n g &nbsp; a n s w e r</p>' ;
+}
+else {
+  $id1='?'; $id2=''; $id3='';
+  $id4=''; $id5=''; $id6='';
+  $id7=''; 
+}
+
+?>
+</center>
+<p>With the help of Dr. Watson, you spend the afternoon searching the various guests present the night of the murder.</p>
+
+<p>List of items found on the guests:</p>
+<ul>
+<li>Colonel Yellow: keys, cell phone, hiking maps, dog leash, baton.</li>
+<li>Mme White: In her room, scattered to the four corners of the room, you've found the key, a smartphone, a bag of kibble for her cat and a dagger.</li>
+<li>Miss Rose: A purse containing keys, a mobile phone, a rabbit's foot lucky and a rope.</li>
+<li>Prof. Violet: a pair of pincers, tweezers, a book on snakes, a python living nestled in a vivarium travel a candlestick.</li>
+<li>Dr Green: a medical kit bag made of calfskin containing among others a stethoscope, antibiotics and a wrench.</li>
+<li>Mme Blue: various perfumes, purse in crocodile leather containing a phone, tissues and a revolver. </li>
+</ul>
+
+
+<br>
+<form action="interviews.php" method="post">
+
+<input type="submit" name="OK" value="OK"></input>
+</form>
+
+</div>
+
+
+</div>
+</div>
+
+<?php
+	include('../../phpCrazy/footer.inc.php');
+?>

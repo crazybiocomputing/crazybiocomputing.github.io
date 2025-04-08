@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="bioroom.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2985" />
+    <linearGradient
+       gradientTransform="matrix(0.42865712,0,0,0.42865712,-386.49007,267.39334)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4833"
+       id="linearGradient4845"
+       x1="518.47583"
+       y1="319.34467"
+       x2="528.34619"
+       y2="282.09781"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4833">
+      <stop
+         style="stop-color:#ffaaaa;stop-opacity:1;"
+         offset="0"
+         id="stop4835" />
+      <stop
+         style="stop-color:#dd5076;stop-opacity:0;"
+         offset="1"
+         id="stop4837" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.42865713,0,0,0.42865713,-386.49007,267.39334)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4702"
+       id="linearGradient4708"
+       x1="474.64127"
+       y1="500.58994"
+       x2="567.9101"
+       y2="500.58994"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4702">
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:1;"
+         offset="0"
+         id="stop4704" />
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:0;"
+         offset="1"
+         id="stop4706" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4722"
+       id="linearGradient4728"
+       x1="516.21729"
+       y1="593.77338"
+       x2="565.61316"
+       y2="631.58258"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.41076736,0.12254431,-0.12254431,0.41076736,-302.12347,209.45266)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4722">
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:1;"
+         offset="0"
+         id="stop4724" />
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:0;"
+         offset="1"
+         id="stop4726" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1476306"
+     inkscape:cx="137.88061"
+     inkscape:cy="480.36018"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#a8b9db;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 63.157897,603.67797 C 99.999997,597.09902 363.1579,487.8885 363.1579,487.8885 l 367.10526,113.15789 c 0,0 -103.87665,120.1683 -172.36842,138.1579 -68.49177,17.9896 -152.30577,-41.12915 -201.31579,-32.89474 -49.01002,8.23441 -77.63158,44.73684 -82.89474,44.73684 -5.26316,0 -161.82346,1.13181 -197.368423,-36.8421 -35.54496,-37.97391 -13.15789,-110.52632 -13.15789,-110.52632 z"
+       id="path3001"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccczzszc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/coffee2.png"
+       inkscape:export-xdpi="93.209999"
+       inkscape:export-ydpi="93.209999" />
+    <g
+       id="g3031"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/coffee2.png"
+       inkscape:export-xdpi="93.209999"
+       inkscape:export-ydpi="93.209999">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3003"
+         d="M 314.47368,508.94113 723.68421,643.15166"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3005"
+         d="M 269.73684,526.04639 709.21053,681.30955"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3007"
+         d="M 226.31579,544.46745 668.42105,710.25692"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3009"
+         d="M 173.68421,565.52008 635.52632,744.46745"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3011"
+         d="M 115.78947,587.8885 577.63158,776.04639"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3013"
+         d="M 63.157895,606.30955 503.94737,802.36218"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3015"
+         d="M 402.63158,501.04639 63.157895,639.20429"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3017"
+         d="M 439.47368,512.8885 100,654.99376"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3019"
+         d="M 492.10526,529.99376 150,681.30955"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3021"
+         d="M 536.84211,541.83587 202.63158,698.41481"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3023"
+         d="M 580.26316,557.62534 259.21053,723.41481"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3025"
+         d="M 622.36842,569.46745 323.68421,749.7306"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3027"
+         d="M 665.78947,582.62534 388.15789,777.36218"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3029"
+         d="M 714.47368,598.41481 446.05263,804.99376"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:#d6dedd;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 363.15789,486.57271 0,-228.94737 368.42106,51.31579 -2.63158,290.78947 z"
+       id="path3815"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/coffee2.png"
+       inkscape:export-xdpi="93.209999"
+       inkscape:export-ydpi="93.209999" />
+    <path
+       style="fill:#d6dedd;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 363.66181,486.85266 0,-228.94737 -306.047025,66.20941 5.879058,282.27883 z"
+       id="path3815-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/coffee2.png"
+       inkscape:export-xdpi="93.209999"
+       inkscape:export-ydpi="93.209999" />
+    <path
+       style="fill:#84fbfc;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 341.71298,287.6086 344.48437,408.24147 77.51954,499.11424 74.468085,355.21715 C 96.231437,350.33696 255.02127,307.77504 341.71298,287.6086 z"
+       id="path3940"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/coffee2.png"
+       inkscape:export-xdpi="93.209999"
+       inkscape:export-ydpi="93.209999" />
+    <path
+       style="fill:#dfec00;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 360.52982,421.71408 368.47353,83.7031 -47.87934,26.27817 -308.41613,-77.41374 -271.7735,98.73846 -57.023382,-22.74287 z"
+       id="path3817"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/coffee2.png"
+       inkscape:export-xdpi="93.209999"
+       inkscape:export-ydpi="93.209999" />
+    <path
+       style="fill:#eaebea;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 197.79883,588.79838 61.8666,25.26946 189.08523,-87.13606 -67.96612,-20.91265 z"
+       id="path3350"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="student"
+     style="display:inline">
+    <g
+       id="g3274"
+       transform="translate(82.77925,-7.8422449)">
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4498"
+         d="m -281.6639,463.54829 33.00083,-23.94178 48.85417,46.26588 -25.55946,29.76545 z"
+         style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.42865714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4610"
+         d="m -155.46388,393.58065 c 0,0 -0.84814,6.83997 0.36964,12.19819 l 5.175,8.13212 -39.55169,39.55168 7.76247,-48.42309 z"
+         style="fill:#ffaaaa;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:connector-curvature="0"
+         id="path4500"
+         d="m -192.04399,361.31043 c -2.24768,4.22215 -3.27009,7.84452 -3.23538,11.00028 0.0347,3.15575 1.75592,3.29008 2.87365,7.84849 1.11773,4.55841 0.95067,11.68566 3.80608,17.18206 2.8554,5.4964 4.97218,10.16583 12.87199,10.42887 7.89981,0.26304 17.16163,-7.24005 21.21401,-16.69425 4.05238,-9.4542 4.07776,-22.53265 -1.29415,-30.73607 -5.37192,-8.20342 -17.85517,-13.88735 -25.23593,-12.29443 -7.38075,1.59293 -8.7526,9.0429 -11.00027,13.26505 z"
+         style="fill:#ffaaaa;stroke:#f4d7d7;stroke-width:0.42865714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cscccc"
+         inkscape:connector-curvature="0"
+         id="path7310"
+         d="m -192.54886,374.64532 c 4.4635,-1.32698 10.41484,1.52805 10.65611,1.93017 0.24127,0.40211 0.96509,1.3672 0.32171,4.10159 -2.8073,-0.45418 -7.49332,-0.37552 -9.24872,0.44233 l -0.32169,-1.24656 c -0.20105,-1.12593 -0.91853,-3.48061 -1.40741,-5.22753 z"
+         style="opacity:0.21505378;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4502"
+         d="m -182.20125,380.36718 c -0.9756,-0.18293 -1.21133,0.27891 -3.9561,0.80172 -2.43901,0.061 -4.14748,-0.67102 -4.14748,-0.67102 0,0 1.69914,-2.09124 3.79039,-2.48335 2.87546,-0.26141 4.31319,2.35265 4.31319,2.35265 z"
+         style="fill:#ffffff;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4560"
+         d="m -174.72979,379.59457 c 0.81943,-2.20722 2.55621,-2.6025 4.32926,-2.80487 1.77304,-0.20237 4.04548,0.5474 5.48779,1.76829 -2.39915,0.97698 -3.48267,1.24098 -5.12194,1.34146 -1.63926,0.10048 -3.39771,-0.44521 -4.69511,-0.30488 z"
+         style="fill:#ffffff;stroke:none;display:inline" />
+      <g
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         transform="matrix(0.01478349,0,0,0.01478349,-178.25593,362.10288)"
+         id="g4873"
+         style="display:inline">
+        <path
+           sodipodi:type="arc"
+           style="fill:#56daff;fill-opacity:1;stroke:#292782;stroke-width:5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path4764-2"
+           sodipodi:cx="884.48279"
+           sodipodi:cy="867.87939"
+           sodipodi:rx="107.47127"
+           sodipodi:ry="107.47127"
+           d="m 991.95406,867.87939 c 0,59.35475 -48.11653,107.47127 -107.47127,107.47127 -59.35474,0 -107.47127,-48.11652 -107.47127,-107.47127 0,-59.35474 48.11653,-107.47126 107.47127,-107.47126 59.35474,0 107.47127,48.11652 107.47127,107.47126 z"
+           transform="translate(-292.52876,223.56325)" />
+        <path
+           sodipodi:type="star"
+           style="fill:#7b69ff;fill-opacity:0.65490196;stroke:#292782;stroke-width:2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path4841-1"
+           sodipodi:sides="30"
+           sodipodi:cx="-163.21838"
+           sodipodi:cy="833.97137"
+           sodipodi:r1="96.803284"
+           sodipodi:r2="48.744919"
+           sodipodi:arg1="1.0253878"
+           sodipodi:arg2="1.1301076"
+           inkscape:flatsided="false"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m -113,916.73 -29.42563,-38.67089 11.12176,47.3034 -20.74249,-43.94377 1.04379,48.58205 -11.15279,-47.29609 -9.07979,47.73743 -1.07566,-48.58135 -18.80656,44.80646 9.04848,-47.74338 -27.71137,39.91722 18.77715,-44.81878 -35.40506,33.28342 27.68517,-39.9354 -41.55139,25.19497 35.38322,-33.30664 -45.88173,16.00538 41.53486,-25.22223 -48.2068,6.11628 45.87121,-16.03548 -48.42502,-4.04014 48.20279,-6.1479 -46.52682,-14.01998 48.42766,4.00837 -42.59519,-23.38708 46.53601,13.98945 -36.80193,-31.73205 42.61052,23.35913 -29.40025,-38.69018 36.82274,31.7079 -20.71365,-43.95737 29.42563,38.67089 -11.12175,-47.3034 20.74248,43.94376 -1.04379,-48.58205 11.15279,47.2961 9.07979,-47.73743 1.07567,48.58135 18.80655,-44.80646 -9.04848,47.74338 27.71137,-39.91722 -18.77715,44.81878 35.40507,-33.28342 -27.68518,39.9354 41.551396,-25.19497 -35.383226,33.30664 45.881728,-16.00538 -41.534858,25.22223 48.206807,-6.11628 -45.871217,16.03548 48.425018,4.04014 -48.202788,6.1479 46.526827,14.01998 -48.427657,-4.00837 42.595182,23.38708 -46.536012,-13.98945 36.801929,31.73205 -42.610519,-23.35913 29.400256,38.69018 -36.822746,-31.7079 z"
+           transform="translate(755.17245,257.47127)" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#000304;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path4766-4"
+           sodipodi:cx="851.14941"
+           sodipodi:cy="727.64954"
+           sodipodi:rx="52.298851"
+           sodipodi:ry="52.298851"
+           d="m 903.44827,727.64954 c 0,28.88385 -23.415,52.29885 -52.29886,52.29885 -28.88385,0 -52.29885,-23.415 -52.29885,-52.29885 0,-28.88386 23.415,-52.29885 52.29885,-52.29885 28.88386,0 52.29886,23.41499 52.29886,52.29885 z"
+           transform="matrix(1.0093955,0,0,1.0216813,-267.19236,348.01672)" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#ffffff;fill-opacity:1;stroke:none"
+           id="path4768-6"
+           sodipodi:cx="912.06897"
+           sodipodi:cy="826.50012"
+           sodipodi:rx="23.563219"
+           sodipodi:ry="23.563219"
+           d="m 935.63219,826.50012 c 0,13.01361 -10.54961,23.56322 -23.56322,23.56322 -13.01361,0 -23.56322,-10.54961 -23.56322,-23.56322 0,-13.0136 10.54961,-23.56322 23.56322,-23.56322 13.01361,0 23.56322,10.54962 23.56322,23.56322 z"
+           transform="translate(-290.22991,232.75866)" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#ffffff;fill-opacity:0.65490196;stroke:none"
+           id="path4768-8-8"
+           sodipodi:cx="912.06897"
+           sodipodi:cy="826.50012"
+           sodipodi:rx="23.563219"
+           sodipodi:ry="23.563219"
+           d="m 935.63219,826.50012 c 0,13.01361 -10.54961,23.56322 -23.56322,23.56322 -13.01361,0 -23.56322,-10.54961 -23.56322,-23.56322 0,-13.0136 10.54961,-23.56322 23.56322,-23.56322 13.01361,0 23.56322,10.54962 23.56322,23.56322 z"
+           transform="matrix(1.2439024,0,0,1.2439024,-581.07654,99.564058)" />
+      </g>
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4564"
+         d="m -170.39322,390.38721 c 0,0 3.41462,2.25609 4.51218,7.9268 0.14367,-5.12068 0.12195,-6.21949 -4.51218,-7.9268 z"
+         style="opacity:0.13978493;fill:#010100;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4741"
+         d="m -183.21847,396.14765 14.6178,-1.25108 c -1.44861,5.13598 -7.37474,5.7286 -7.37474,5.7286 -8.42829,-1.38277 -7.24306,-4.47752 -7.24306,-4.47752 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccscc"
+         inkscape:connector-curvature="0"
+         id="path7277"
+         d="m -153.05269,400.10177 c -0.51646,0.51646 -15.23541,14.3316 -15.23541,14.3316 5.42277,0.64557 17.043,-8.90883 17.043,-8.90883 0,0 -15.36255,13.09567 -14.58984,13.04047 9.03795,-0.64556 18.33413,-8.65061 18.33413,-8.65061 z"
+         style="opacity:0.2724014;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccsc"
+         inkscape:connector-curvature="0"
+         id="path7275"
+         d="m -173.83998,407.97769 c 12.52401,-1.0329 21.94931,-18.59234 21.94931,-19.88348 1.93671,7.87592 2.8405,26.33916 2.8405,26.33916 0,0 -16.91388,18.59237 -16.91388,17.68857 0,-0.90379 5.29365,-14.84806 -7.87593,-24.14425 z"
+         style="opacity:0.07168459;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="scscccccccccccccccccccccccccsccc"
+         inkscape:connector-curvature="0"
+         id="path4632"
+         d="m -174.46553,345.43573 c -2.98351,0.0393 -6.87252,0.60098 -11.66752,2.29064 0,0 -9.76337,8.60012 -10.01986,18.13756 -0.0943,3.50546 2.88004,17.02572 2.88004,17.02572 l -0.26791,-14.07871 c -0.24355,1.33956 0.80251,-7.31275 6.28251,-11.45318 0,0 3.19666,1.42114 7.70243,1.29936 3.65333,-1.21777 3.2746,0.22286 8.02392,-1.96914 0,0 7.72801,-1.36269 10.5289,3.63019 0,0 -1.358,3.31316 -0.16055,6.02739 2.0756,-0.31932 3.16215,4.89138 3.16215,4.89138 2.30624,1.32527 1.43312,6.50165 0.14875,8.90983 1.60547,-0.16054 2.85084,13.32534 2.85084,13.32534 0,0 -0.43648,2.25712 -3.44265,6.83173 2.61406,-1.56843 4.92462,-3.76144 6.06165,-6.26289 -0.79592,3.97958 -8.4704,17.05604 -16.75128,20.10048 3.21338,-0.43802 6.88516,-1.63315 9.81654,-3.08641 l 5.48924,-3.55962 c 0.30341,0.54354 -0.98511,1.80296 -1.924,2.6697 -1.71684,2.4422 -12.21637,8.51741 -12.21637,8.51741 0,0 9.57902,-3.51572 14.81546,-6.92549 l 6.38967,-1.47351 c 0,0 -3.22832,-5.14998 -1.88877,-8.55975 l 2.30404,-3.72396 c 0.24356,-3.40977 2.09457,-5.28149 0.26791,-10.27436 0.12177,-5.60177 -1.56841,-8.10692 -3.02974,-12.73448 3.16669,-5.45544 -2.42484,-18.41403 -2.42484,-18.41403 0,0 -5.85597,-8.53602 -15.49604,-9.82844 0,0 -2.46202,-1.37817 -7.43452,-1.31276 z m 24.82192,41.7271 c 0.56851,7.84544 -1.25026,7.96923 -2.72839,10.01587 2.50145,-5.11659 2.72839,-10.01587 2.72839,-10.01587 z"
+         style="fill:#502d16;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccccscc"
+         inkscape:connector-curvature="0"
+         id="path4586"
+         d="m -176.61271,372.88728 c -1.58536,5.06096 -2.25609,11.95117 -1.58536,13.96336 0.79341,1.13642 0.92385,0.54997 2.86585,1.34147 -0.18293,1.84957 -2.26129,1.46559 -3.04878,3.10973 -0.9756,-1.76828 -1.92892,-1.39311 -2.19511,-1.58536 -1.09756,-0.79268 1.46341,-10.79264 0.54878,-16.52433 z"
+         style="opacity:0.35125451;fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="csscccccccccccccccccccsccccccccc"
+         inkscape:connector-curvature="0"
+         id="path4588"
+         d="m -184.66559,442.74303 c 0.73929,-1.47857 4.06607,-9.61069 5.54463,-9.61069 1.47857,0 5.91427,-0.36965 6.65356,-1.84821 0.73928,-1.47857 5.91426,-3.32678 5.91426,-3.32678 l -0.73928,-7.0232 c 14.78568,-2.58749 17.37318,-14.78567 17.37318,-14.78567 l 4.06606,8.13212 c 0,0 11.82854,13.67675 19.22138,18.48209 5.91427,12.56783 6.28391,24.76601 6.28391,24.76601 l -1.10893,17.37317 c 2.21785,8.13212 2.21785,22.9178 1.10893,31.04993 -1.47857,4.06606 -4.80535,10.34997 -4.80535,10.34997 -2.58749,7.02319 -8.34599,14.40441 -8.34599,14.40441 l -5.26449,5.46674 -2.40848,19.20287 2.36545,12.38882 -68.62904,2.5294 -3.43952,-15.29131 -6.37342,13.80112 -16.66529,-2.90249 7.10926,-28.89961 c 0,0 10.34997,-34.00707 15.52495,-42.50883 0,0 0.73929,-25.13565 0.36965,-27.3535 -0.36965,-2.21785 0,-5.91426 0,-5.91426 l -5.175,-4.80535 5.91428,-33.26778 4.80535,-6.65354 c 0,0 12.56782,-3.32678 19.22138,-4.80535 l 4.80534,-3.69643 0,11.08926 -1.10893,13.67675 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.42865714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4582"
+         d="m -175.881,375.44824 c 4.57315,-5.97559 13.65849,-3.59755 13.65849,-3.59755 0,0 -9.26826,-4.14633 -14.26825,2.74389 z"
+         style="fill:#010100;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4639"
+         d="m -183.50828,392.26115 c 0,0 -2.87547,3.65968 0.39211,10.97906 0,0 -6.40445,-6.40445 -0.39211,-10.97906 z"
+         style="opacity:0.14695339;fill:#010100;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         inkscape:connector-curvature="0"
+         id="path4612"
+         d="m -142.89605,426.84843 -29.57135,31.41955 5.91426,1.47858 z"
+         style="fill:#f2f2f2;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         inkscape:connector-curvature="0"
+         id="path4616"
+         d="m -139.19963,443.85195 -16.26425,22.17852 5.54464,1.8482 z"
+         style="fill:#ececec;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         inkscape:connector-curvature="0"
+         id="path4614"
+         d="m -142.89605,439.04661 -21.06959,23.28744 3.32677,1.84821 z"
+         style="fill:#ececec;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path4602"
+         d="m -184.29595,443.11267 c 0,0 -0.84751,6.79442 -2.15454,12.80676 -1.69915,7.05797 -10.04364,30.0717 -10.04364,30.0717 -4.0518,7.05797 -7.76248,27.3535 -7.76248,27.3535 l -2.21785,20.33031 c 0.2614,4.7053 2.89384,7.52764 2.89384,7.52764 l -4.111,1.4561 -1.00069,-9.35339 4.06606,-23.28743 c 0,0 0.60858,-7.31725 1.26209,-12.67606 1.56844,-6.14305 6.50039,-18.7435 6.50039,-18.7435 l 6.28391,-17.74282 2.21785,-5.91427 1.84821,-13.67675 z"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path4606"
+         d="m -186.15879,521.17254 -20.96545,5.32815 -10.34997,4.80535 c 0,0 -1.77671,2.56093 -5.17499,4.65217 l 1.84821,2.00138 5.17499,-0.36964 7.39283,-2.95713 c 0,0 -0.1266,3.86795 -2.21785,5.17499 -2.61405,0.3921 -7.39284,-2.21786 -7.39284,-2.21786 l -0.19399,3.95783 c 0.91492,1.30702 8.87747,5.64876 16.45824,7.87072 5.88164,-3.13688 8.32202,-10.23765 11.4589,-12.19819 2.87547,-1.82984 9.15528,-3.1103 9.15528,-3.1103 z"
+         style="fill:#ffaaaa;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccccccc"
+         inkscape:connector-curvature="0"
+         id="path4600"
+         d="m -144.58177,505.01453 -28.065,7.44273 -18.03857,5.46617 c 1.43034,2.06346 5.24029,29.67551 5.24029,29.67551 l 46.93226,-9.91461 c 0,0 2.97068,-2.19967 5.09005,-5.42481 1.23088,-5.4189 -0.0668,-20.46417 -5.21176,-27.78519 z"
+         style="fill:url(#linearGradient4728);fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4592"
+         d="m -169.87991,460.1162 c 10.71961,8.13212 26.61422,10.34997 26.61422,10.34997 l -9.24105,33.26777 c -11.82854,1.10893 -28.09279,-7.39283 -30.31064,-8.8714 z"
+         style="fill:url(#linearGradient4708);fill-opacity:1;stroke:#dad9d9;stroke-width:0.42865714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         inkscape:connector-curvature="0"
+         id="path4590"
+         d="m -184.29595,467.13939 -5.17498,17.37317 c 0,0 23.28744,12.19819 23.28744,9.98033 0,-2.21785 5.17498,-19.96066 5.17498,-19.96066 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.42865714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4739"
+         d="m -183.48185,396.14765 0.92184,1.05352 c 5.20183,1.44862 12.77411,0.52677 14.15688,-2.43629 -1.97538,0.92184 -7.76982,2.23877 -15.07872,1.38277 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccssscc"
+         inkscape:connector-curvature="0"
+         id="path4578"
+         d="m -183.70506,396.08676 c 3.79996,0.77066 12.51901,0.25333 15.50725,-1.41218 -2.83138,0.19754 -4.44679,-0.29451 -6.53899,0.01 -0.92872,0.13506 -1.74587,0.80176 -2.68292,0.85366 -0.72435,0.0401 -1.40879,-0.44026 -2.13413,-0.42683 -1.39984,0.0259 -4.15121,0.9756 -4.15121,0.9756 z"
+         style="fill:#ff5555;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4576"
+         d="m -183.44167,396.14773 c 3.29267,3.59755 6.75366,3.04877 6.75366,3.04877 3.76015,-0.71137 6.53189,-1.33069 8.23151,-4.45033 -0.79269,4.26828 -5.06079,6.76741 -8.53639,7.25521 -6.89022,-0.91463 -6.20523,-6.03553 -6.44878,-5.85365 z"
+         style="fill:#ff5555;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         inkscape:connector-curvature="0"
+         id="path4743"
+         d="m -175.90957,395.42334 1.44862,-0.59262 3.09476,0.13169 z"
+         style="opacity:0.42652331;fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         inkscape:connector-curvature="0"
+         id="path4743-2"
+         d="m -180.7003,395.81811 0.88163,-0.52834 1.77924,0.26511 z"
+         style="opacity:0.76344084;fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4763"
+         d="m -182.16494,397.72794 c 5.59691,4.60922 12.11567,-0.52677 12.11567,-0.52677 -3.48984,2.96308 -6.78214,2.89723 -6.78214,2.89723 0,0 -3.68737,-0.19754 -5.33353,-2.37046 z"
+         style="opacity:0.33333333;fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4765"
+         d="m -181.73189,376.77654 c -4.18203,-4.74499 -9.32913,-3.21693 -10.45505,-3.05609 -0.80425,0.48254 -0.72382,1.6889 -0.72382,1.6889 0,0 5.38838,-2.33228 11.17887,1.36719 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4584"
+         d="m -174.66193,379.41805 c 0.2988,-2.14367 3.9333,-3.20695 5.06872,-3.25829 1.37266,-0.10697 4.80844,0.92205 5.4894,1.18293 -0.0831,0.66299 -0.63143,0.5133 -1.00827,0.97891 -2.05819,-1.49623 -3.54312,-1.45048 -4.8091,-1.48481 -0.6063,-0.11032 -3.57826,0.69212 -4.74075,2.58126 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.08573142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4562"
+         d="m -169.72648,374.49551 c -2.31707,0.12195 -4.08535,0.7317 -5.12193,2.37804 0,0 -1.09768,1.58103 -0.67073,4.32925 0.73214,-3.03827 2.86584,-5.60973 5.79266,-6.70729 z"
+         style="opacity:0.13261647;fill:#010100;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4771"
+         d="m -162.99298,378.33841 c 0,0 -1.08141,0.82251 -1.96963,0.0346 0.92848,0.12373 1.96963,-0.0346 1.96963,-0.0346 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4771-4"
+         d="m -163.08809,376.41699 c 0,0 -0.87437,1.44856 -2.18855,1.08726 1.08871,-0.36412 2.18855,-1.08726 2.18855,-1.08726 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         inkscape:transform-center-y="2.2130256"
+         inkscape:transform-center-x="1.4292445"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4771-4-9"
+         d="m -163.19299,377.82672 c 0,0 -0.9095,0.81882 -1.74773,0.27167 0.8326,-0.0114 1.74773,-0.27167 1.74773,-0.27167 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccscc"
+         inkscape:connector-curvature="0"
+         id="path4809"
+         d="m -155.62001,382.24946 c 0,0 -1.75627,9.97882 -11.65527,8.38221 5.66798,6.30662 1.71615,13.36132 2.35256,12.99162 5.6749,-3.29668 11.53797,-13.55044 11.53797,-13.55044 z"
+         style="fill:url(#linearGradient4845);fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4861"
+         d="m -175.09867,387.8376 c 0,0 1.0378,1.59661 0.71847,3.03355 0,0 2.15543,-0.23949 2.79407,-2.07559 -0.87813,-1.99576 -3.51254,-0.95796 -3.51254,-0.95796 z"
+         style="opacity:0.05017922;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4771-4-1"
+         d="m -137.43928,371.5839 c 0,0 -0.87437,1.44857 -2.18855,1.08726 1.0887,-0.36412 2.18855,-1.08726 2.18855,-1.08726 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4771-4-1-0"
+         d="m -163.03325,377.17231 c 0,0 -1.15364,1.23774 -2.3654,0.61383 1.14032,-0.13238 2.3654,-0.61383 2.3654,-0.61383 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4861-5"
+         d="m -181.08597,388.13212 c 0,0 -0.39915,1.75627 0.39916,3.35288 0,0 -1.51679,1.0378 -2.39492,-1.51678 0.39915,-1.59661 1.99576,-1.8361 1.99576,-1.8361 z"
+         style="opacity:0.05017922;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4859"
+         d="m -174.67589,379.46389 c 1.37212,0.33921 7.92898,0.66276 9.7615,-0.94688 -0.83709,1.84978 -4.83122,2.36461 -4.83122,2.36461 -1.91692,-0.0909 -3.78756,-0.0134 -4.93028,-1.41773 z"
+         style="opacity:0.05017922;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <g
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         transform="matrix(0.01362151,0,0,0.01362151,-193.58188,364.74436)"
+         id="g4873-6"
+         style="display:inline">
+        <path
+           sodipodi:type="arc"
+           style="fill:#56daff;fill-opacity:1;stroke:#292782;stroke-width:5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path4764-2-0"
+           sodipodi:cx="884.48279"
+           sodipodi:cy="867.87939"
+           sodipodi:rx="107.47127"
+           sodipodi:ry="107.47127"
+           d="m 991.95406,867.87939 c 0,59.35475 -48.11653,107.47127 -107.47127,107.47127 -59.35474,0 -107.47127,-48.11652 -107.47127,-107.47127 0,-59.35474 48.11653,-107.47126 107.47127,-107.47126 59.35474,0 107.47127,48.11652 107.47127,107.47126 z"
+           transform="translate(-292.52876,223.56325)" />
+        <path
+           sodipodi:type="star"
+           style="fill:#7b69ff;fill-opacity:0.65490196;stroke:#292782;stroke-width:2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path4841-1-3"
+           sodipodi:sides="30"
+           sodipodi:cx="-163.21838"
+           sodipodi:cy="833.97137"
+           sodipodi:r1="96.803284"
+           sodipodi:r2="48.744919"
+           sodipodi:arg1="1.0253878"
+           sodipodi:arg2="1.1301076"
+           inkscape:flatsided="false"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m -113,916.73 -29.42563,-38.67089 11.12176,47.3034 -20.74249,-43.94377 1.04379,48.58205 -11.15279,-47.29609 -9.07979,47.73743 -1.07566,-48.58135 -18.80656,44.80646 9.04848,-47.74338 -27.71137,39.91722 18.77715,-44.81878 -35.40506,33.28342 27.68517,-39.9354 -41.55139,25.19497 35.38322,-33.30664 -45.88173,16.00538 41.53486,-25.22223 -48.2068,6.11628 45.87121,-16.03548 -48.42502,-4.04014 48.20279,-6.1479 -46.52682,-14.01998 48.42766,4.00837 -42.59519,-23.38708 46.53601,13.98945 -36.80193,-31.73205 42.61052,23.35913 -29.40025,-38.69018 36.82274,31.7079 -20.71365,-43.95737 29.42563,38.67089 -11.12175,-47.3034 20.74248,43.94376 -1.04379,-48.58205 11.15279,47.2961 9.07979,-47.73743 1.07567,48.58135 18.80655,-44.80646 -9.04848,47.74338 27.71137,-39.91722 -18.77715,44.81878 35.40507,-33.28342 -27.68518,39.9354 41.551396,-25.19497 -35.383226,33.30664 45.881728,-16.00538 -41.534858,25.22223 48.206807,-6.11628 -45.871217,16.03548 48.425018,4.04014 -48.202788,6.1479 46.526827,14.01998 -48.427657,-4.00837 42.595182,23.38708 -46.536012,-13.98945 36.801929,31.73205 -42.610519,-23.35913 29.400256,38.69018 -36.822746,-31.7079 z"
+           transform="translate(755.17245,257.47127)" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#000304;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path4766-4-9"
+           sodipodi:cx="851.14941"
+           sodipodi:cy="727.64954"
+           sodipodi:rx="52.298851"
+           sodipodi:ry="52.298851"
+           d="m 903.44827,727.64954 c 0,28.88385 -23.415,52.29885 -52.29886,52.29885 -28.88385,0 -52.29885,-23.415 -52.29885,-52.29885 0,-28.88386 23.415,-52.29885 52.29885,-52.29885 28.88386,0 52.29886,23.41499 52.29886,52.29885 z"
+           transform="matrix(1.0093955,0,0,1.0216813,-267.19236,348.01672)" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#ffffff;fill-opacity:1;stroke:none"
+           id="path4768-6-9"
+           sodipodi:cx="912.06897"
+           sodipodi:cy="826.50012"
+           sodipodi:rx="23.563219"
+           sodipodi:ry="23.563219"
+           d="m 935.63219,826.50012 c 0,13.01361 -10.54961,23.56322 -23.56322,23.56322 -13.01361,0 -23.56322,-10.54961 -23.56322,-23.56322 0,-13.0136 10.54961,-23.56322 23.56322,-23.56322 13.01361,0 23.56322,10.54962 23.56322,23.56322 z"
+           transform="translate(-290.22991,232.75866)" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#ffffff;fill-opacity:0.65490196;stroke:none"
+           id="path4768-8-8-2"
+           sodipodi:cx="912.06897"
+           sodipodi:cy="826.50012"
+           sodipodi:rx="23.563219"
+           sodipodi:ry="23.563219"
+           d="m 935.63219,826.50012 c 0,13.01361 -10.54961,23.56322 -23.56322,23.56322 -13.01361,0 -23.56322,-10.54961 -23.56322,-23.56322 0,-13.0136 10.54961,-23.56322 23.56322,-23.56322 13.01361,0 23.56322,10.54962 23.56322,23.56322 z"
+           transform="matrix(1.2439024,0,0,1.2439024,-581.07654,99.564058)" />
+      </g>
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         inkscape:connector-curvature="0"
+         id="path4620"
+         d="m -249.35292,493.75361 -5.17499,5.17499 4.80534,2.58749 0,1.84821 3.32678,-1.47857 2.5875,-7.02319 z"
+         style="fill:#ffaaaa;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4622"
+         d="m -239.00295,493.75361 -12.19818,10.34997 c 0.49074,2.20833 1.73664,3.20887 4.4357,4.4357 4.66201,-3.18979 10.71961,-13.67674 10.71961,-13.67674 z"
+         style="fill:#ffaaaa;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4628"
+         d="m -231.24047,503.73394 c 1.47221,0.24537 3.81434,0.75199 3.81434,0.75199 -0.24537,3.1898 -7.14112,9.59798 -7.14112,9.59798 l -2.58748,-4.4357 z"
+         style="fill:#ffaaaa;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4624"
+         d="m -234.81261,494.73508 2.83285,1.97567 -4.43569,7.02319 c 0,0 -1.01007,3.96403 -5.91745,6.90846 l -4.43253,-2.47275 z"
+         style="fill:#ffaaaa;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4626"
+         d="m -231.97976,497.81967 2.95714,3.32678 c 0,0 -4.33367,9.37168 -9.24105,11.08926 l -2.95713,-2.95714 z"
+         style="fill:#ffaaaa;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         inkscape:connector-curvature="0"
+         id="path7300"
+         d="m -183.01948,357.45051 c 0,-2.45369 -0.13166,-3.91407 0.89166,-6.75662 -0.11371,2.84255 -0.44868,4.27314 1.37056,6.77459 z"
+         style="opacity:0.72043014;fill:#e9c6af;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path7302"
+         d="m -174.86533,378.64745 c 3.54122,-4.90322 9.85596,-2.03063 10.40076,-2.08016"
+         style="fill:none;stroke:#000000;stroke-width:0.21432857;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path7304"
+         d="m -182.12879,380.34774 c -2.25325,-2.33372 -5.15131,-3.05729 -8.12748,0.2014 l -0.60382,-1.08626 c 2.01182,-2.81656 7.60468,-1.77075 8.7313,0.88486 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path7306"
+         d="m -182.4908,379.30183 c -0.12064,-0.88466 -4.3441,-4.10393 -8.7311,-0.36225"
+         style="fill:none;stroke:#000000;stroke-width:0.21432857;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4859-4"
+         d="m -191.2772,381.08505 c 1.37211,0.33921 7.92897,0.66276 9.76149,-0.94689 -0.83709,1.84979 -4.83122,2.36461 -4.83122,2.36461 -1.91691,-0.0909 -3.78756,-0.0134 -4.93027,-1.41772 z"
+         style="opacity:0.05017922;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4771-4-5"
+         d="m -189.86186,379.50948 c 0,0 -1.69085,0.0622 -2.10864,-1.23513 0.9011,0.71126 2.10864,1.23513 2.10864,1.23513 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:transform-center-y="0.50965041"
+         inkscape:transform-center-x="0.63638805"
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4771-4-5-2"
+         d="m -189.68942,379.75223 c 0,0 -1.63669,0.42909 -2.32709,-0.74606 1.03442,0.49786 2.32709,0.74606 2.32709,0.74606 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:transform-center-y="0.83878657"
+         inkscape:transform-center-x="0.40779505"
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4771-4-5-2-6"
+         d="m -189.29297,379.70068 c 0,0 -1.34828,1.02226 -2.43553,0.20035 1.14618,0.0646 2.43553,-0.20035 2.43553,-0.20035 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4771-4-5-9"
+         d="m -189.60458,379.08277 c 0,0 -1.69087,0.0622 -2.10864,-1.23514 0.90109,0.71126 2.10864,1.23514 2.10864,1.23514 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path7402"
+         d="m -155.42921,379.4514 c 0,0 2.50122,-4.2262 5.43368,-2.75997 1.46624,1.98373 0.51749,6.98616 0.51749,6.98616 -2.32872,4.82993 -5.86493,7.5899 -5.86493,7.5899 -1.98372,-1.46623 -2.67371,-6.38242 -2.67371,-6.38242 0,0 2.24247,-4.91618 2.58747,-5.43367 z"
+         style="fill:#ffaaaa;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="czzzzzcc"
+         inkscape:connector-curvature="0"
+         id="path7407"
+         d="m -152.583,382.9876 c 0.15914,0.59022 1.45398,0.83473 1.37999,1.81122 -0.074,0.97651 -1.80616,2.63481 -2.58747,2.50123 -0.78132,-0.13359 -0.51284,-0.41138 -0.5175,-1.03499 -0.005,-0.62361 1.21134,-1.53488 1.12124,-2.32872 -0.0901,-0.79384 -1.52944,-0.95937 -1.37998,-1.72498 0.14945,-0.76561 1.71406,-1.46665 2.15622,-1.20749 0.35091,0.50834 -0.32674,1.34882 -0.1725,1.98373 z"
+         style="opacity:0.31182796;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="czcc"
+         inkscape:connector-curvature="0"
+         id="path7405"
+         d="m -153.1005,378.5889 c 0,0 1.0565,-1.83993 2.32873,-1.29373 1.27223,0.54621 1.12123,3.7087 0.43124,6.46866 -0.94874,-3.3637 -2.75997,-5.17493 -2.75997,-5.17493 z"
+         style="opacity:0.24014336;fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         inkscape:connector-curvature="0"
+         id="path7300-3"
+         d="m -179.88458,357.67722 c -0.68221,-1.31667 -2.29201,-1.75373 -1.26869,-4.59629 0.34111,2.72886 1.14316,2.68131 2.96239,4.50055 z"
+         style="opacity:0.72043014;fill:#e9c6af;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path7433"
+         d="m -147.71554,387.73632 c -0.22741,4.43438 -1.84811,8.617 -5.11659,14.66757 5.344,-5.00289 6.02621,-11.59761 5.11659,-14.66757 z"
+         style="fill:#d38d5f;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path7433-3"
+         d="m -155.62779,404.80792 c -1.92065,2.78005 -4.64269,4.83987 -9.1786,7.45009 5.46069,-1.10186 8.53977,-5.0987 9.1786,-7.45009 z"
+         style="fill:#deaa87;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         inkscape:export-ydpi="105.56"
+         inkscape:export-xdpi="105.56"
+         inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/crazybioflow_sdk/crazybiolab/character/biologist.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path7455"
+         d="m -155.07678,378.72983 c 1.76437,-3.26267 5.20872,-2.6799 5.0029,-1.73494"
+         style="fill:none;stroke:#ffd5d5;stroke-width:0.85731429;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    </g>
+  </g>
+</svg>

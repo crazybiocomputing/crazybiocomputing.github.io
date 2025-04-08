@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf8">
+<?php
 
-<link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
-<link href="../../style_crazy.css" rel="stylesheet" type="text/css"> 
+	require('../../phpCrazy/cookie_check_crazybio.inc.php');
+
+	include('../../phpCrazy/header.inc.php');
+
+?>
 
 <script type="text/javascript">
 
@@ -19,7 +19,7 @@ if (window.opera){
 document.write("<input type='hidden' id='Q' value=' '>");
 }
 
-var n = 200;
+var n = 500;
 var dragok = false;
 var y,x,d,dy,dx;
 
@@ -65,19 +65,14 @@ document.onmouseup = up;
 })();
 }//End.
 
-
 </script>
-
-
-<body>
-<header>
-</header>
-
 
 <div id="page">
 <div id="content">
 
 <center>  
+
+<p>ls -1 *.png | awk '{printf "<img src=\"%s\"></img>\n",$1}' -</p>
 
 <pre>
 >AB000263 |acc=AB000263|descr=Homo sapiens mRNA for prepro cortistatin like peptide, complete cds.|len=368
@@ -88,37 +83,36 @@ AAGCTCGGGAGGTGGCCAGGCGGCAGGAAGGCGCACCCCCCCAGCAATCCGCGCGCCGGGACAGAATGCC
 CTGCAGGAACTTCTTCTGGAAGACCTTCTCCTCCTGCAAATAAAACCTCACCCATGAATGCTCACGCAAG
 TTTAATTACAGACCTGAA
 </pre>
+<p>&rarr; GenBank </p>
 
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="dd.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="d.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="e.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="iiii.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="iii.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="ii.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="i.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="ll.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="l.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="m.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="nn.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="n.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="oooo.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="ooo.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="oo.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="o.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="s.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="ss.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="sss.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="t.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="tt.png"></img></div>
-<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(-50,350); ?>px;left:<?php echo rand(-400,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="u.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="dd.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="d.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="e.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="iiii.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="iii.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="ii.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="i.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="ll.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="l.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="m.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="nn.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="n.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="oooo.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="ooo.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="oo.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="o.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="s.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="ss.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="sss.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="t.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="tt.png"></img></div>
+<div class="dragclass" style="height:1px;width:1px;top:<?php echo rand(0,100); ?>px;left:<?php echo rand(-200,200); ?>px;background-color:#ff0000;color:#ffffff"><img src="u.png"></img></div>
 
-</center>
 </center>
 
 </div>
 </div>
-<script type="text/javascript" src="../data.js"></script>
-<script type="text/javascript" src="../../js/crazy_header.js"></script>
-</body>
-</html>
 
+<?php
+	include('../../phpCrazy/footer.inc.php');
+?>

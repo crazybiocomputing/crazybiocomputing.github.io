@@ -1,0 +1,20 @@
+<?php
+	include('../../phpCrazy/header_history.inc.php');
+?>
+
+<div id="page">
+<div id="content">
+
+<ul>
+<li><b>2012/03/05</b>: Help added </li>
+<li><b>2012/03/05</b>: History created</li>
+</ul>
+
+</div>
+</div>
+
+<?php
+	include('../../phpCrazy/footer.inc.php');
+?>
+</body>
+</html>

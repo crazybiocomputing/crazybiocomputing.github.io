@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="sketch3D.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4936">
+      <stop
+         style="stop-color:#00b1fc;stop-opacity:1;"
+         offset="0"
+         id="stop4938" />
+      <stop
+         style="stop-color:#00b1fc;stop-opacity:0;"
+         offset="1"
+         id="stop4940" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL"
+       style="overflow:visible">
+      <path
+         id="path3974"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+    <linearGradient
+       id="linearGradient3901">
+      <stop
+         style="stop-color:#3aff38;stop-opacity:1;"
+         offset="0"
+         id="stop3903" />
+      <stop
+         style="stop-color:#009600;stop-opacity:1;"
+         offset="1"
+         id="stop3905" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3893">
+      <stop
+         style="stop-color:#16fffb;stop-opacity:1;"
+         offset="0"
+         id="stop3895" />
+      <stop
+         style="stop-color:#1600fb;stop-opacity:1;"
+         offset="1"
+         id="stop3897" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2987">
+      <stop
+         style="stop-color:#ffef38;stop-opacity:1;"
+         offset="0"
+         id="stop2989" />
+      <stop
+         style="stop-color:#ffb510;stop-opacity:1;"
+         offset="1"
+         id="stop2991" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2987"
+       id="radialGradient3767"
+       cx="385.71426"
+       cy="410.93362"
+       fx="385.71426"
+       fy="410.93362"
+       r="35.75"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.4782681,-0.1599733,0.14167041,-1.3091349,897.6862,1010.6051)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2987-8"
+       id="radialGradient3767-0"
+       cx="385.71426"
+       cy="410.93362"
+       fx="385.71426"
+       fy="410.93362"
+       r="35.75"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.4782681,-0.1599733,0.14167041,-1.3091349,897.6862,1010.6051)" />
+    <linearGradient
+       id="linearGradient2987-8">
+      <stop
+         style="stop-color:#ffef38;stop-opacity:1;"
+         offset="0"
+         id="stop2989-5" />
+      <stop
+         style="stop-color:#ffb510;stop-opacity:1;"
+         offset="1"
+         id="stop2991-5" />
+    </linearGradient>
+    <radialGradient
+       r="35.75"
+       fy="410.93362"
+       fx="385.71426"
+       cy="410.93362"
+       cx="385.71426"
+       gradientTransform="matrix(-0.86618851,-0.01403225,0.0041321,-0.69049474,718.1175,700.0935)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3786"
+       xlink:href="#linearGradient2987-8"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2987-4"
+       id="radialGradient3767-6"
+       cx="385.71426"
+       cy="410.93362"
+       fx="385.71426"
+       fy="410.93362"
+       r="35.75"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.4782681,-0.1599733,0.14167041,-1.3091349,897.6862,1010.6051)" />
+    <linearGradient
+       id="linearGradient2987-4">
+      <stop
+         style="stop-color:#ffef38;stop-opacity:1;"
+         offset="0"
+         id="stop2989-9" />
+      <stop
+         style="stop-color:#ffb510;stop-opacity:1;"
+         offset="1"
+         id="stop2991-8" />
+    </linearGradient>
+    <radialGradient
+       r="35.75"
+       fy="410.93362"
+       fx="385.71426"
+       cy="410.93362"
+       cx="385.71426"
+       gradientTransform="matrix(-1.4782681,-0.1599733,0.14167041,-1.3091349,897.6862,1010.6051)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3820-1"
+       xlink:href="#linearGradient2987-4-3"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient2987-4-3">
+      <stop
+         style="stop-color:#ffef38;stop-opacity:1;"
+         offset="0"
+         id="stop2989-9-2" />
+      <stop
+         style="stop-color:#ffb510;stop-opacity:1;"
+         offset="1"
+         id="stop2991-8-4" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3893"
+       id="radialGradient3899"
+       cx="384.81708"
+       cy="410.4754"
+       fx="384.81708"
+       fy="410.4754"
+       r="35"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.0761859,0.09026895,-0.08358507,-0.99650065,833.26139,784.77737)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3901"
+       id="radialGradient3907"
+       cx="383.76395"
+       cy="410.4754"
+       fx="383.76395"
+       fy="410.4754"
+       r="35"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.74519971,0.03008965,-0.04034509,-0.99918581,686.30539,809.06928)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4936"
+       id="radialGradient4944"
+       cx="399.23095"
+       cy="815.82218"
+       fx="399.23095"
+       fy="815.82218"
+       r="198.41191"
+       gradientTransform="matrix(1,0,0,1.143163,0,-116.79552)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="407.40379"
+     inkscape:cy="258.39421"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       transform="matrix(0.47959184,0,0,0.47959184,88.352772,194.14474)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient3907);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path2985-3-7"
+       sodipodi:cx="374.28571"
+       sodipodi:cy="425.21933"
+       sodipodi:rx="35"
+       sodipodi:ry="35"
+       d="m 409.28571,425.21933 a 35,35 0 1 1 -70,0 35,35 0 1 1 70,0 z"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/compare/sketch3d.png"
+       inkscape:export-xdpi="160.25"
+       inkscape:export-ydpi="160.25" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotL);marker-start:url(#DotL)"
+       d="m 272.85714,398.50504 68.97322,20.6808"
+       id="path3873"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/compare/sketch3d.png"
+       inkscape:export-xdpi="160.25"
+       inkscape:export-ydpi="160.25" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient3767);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path2985"
+       sodipodi:cx="374.28571"
+       sodipodi:cy="425.21933"
+       sodipodi:rx="35"
+       sodipodi:ry="35"
+       d="m 409.28571,425.21933 a 35,35 0 1 1 -70,0 35,35 0 1 1 70,0 z"
+       transform="matrix(0.92784625,0,0,1,26.480737,0)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/compare/sketch3d.png"
+       inkscape:export-xdpi="160.25"
+       inkscape:export-ydpi="160.25" />
+    <path
+       style="opacity:0.33333333;fill:#1667fb;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 420,331.6479 -95,47.14286 -0.71429,140.71428 97.14286,-60 z"
+       id="path3769"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/compare/sketch3d.png"
+       inkscape:export-xdpi="160.25"
+       inkscape:export-ydpi="160.25" />
+    <path
+       transform="matrix(0.78571429,0,0,1,85.561236,-4.58575e-6)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient3786);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path2985-0"
+       sodipodi:cx="374.28571"
+       sodipodi:cy="425.21933"
+       sodipodi:rx="35"
+       sodipodi:ry="35"
+       d="m 409.28571,425.21933 a 35,35 0 1 1 -70,0 35,35 0 1 1 70,0 z"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/compare/sketch3d.png"
+       inkscape:export-xdpi="160.25"
+       inkscape:export-ydpi="160.25" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotL);marker-end:url(#DotL)"
+       d="M 443.21428,447.86218 389.15264,431.05852"
+       id="path3873-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/compare/sketch3d.png"
+       inkscape:export-xdpi="160.25"
+       inkscape:export-ydpi="160.25" />
+    <path
+       transform="matrix(0.47959184,0,0,0.47959184,279.4242,250.21618)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient3899);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path2985-3"
+       sodipodi:cx="374.28571"
+       sodipodi:cy="425.21933"
+       sodipodi:rx="35"
+       sodipodi:ry="35"
+       d="m 409.28571,425.21933 a 35,35 0 1 1 -70,0 35,35 0 1 1 70,0 z"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/compare/sketch3d.png"
+       inkscape:export-xdpi="160.25"
+       inkscape:export-ydpi="160.25" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4899"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       transform="translate(5.5558391,-73.236059)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/compare/sketch3d.png"
+       inkscape:export-xdpi="160.25"
+       inkscape:export-ydpi="160.25"><flowRegion
+         id="flowRegion4901"><rect
+           id="rect4903"
+           width="31.31473"
+           height="47.72971"
+           x="251.0229"
+           y="419.75415" /></flowRegion><flowPara
+         id="flowPara4905"
+         style="font-size:32px">A</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4907"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       transform="translate(16.667517,-78.034284)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/compare/sketch3d.png"
+       inkscape:export-xdpi="160.25"
+       inkscape:export-ydpi="160.25"><flowRegion
+         id="flowRegion4909"><rect
+           id="rect4911"
+           width="44.699249"
+           height="42.426407"
+           x="433.8605"
+           y="478.34299"
+           style="font-size:32px" /></flowRegion><flowPara
+         id="flowPara4913">B</flowPara></flowRoot>    <path
+       style="fill:url(#radialGradient4944);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 597.14286,735.21933 c -30.71429,-28.57143 -31.68798,-51.4549 -39.28572,-57.14286 -7.59775,-5.68796 -23.57143,-5.71429 -23.57143,-5.71429 0,0 5.56686,-6.09419 5.71429,-21.42857 0.14744,-15.33438 -10.71428,-17.14286 -22.85714,-61.42857 C 518.57143,630.93361 490,672.36218 490,672.36218 c 0,0 -46.28631,10.48103 -62.14286,46.42858 -15.85655,35.94755 19.16376,39.74118 -0.71429,71.42856 -19.87805,31.68738 -188.68694,87.66806 -225.71428,146.42858 5.47265,73.7606 -16.07143,116.7856 101.78572,103.9285 149.28571,-51.42853 197.03148,-204.98384 191.938,-232.6312 -5.09348,-27.64736 -41.10372,-45.61624 -39.68311,-72.55256 1.42061,-26.93633 63.10225,-25.8876 63.10225,-25.8876 0,0 37.85714,3.57143 78.57143,25.71429 z"
+       id="path4934"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czczcczzcczzcc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:#1e1a25;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 272.5,1041.6479 c 2.85714,0 125.00743,-74.21832 154.04931,-113.10919 -23.69246,38.74856 -121.12433,109.91209 -148.33503,114.18059 z"
+       id="path4948"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.33333332999999998;fill:#0000fc;fill-opacity:1;fill-rule:nonzero;stroke:#001fff;stroke-opacity:1;stroke-width:5.00000002;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path4950"
+       sodipodi:cx="274.28571"
+       sodipodi:cy="912.00507"
+       sodipodi:rx="15"
+       sodipodi:ry="4.6428571"
+       d="m 289.28571,912.00507 a 15,4.6428571 0 1 1 -30,0 15,4.6428571 0 1 1 30,0 z"
+       transform="matrix(0.98242779,-0.18664305,0.18664305,0.98242779,-168.97104,61.505176)"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:none;stroke:#001fff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 265.71429,905.93361 c 0,0 -8.7553,-101.0645 -33.57143,-117.14286 -24.81613,-16.07836 -44.31495,-3.80517 -55,7.85715 C 166.45781,808.31022 175,835.93361 175,835.93361"
+       id="path4952"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:none;stroke:#001fff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 264.32659,906.64211 c 0,0 -13.80535,-100.49926 -39.3955,-115.31472 -25.59016,-14.81546 -44.44991,-1.58122 -54.53753,10.60154 -10.08763,12.18277 -0.17285,39.34373 -0.17285,39.34373"
+       id="path4952-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:none;stroke:#001fff;stroke-width:4.55815983;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 270.98386,905.10122 c 0,0 -3.38293,-101.16695 15.4693,-118.9448 18.85225,-17.77783 36.28492,-6.96978 46.35705,3.86393 10.07213,10.83372 5.90632,38.927 5.90632,38.927"
+       id="path4952-9-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:none;stroke:#001fff;stroke-width:4.55815983;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 276.53904,905.8462 c 0,0 -3.38293,-101.16695 15.4693,-118.9448 18.85225,-17.77783 36.28492,-6.96978 46.35705,3.86393 10.07213,10.83372 5.90632,38.927 5.90632,38.927"
+       id="path4952-9-3-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:none;stroke:#001fff;stroke-width:2.93349457;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 266.95238,905.29439 c 0,0 -1.39761,-101.42299 6.39094,-119.24583 7.78855,-17.82282 14.99063,-6.98742 19.1518,3.87371 4.16116,10.86114 2.44011,39.02551 2.44011,39.02551"
+       id="path4952-9-3-4-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:none;stroke:#001fff;stroke-width:3.16946292;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 271.43521,905.73866 c 0,0 -13.21475,-100.53414 -24.81815,-116.82851 -11.60339,-16.29434 -18.33909,-4.34925 -21.55812,7.10189 -3.21901,11.45114 2.88715,39.00843 2.88715,39.00843"
+       id="path4952-9-3-4-8-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#008cfc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5062"
+       sodipodi:cx="307.14285"
+       sodipodi:cy="1002.7193"
+       sodipodi:rx="8.5714283"
+       sodipodi:ry="6.7857141"
+       d="m 315.71428,1002.7193 a 8.5714283,6.7857141 0 1 1 -17.14286,0 8.5714283,6.7857141 0 1 1 17.14286,0 z"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       transform="matrix(0.56249999,0,0,0.56249999,134.19643,437.86384)"
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5062-6"
+       sodipodi:cx="307.14285"
+       sodipodi:cy="1002.7193"
+       sodipodi:rx="8.5714283"
+       sodipodi:ry="6.7857141"
+       d="m 315.71428,1002.7193 a 8.5714283,6.7857141 0 1 1 -17.14286,0 8.5714283,6.7857141 0 1 1 17.14286,0 z"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       transform="matrix(0.23958331,0,0,0.23958331,234.09227,760.02543)"
+       sodipodi:type="arc"
+       style="fill:#fbfcfa;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5062-6-5"
+       sodipodi:cx="307.14285"
+       sodipodi:cy="1002.7193"
+       sodipodi:rx="8.5714283"
+       sodipodi:ry="6.7857141"
+       d="m 315.71428,1002.7193 a 8.5714283,6.7857141 0 1 1 -17.14286,0 8.5714283,6.7857141 0 1 1 17.14286,0 z"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:#1eacf1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 507.85419,654.61462 c 0,-9.09137 13.38452,-51.77032 13.38452,-51.77032 l -10.60659,59.34647 z"
+       id="path5100"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:#1eacf1;fill-opacity:1;stroke:none"
+       d="m 513.5363,661.81195 c 0,-9.09137 15.15229,-37.88072 15.15229,-37.88072 l -12.87944,46.46702 c 0.46462,-3.0993 -1.34687,-6.06091 -2.27285,-8.5863 z"
+       id="path5100-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:#1eacf1;fill-opacity:1;stroke:none"
+       d="m 516.8193,677.21677 c 0,-9.09137 19.69797,-37.88072 19.69797,-37.88072 l -16.92004,45.45687 z"
+       id="path5100-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:#1eacf1;fill-opacity:1;stroke:none"
+       d="m 526.67498,698.56581 c 7.73173,5.23282 60.97795,27.85778 60.97795,27.85778 l -60.29612,-19.53208 z"
+       id="path5100-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:#1eacf1;fill-opacity:1;stroke:none"
+       d="m 527.36777,689.67812 c 7.73173,5.23282 48.0985,20.53418 48.0985,20.53418 l -47.66921,-13.72371 z"
+       id="path5100-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+    <path
+       style="fill:#1eacf1;fill-opacity:1;stroke:none"
+       d="m 525.34746,678.06137 c 9.4995,1.94982 42.54266,19.27148 42.54266,19.27148 0,0 -32.51691,-11.45086 -42.61844,-8.4204 z"
+       id="path5100-0-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/jc/Documents/web/crazybio/www/bioinfo/structure/whale.png"
+       inkscape:export-xdpi="82.919998"
+       inkscape:export-ydpi="82.919998" />
+  </g>
+</svg>

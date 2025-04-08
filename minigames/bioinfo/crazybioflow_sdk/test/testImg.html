@@ -1,0 +1,122 @@
+<html>
+<head>
+
+<script type="text/javascript">
+
+function rotateClockWise(obj,e) {
+if (!e) e=window.event;
+console.log("rotateClockWise");
+console.log(obj+" "+e.clientX + " "+e.clientY);
+var token = document.getElementById("layer1");
+var str='';
+if (typeof(token.style.MozTransform) =='undefined') token.style.MozTransform='rotate(0deg)';
+
+str = token.style.MozTransform.toString();
+str=str.replace( /^\D+/g, '');
+rad=parseInt(str)+90;
+console.log(token.style.MozTransform + " -> "+ rad+ " deg");
+token.style.MozTransform="rotate("+rad+"deg)";
+ token.style.WebkitTransform="rotate("+rad+"deg)";
+ token.style.OTransform="rotate("+rad+"deg)";
+ token.style.MsTransform="rotate("+rad+"deg)";
+ 
+
+
+/**
+= {
+    '-webkit-transform: rotate(0deg);', // Chrome & Safari 
+    '-moz-transform: rotate(0deg);', // Firefox 
+    '-ms-transform: rotate(0deg);', // IE 9+ 
+    '-o-transform: rotate(0deg);', // Opera 
+    'transform: rotate(0deg);' // CSS3 
+  });
+**/
+
+}
+
+</script>
+
+<style>
+
+#token1 {
+position:absolute; 
+left:137px; 
+top:77px; 
+width:100px; 
+height:100px; 
+border:2px solid;
+border-radius:15px;
+margin: 0px;
+padding-top: 0px;
+}
+
+#token2 {
+position:absolute; 
+left:337px; 
+top:77px; 
+width:100px; 
+height:100px; 
+}
+
+#layer1 {
+display:block;
+margin: 0px;
+padding: 0px 0px;
+position:absolute; 
+z-index:1;
+}
+
+#layer2 {
+  position:absolute; 
+  z-index:2;
+width:100px;
+height:100px;
+}
+
+#layer3 {
+position:absolute; 
+  z-index:3;
+width:100px;
+height:100px;
+}
+
+.spacer {
+  clear: both;
+}
+
+</style>
+</head>
+<body>
+<div id="token1" onclick="rotateClockWise(this,event)">
+<table>
+<tbody>
+<tr>
+<td></td><td><img src="link.png" ></td><td><img src="link.png" ></td>
+</tr>
+<tr>
+<td><img src="icon.png" width="100px" ></td>
+</tr>
+<tr>
+<td><img src="link.png" ></td>
+</tr>
+</tbody>
+</table>
+
+<div id="layer1">
+<img style="float:left;width:36px;height:8px" src="link.png" >
+<!-- 
+<img style="position:absolute;top:0px;left:46px;width:36px;height:8px" src="link.png" >
+-->
+<img style="float:bottom;width:36px;height:8px" src="link.png" >
+
+</div>
+<div id="layer2"><img src="buttons.png" ></div>
+<div id="layer3"><img src="icon.png"></div>
+</div>
+<div id="token2" onclick="rotateClockWise(this,event)">
+<div id="layer1"><img src="background31.png"></div>
+<div id="layer2"><img src="buttons.png" ></div>
+<div id="layer3"><img src="icon.png"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     version="1.1"
+     width="225"
+     height="81">
+    
+    <style>
+        .draggable {
+            cursor: move;
+        }
+    </style>
+
+    <rect class="draggable" x="30" y="0.5" width="80" height="80" fill="blue"/>
+    <rect class="draggable" x="160" y="20.5" width="50" height="50" fill="green"/>
+
+</svg>

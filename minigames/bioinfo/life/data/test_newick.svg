@@ -1,0 +1,71 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="300" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+
+<style>
+    .draggable {
+        cursor: move;
+    }
+
+circle{ 
+  fill:orangered; 
+  stroke:black; 
+  stroke-width:2; 
+}
+</style>
+
+<script type="text/javascript"> 
+<![CDATA[
+
+  var selectedElement = 0;
+  var currentX = 0;
+  var currentY = 0;
+  var currentMatrix = 0;
+
+  function selectElement(evt) {
+    selectedElement = evt.target;
+    currentX = evt.clientX;
+    currentY = evt.clientY;
+    currentMatrix = selectedElement.getAttributeNS(null, "transform").slice(7,-1).split(' ');
+    
+    for(var i=0; i<currentMatrix.length; i++) {
+        currentMatrix[i] = parseFloat(currentMatrix[i]);
+      }
+
+    selectedElement.setAttributeNS(null, "onmousemove", "moveElement(evt)");
+  }
+
+function moveElement(evt){
+  dx = evt.clientX - currentX;
+  dy = evt.clientY - currentY;
+  currentMatrix[4] += dx;
+  currentMatrix[5] += dy;
+  newMatrix = "matrix(" + currentMatrix.join(' ') + ")";
+            
+  selectedElement.setAttributeNS(null, "transform", newMatrix);
+  selectedElement.setAttributeNS(null, "onmouseout", "deselectElement(evt)");
+  selectedElement.setAttributeNS(null, "onmouseup", "deselectElement(evt)");
+
+  currentX = evt.clientX;
+  currentY = evt.clientY;
+}
+
+function deselectElement(evt){
+  if(selectedElement != 0){
+    selectedElement.removeAttributeNS(null, "onmousemove");
+    selectedElement.removeAttributeNS(null, "onmouseout");
+    selectedElement.removeAttributeNS(null, "onmouseup");
+    selectedElement = 0;
+  }
+}
+]]>
+</script>
+  <circle cx="150" cy="100" r="5" fill="blue"  transform="matrix(1 0 0 1 0 0)" onmousedown="selectElement(evt)"/>
+
+  <text class="draggable" x="150" y="25" font-size="16" text-anchor="middle" fill="black" transform="matrix(1 0 0 1 0 0)" onmousedown="selectElement(evt)">MWS-Human</text>
+  <text class="draggable" x="150" y="65" font-size="16" text-anchor="middle" fill="black">LWS-Human</text>
+  <text class="draggable" x="150" y="85" font-size="16" text-anchor="middle" fill="black">MWS-Pan</text>
+  <text class="draggable" x="150" y="125" font-size="16" text-anchor="middle" fill="black">LWS-Pan</text>
+
+</svg>

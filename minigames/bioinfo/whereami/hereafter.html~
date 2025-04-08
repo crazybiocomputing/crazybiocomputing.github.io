@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<meta name="robots" content="none" />
+<script Language="Javascript" src="../../scripts/page.js">
+</script>
+<title> CrazyBioComputing: Bioinformatics </title>
+<style type="text/css">
+html,body {
+background-color : white; 
+}
+
+p {
+font-size : 100%; 
+font-family :  courier,monospace; 
+color : black; 
+background-color : white; 
+}
+</style>
+</head>
+<body>
+<center>
+<p>Congratulations !!! You successfully finished this level</p>
+</center>
+
+
+
+</body>
+</html>
+
+

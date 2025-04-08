@@ -1,0 +1,58 @@
+(efflux pump[Title]) AND escherichia coli[Organism] 7698 Entries
+
+    Source databases
+        DDBJ (45)
+        EMBL (178)
+        GenBank (6797)
+        PDB (19)
+        RefSeq (558)
+        UniProtKB / Swiss-Prot (101)
+
+Filter SwissProt -> 101 Entries
+
+
+#18	Add	Search (efflux pump[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	101	10:04:21
+#16	Add	Search (efflux pump[Title]) AND escherichia coli[Organism]	7698	10:01:09
+
+aaea aaeb MntP NepI FieF
+
+Search ((efflux pump[Title]) NOT (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title] 8816
+Search ((efflux pump[Title]) NOT (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title] Filters: UniProtKB / Swiss-Prot	406
+
+Search (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	4908
+Search (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	Filter 90
+
+Search escherichia coli[Organism]	8455879
+Search escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot 22955
+
+Search efflux pump[Title]	41222
+Search efflux pump[Title]	Filters: UniProtKB / Swiss-Prot 457
+
+
+Search (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title]) AND escherichia coli[Organism]	4908	
+Search (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title]) AND escherichia coli[Organism]	90	
+
+
+Search (efflux pump[Title]) AND escherichia coli[Organism] 	7698
+Search (efflux pump[Title]) AND escherichia coli[Organism] Filters: UniProtKB / Swiss-Prot	101	
+
+
+Search ((efflux pump[Title]) NOT (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title])) AND escherichia coli[Organism]	3139
+Search ((efflux pump[Title]) NOT (((((aaea[Title]) OR aaeb[Title]) OR nepi[Title]) OR fief[Title]) OR mntp[Title])) AND escherichia coli[Organism]	Filter 11
+
+    {key:'0007:0',value:'QUOA'},
+
+    {key:'0007:0(0118:0(appl:0,vbnk:0))',value:'8455879'},
+    {key:'0007:0(9786:ba[6;true](0118:0(appl:0,vbnk:0)))',value:'22955'},
+
+    {key:'0007:0(0118:0(appl:0,ghjy:0))',value:'41222'},
+    {key:'0007:0(9786:ba[6;true](0118:0(appl:0,ghjy:0)))',value:'457'},
+
+
+    {key:'0007:0(0118:0(3344:0,appl:0))',value:'8816'},
+    {key:'0007:0(9786:ba[6;true](0118:0(3344:0,appl:0)))',value:'406'},
+
+    {key:'0007:0(0118:0(and0:0(ghjy:0,vbnk:0),appl:0))',value:'7698'},
+    {key:'0007:0(9786:ba[6;true](0118:0(and0:0(ghjy:0,vbnk:0),appl:0)))',value:'101'},
+
+

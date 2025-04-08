@@ -1,0 +1,9 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<body>
+<center> 
+<applet archive = "crazy.jar" codebase = "./" code="Anim.class" width=665  height=476 >
+</applet>
+</center>
+</body>
+</html>

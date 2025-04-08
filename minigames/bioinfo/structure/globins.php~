@@ -1,0 +1,190 @@
+<?php
+	require('../../phpCrazy/cookie_check_crazybio.inc.php');
+?>
+<?php
+	include('../../phpCrazy/header.inc.php');
+?>
+<link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+
+<style>
+
+input {
+  font-size: 20px;
+  text-align: center;
+}
+
+</style>
+
+
+<div id="page">
+<div id="content">
+ <p style="font-family: 'Walter Turncoat', cursive;font-size:30px">C&nbsp;h&nbsp;a&nbsp;p&nbsp;t&nbsp;e&nbsp;r&nbsp;&nbsp;&nbsp;1: Sequences</p>
+<div id="myform" style="width:700px;margin:auto;font-size : 20px; font-family :  arial,sans serif;">
+
+<p>I got these sequences from UniprotKB/SwissProt but I didn't correctly save the sequences. Please, help me to fix them....</p>
+<center>
+<?php
+
+if (isset($_POST['OK']) ) {
+  $id1=strtoupper($_POST['locus1']);
+  $id2=strtoupper($_POST['locus2']);
+  $id3=strtoupper($_POST['locus3']);
+  $id4=strtoupper($_POST['locus4']);
+  $id5=strtoupper($_POST['locus5']);
+  $id6=strtoupper($_POST['locus6']);
+  $id7=strtoupper($_POST['locus7']);
+  $id8=strtoupper($_POST['locus8']);
+  $id9=strtoupper($_POST['locus9']);
+
+  $score=0;
+  if ($id1=='MYG_HORSE') {
+    $score =1;
+    echo '<p style="font-size : 40px;">&#x2605;';
+  }
+  else
+    echo '<p style="font-size : 40px;">&#x2606;';
+
+
+  if ($id2=='MYG_HUMAN') {
+    echo '&#x2605;';
+    $score +=256;
+  }
+  else
+    echo '&#x2606;';
+
+  if ($id3=='MYG_THUOR') {
+    echo '&#x2605;<br>';
+    $score +=2;
+  }
+  else
+    echo '&#x2606;<br>';
+
+  if ($id4=='MYG_CHEMY') {
+    echo '&#x2605;';
+    $score +=4;
+  }
+  else
+    echo '&#x2606;';
+
+  if ($id5=='MYG_DELDE') {
+    echo '&#x2605;';
+    $score +=8;
+  }
+  else
+    echo '&#x2606;';
+
+  if ($id6=='MYG_ALLMI') {
+    echo '&#x2605;<br>';
+    $score +=16;
+  }
+  else
+    echo '&#x2606;<br>';
+
+  if ($id7=='MYG_PANTR') {
+    echo '&#x2605;';
+    $score +=32;
+  }
+  else
+    echo '&#x2606;';
+
+  if ($id8=='MYG_CANFA') {
+    echo '&#x2605;';
+    $score +=64;
+  }
+  else
+    echo '&#x2606;';
+
+  if ($id9=='MYG_APTFO') {
+    echo '&#x2605;<br>';
+    $score +=128;
+  }
+  else
+    echo '&#x2606;<br>';
+
+
+  if ($score==511)   
+    echo '<a title="Click on \'yes\'" style="text-decoration:none" href="tubes.php">Yeeess!!!</a>';
+  else
+    echo 'W r o n g &nbsp; a n s w e r</p>' ;
+}
+else {
+  $id1=$id2=$id3=$id4=$id5=$id6=$id7=$id8=$id9="unknown";
+}
+
+?>
+</center>
+
+<div style="display:block;float:right"><span style="font-family:'Rock Salt', cursive;">&larr;Note: horse</span></div>
+<pre style="font-size : 10px;">
+#1
+MGLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVL
+TALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFR
+NDIAAKYKELGFQG
+
+#2
+MGLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVL
+TALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFR
+KDMASNYKELGFQG
+</pre>
+<div style="display:block;float:right"><span style="font-family:'Rock Salt', cursive;font-size : 12px;"><b>&larr;Note:</b>Forget to save sequence !?!</div>
+<pre style="font-size : 10px;">
+#3
+Sequence of Pacific bluefin tuna
+
+#4
+MGLSDDEWNHVLGIWAKVEPDLTAHGQEVIIRLFQLHPETQERFAKFKNLTTIDALKSSEEVKKHGTTVL
+TALGRILKQKNNHEQELKPLAESHATKHKIPVKYLEFICEIIVKVIAEKHPSDFGADSQAAMKKALELFR
+NDMASKYKEFGFLG
+</pre>
+<div style="display:block;float:right"><span style="font-family:'Rock Salt', cursive;font-size : 12px;"><b>&larr;Note:</b><br>MYG_BALBO? MYG_DELDE?<br>MYG_PONPY?</span></div>
+<pre style="font-size : 10px;">
+#5
+MGLSDGEWQLVLNVWGKVEADLAGHGQDVLIRLFKGHPETLEKFDKFKHLKTEADMKASEDLKKHGNTVL
+TALGAILKKKGHHDAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPAEFGADAQGAMNKALELFR
+KDIAAKYKELGFHG
+
+#6
+MELSDQEWKHVLDIWTKVESKLPEHGHEVIIRLLQEHPETQERFEKFKHMKTADEMKSSEKMKQHGNTVF
+TALGNILKQKGNHAEVLKPLAKSHALEHKIPVKYLEFISEIIVKVIAEKYPADFGADSQAAMRKALELFR
+NDMASKYKEFGYQG
+
+</pre>
+<div style="display:block;float:right"><span style="font-family:'Rock Salt', cursive;font-size : 12px;"><b>&larr;Note:</b>Problem with the<br>copy/paste</span></div>
+<pre style="font-size : 10px;">
+#7
+TALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLHSKHPGDFGADAQGAMNKALELFR
+MGLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVL
+KDMASNYKELGFQG
+
+#8
+<i>Physeter cathodon</i>
+
+#9
+MGLNDQEWQQVLTMWGKVESDLAGHGHAVLMRLFKSHPETMDRFDKFRGLKTPDEMRGSEDMKKHGVTVL
+TLGQILKKKGHHEAELKPLSQTHATKHKVPVKYLEFISEAIMKVIAQKHASNFGADAQEAMKKALELFRN
+DMASKYKEFGFQG
+
+</pre>
+
+<form action="globins.php" method="post">
+<label>Locus#1</label><input type="text" size=10 name="locus1" value="<?php echo $id1; ?>"></input>
+<label>Locus#2</label><input type="text" size=10 name="locus2" value="<?php echo $id2; ?>"></input>
+<label>Locus#3</label><input type="text" size=10 name="locus3" value="<?php echo $id3; ?>"></input><br>
+<label>Locus#4</label><input type="text" size=10 name="locus4" value="<?php echo $id4; ?>"></input>
+<label>Locus#5</label><input type="text" size=10 name="locus5" value="<?php echo $id5; ?>"></input>
+<label>Locus#6</label><input type="text" size=10 name="locus6" value="<?php echo $id6; ?>"></input><br>
+<label>Locus#7</label><input type="text" size=10 name="locus7" value="<?php echo $id7; ?>"></input>
+<label>Locus#8</label><input type="text" size=10 name="locus8" value="<?php echo $id8; ?>"></input>
+<label>Locus#9</label><input type="text" size=10 name="locus9" value="<?php echo $id9; ?>"></input>
+<input type="submit" name="OK" value="OK"></input>
+</form>
+
+</div>
+
+
+</div>
+</div>
+
+<?php
+	include('../../phpCrazy/footer.inc.php');
+?>
