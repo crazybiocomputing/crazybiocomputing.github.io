@@ -1,9 +1,0 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-<html>
-<body>
-<center> 
-<applet codebase = "./" code="ImageExample.class" width=750  height=500 >
-</applet>
-</center>
-</body>
-</html>

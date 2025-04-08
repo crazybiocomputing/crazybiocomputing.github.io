@@ -1,9 +1,0 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-<html>
-<body>
-<center> 
-<applet codebase = "./" code="Weight.class" width=640  height=480>
-</applet>
-</center>
-</body>
-</html>

@@ -1,9 +1,0 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-<html>
-<body>
-<center> 
-<applet archive = "crazy.jar" codebase = "./" code="Zero.class" width=690  height=480 >
-</applet>
-</center>
-</body>
-</html>
